@@ -1,0 +1,4 @@
+python 3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]
+platform Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35
+torch 2.5.1+cu121 12.1 True
+transformers 4.40.0

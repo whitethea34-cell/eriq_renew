@@ -1,0 +1,11 @@
+/home/adminxidaduo/miniconda3/envs/eriq-minicpm-v-2.5/lib/python3.10/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+A new version of the following files was downloaded from https://huggingface.co/OpenBMB/MiniCPM-Llama3-V-2_5:
+- tokenization_minicpmv_fast.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+A new version of the following files was downloaded from https://huggingface.co/OpenBMB/MiniCPM-Llama3-V-2_5:
+- configuration_minicpm.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+/home/adminxidaduo/miniconda3/envs/eriq-minicpm-v-2.5/lib/python3.10/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(

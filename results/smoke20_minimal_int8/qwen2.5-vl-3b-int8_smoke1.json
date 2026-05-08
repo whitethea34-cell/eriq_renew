@@ -1,0 +1,324 @@
+[
+  {
+    "id": "QA_ACTION_UNDERSTANDING:1",
+    "image": [
+      "1879/26283/A2D0013B200209/1231430/camera/0/head_color.jpg",
+      "1879/26283/A2D0013B200209/1231430/camera/36/head_color.jpg",
+      "1879/26283/A2D0013B200209/1231430/camera/73/head_color.jpg",
+      "1879/26283/A2D0013B200209/1231430/camera/109/head_color.jpg",
+      "1879/26283/A2D0013B200209/1231430/camera/146/head_color.jpg",
+      "1879/26283/A2D0013B200209/1231430/camera/182/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what action is robot performing?\nA. Hold the drawer handle with both grippers.\nB. Push the drawer closed with the left gripper.\nC. Pull the drawer with the right gripper.\nD. Pick up the box from the table with the right gripper.\n"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A",
+    "latency_sec": 11.6296
+  },
+  {
+    "id": "QA_DUALVIEW_MATCHING:1",
+    "image": [
+      "dualview/2054/28010/A2D0001AB00019/1245666/camera/114/head_color.jpg",
+      "dualview/2054/28010/A2D0001AB00019/1245666/camera/114/hand_left_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "First image:<image>\nSecond image:<image>\nIn the first image, which bounding box corresponds to the purple colored bounding box from the second image?\nA. blue\nB. red\nC. green\nD. None of the above"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C.",
+    "latency_sec": 13.5632
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:1",
+    "image": "fine_grained_plan/k000026.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the cap on the pen you're holding\", which annotated bounding box correctly specifies the target pen cap?\nA. Blue\nB. Black\nC. Yellow\nD. Red"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 10.3768
+  },
+  {
+    "id": "QA_HUMAN_INTENTION:1",
+    "image": [
+      "2556/34811/A2D0001AB00043/1311643/camera/106/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/117/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/128/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/139/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/150/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/161/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what is the intention of the human?\nA. The user shows the robot the clothes, possibly wanting the robot to inspect them for damage.\nB. The user passes the robot the clothes, possibly wanting the robot to place them in the basket.\nC. The user gives the robot the clothes, possibly wanting the robot to fold them neatly.\nD. The user hands the robot the clothes, possibly wanting the robot to hang them on the clothes rack."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B",
+    "latency_sec": 11.9073
+  },
+  {
+    "id": "QA_HUMAN_INTERACTION:1",
+    "image": [
+      "2556/34811/A2D0001AB00043/1311643/camera/106/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/117/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/128/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/139/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/150/head_color.jpg",
+      "2556/34811/A2D0001AB00043/1311643/camera/161/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, how can the robot help human complete the task: \"hang the clothes out to dry\"?\nA. The robot fold the clothes neatly on the bed.\nB. The robot place the clothes inside the basket on the stool.\nC. The robot hold the clothes in its grippers without moving.\nD. The robot take the clothes and hang them on the clothes rack."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 11.5626
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:1",
+    "image": [
+      "2325/31307/A2D0013B200289/1300980/camera/557/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/562/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/567/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/572/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/577/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/583/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the building blocks from the storage box'?\nA. The building block was dropped because the left gripper's grip was too weak.\nB. The storage box tipped over due to the robot moving it too quickly.\nC. The right gripper accidentally grabbed the storage box instead of the building block.\nD. When placing the building block on the table, the lifting height was too low, causing the block to fall."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C",
+    "latency_sec": 8.5351
+  },
+  {
+    "id": "QA_MISTAKE_EXISTENCE:1",
+    "image": [
+      "507/7568/A2D0015AB00044/906666/camera/3605/head_color.jpg",
+      "507/7568/A2D0015AB00044/906666/camera/3630/head_color.jpg",
+      "507/7568/A2D0015AB00044/906666/camera/3656/head_color.jpg",
+      "507/7568/A2D0015AB00044/906666/camera/3682/head_color.jpg",
+      "507/7568/A2D0015AB00044/906666/camera/3707/head_color.jpg",
+      "507/7568/A2D0015AB00044/906666/camera/3733/head_color.jpg",
+      "507/7568/A2D0015AB00044/906666/camera/3759/head_color.jpg",
+      "507/7568/A2D0015AB00044/906666/camera/3784/head_color.jpg",
+      "507/7568/A2D0015AB00044/906666/camera/3810/head_color.jpg",
+      "507/7568/A2D0015AB00044/906666/camera/3836/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, did robot make a mistake while performing action: \"place the held original flavor toast on the vegetable leaf with the right arm \"?(Yes/No)"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "No",
+    "raw_output": "B",
+    "latency_sec": 6.5038
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:1",
+    "image": [
+      "2325/31352/A2D0013B200289/1283074/camera/272/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/282/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/292/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/303/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/313/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/324/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"open the curtains\". How to recover from this mistake?\nA. Curtains automatically realign themselves after the initial slip.\nB. The right arm releases the curtain and uses its sensors to recalibrate.\nC. The left arm adjusts its grip to compensate for the right arm's failure.\nD. The right arm then regrasps the curtains and successfully opens them."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 8.4203
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:1",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/5997/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is left of the bottle with liquid on the screen?\nA. pink bounding box\nB. green bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 6.5921
+  },
+  {
+    "id": "QA_SCENE_UNDERSTANDING:1",
+    "image": "468/7304/A2D0015AC00168/727448/camera/60/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre the beige shorts fully covering the hanger they are hung on, or is part of the hanger visible?\nA. The beige shorts fully cover the hanger.\nB. Part of the hanger is visible.\n"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B.",
+    "latency_sec": 8.7679
+  },
+  {
+    "id": "QA_SUBTASK_PLANNING:1",
+    "image": "351/8802/A2D0015AC00526/829047/camera/79/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat action should the robot execute at this step to fulfill overall goal: \"open wardrobe and hang clothes\"?\nA. Pinch the wardrobe door handle with the right gripper\nB. Pick up the striped shirt with the right gripper\nC. Grab the pink hanger with the left gripper\nD. Press the power button on the wall socket"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 7.7021
+  },
+  {
+    "id": "QA_SUCCESS_DETECTION:1",
+    "image": [
+      "1749/24851/A2D0013B200258/1222963/camera/3/head_color.jpg",
+      "1749/24851/A2D0013B200258/1222963/camera/83/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Initial state: <image>\nCurrent state: <image>\nGiven the initial state and current state, has the robot completed the task: \"stamp the seal\"? \nA.Yes\nB.No"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B.",
+    "latency_sec": 7.9184
+  },
+  {
+    "id": "QA_TASK_GROUNDING:1",
+    "image": "task_grounding/621/11236/A2D0015AB00078/944269/camera/3083/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBased on the task \"close the lid of the held canned monosodium glutamate can with left gripper.\", choose the bounding box of the related object in the image.\nA. pink\nB. green\nC. red\nD. brown"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 6.9111
+  },
+  {
+    "id": "QA_TASK_PROGRESS:1",
+    "image": "1832/25953/A2D0013B200140/1226319/camera/38/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nThe overall task of the robot is: \"grab the toy\".\nThe robot should complete the following subtasks in order:\n1: Pick up the large rectangular building block on the table with the right gripper.\n2: Place the held large rectangular building block in white star storage box with the right gripper.\nBased on the image, determine the current progress of the robot's task execution from options.\nA. 2\nB. 1"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 8.2801
+  },
+  {
+    "id": "QA_TRAJ_UNDERSTANDING:1",
+    "image": "traj2d/773/12783/A2D0015AC00132/938444/camera/2503/head_color_traj_2b9d9dcd.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nThe trajectory of the robotic grippers are depicted on the image.\nLighter colors represent the starting point, while darker colors represent the ending point. Single color point indicate that the robotic gripper is static.\nWhich color trajectory can best describe the robotic gripper's future movement: \"Scoop a spoonful of sugar with the right gripper holding the spoon\"?\nA. Crimson Red\nB. Bright Orange"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C",
+    "latency_sec": 8.1995
+  }
+]

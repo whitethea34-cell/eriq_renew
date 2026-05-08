@@ -1,0 +1,107 @@
+[
+  {
+    "id": "QA_DUALVIEW_MATCHING:1",
+    "image": [
+      "dualview/2054/28010/A2D0001AB00019/1245666/camera/114/head_color.jpg",
+      "dualview/2054/28010/A2D0001AB00019/1245666/camera/114/hand_left_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "First image:<image>\nSecond image:<image>\nIn the first image, which bounding box corresponds to the purple colored bounding box from the second image?\nA. blue\nB. red\nC. green\nD. None of the above"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A. blue",
+    "latency_sec": 7.304
+  },
+  {
+    "id": "QA_DUALVIEW_MATCHING:2",
+    "image": [
+      "dualview/603/14368/A2D0015AC00163/1016752/camera/137/head_color.jpg",
+      "dualview/603/14368/A2D0015AC00163/1016752/camera/137/hand_left_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "First image:<image>\nSecond image:<image>\nIn the first image, which bounding box corresponds to the orange colored bounding box from the second image?\nA. blue\nB. yellow\nC. red\nD. green"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": "B.",
+    "latency_sec": 0.4045
+  },
+  {
+    "id": "QA_DUALVIEW_MATCHING:3",
+    "image": [
+      "dualview/603/14368/A2D0015AC00163/1016752/camera/194/head_color.jpg",
+      "dualview/603/14368/A2D0015AC00163/1016752/camera/194/hand_left_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "First image:<image>\nSecond image:<image>\nFrom the first image, select the bounding box that represents the pink colored bounding box from the second image.\nA. green\nB. yellow\nC. blue\nD. red"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C. blue",
+    "latency_sec": 0.3847
+  },
+  {
+    "id": "QA_DUALVIEW_MATCHING:4",
+    "image": [
+      "dualview/737/12784/A2D0015AB00172/940480/camera/348/head_color.jpg",
+      "dualview/737/12784/A2D0015AB00172/940480/camera/348/hand_left_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "First image:<image>\nSecond image:<image>\nFrom the first image, select the bounding box that represents the pink colored bounding box from the second image.\nA. blue\nB. red\nC. green\nD. yellow"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B",
+    "latency_sec": 0.3295
+  },
+  {
+    "id": "QA_DUALVIEW_MATCHING:5",
+    "image": [
+      "dualview/856/13974/A2D0015AC00305/1003525/camera/85/head_color.jpg",
+      "dualview/856/13974/A2D0015AC00305/1003525/camera/85/hand_left_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "First image:<image>\nSecond image:<image>\nWhich bounding box in the first image corresponds to the purple colored bounding box in the second image?\nA. red\nB. green\nC. blue\nD. None of the above"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "",
+    "gt_answer": "A",
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "latency_sec": 1.0463
+  }
+]

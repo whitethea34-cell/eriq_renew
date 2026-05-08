@@ -1,0 +1,2627 @@
+[
+  {
+    "id": "QA_MISTAKE_RECOVERY:1",
+    "image": [
+      "2325/31352/A2D0013B200289/1283074/camera/272/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/282/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/292/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/303/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/313/head_color.jpg",
+      "2325/31352/A2D0013B200289/1283074/camera/324/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"open the curtains\". How to recover from this mistake?\nA. Curtains automatically realign themselves after the initial slip.\nB. The right arm releases the curtain and uses its sensors to recalibrate.\nC. The left arm adjusts its grip to compensate for the right arm's failure.\nD. The right arm then regrasps the curtains and successfully opens them."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.8471
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:2",
+    "image": [
+      "2325/31318/A2D0001AB00086/1293918/camera/202/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/218/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/234/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/250/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/266/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/283/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"tie the curtain tiebacks\". How to recover from this mistake?\nA. Adjust the arm position and retie the curtains securely\nB. Grip the curtain rod more tightly to stabilize it\nC. Move the arm away from the curtain and reposition it\nD. Release the curtain sash and let it hang freely"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 1.8798
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:3",
+    "image": [
+      "2325/31316/A2D0001AB00023/1281609/camera/191/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/200/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/210/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/219/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/229/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/239/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the fruits into the fruit bowl\". How to recover from this mistake?\nA. Moves the colander to the other sink to find the pear\nB. Adjusts the plate position and attempts to place the pear again\nC. Grabs the red apple from the colander instead\nD. Picks up the pear again and places it in the plate"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.912
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:4",
+    "image": [
+      "2325/31307/A2D0013B200289/1300980/camera/531/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/539/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/548/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/557/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/566/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/575/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"grab the building blocks from the basket\". How to recover from this mistake?\nA. Release the block into the storage box to reset its position\nB. Pick up the block again and place it on the table\nC. Move the right arm to catch the falling block\nD. Adjust the storage box position to better align with the robot's arm"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 2.233
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:5",
+    "image": [
+      "2325/31307/A2D0013B200289/1300980/camera/373/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/380/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/387/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/394/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/401/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/408/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"grab the building blocks from the basket\". How to recover from this mistake?\nA. Reattempt to grasp the building block\nB. Adjust the position of the storage box on the table\nC. Rotate the building block within the storage box\nD. Move the right arm closer to assist in grasping"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 2.1261
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:6",
+    "image": [
+      "2325/31311/A2D0013B200289/1282922/camera/672/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/680/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/688/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/697/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/705/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/714/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"hand over water\". How to recover from this mistake?\nA. Moves the robotic arm to sweep the fallen drink under a chair.\nB. Offers a different beverage from its other hand to the guest.\nC. Picks up the jasmine green tea again and hands it to the guest.\nD. Apologizes to the guest and suggests they pick up the drink themselves."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 2.1265
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:7",
+    "image": [
+      "2325/31319/A2D0001AB00086/1280679/camera/561/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/572/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/583/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/594/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/605/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/616/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the cap on the pen\". How to recover from this mistake?\nA. Realign the cap and insert it onto the pen\nB. Release the pen and cap, then pick them up again for a fresh attempt\nC. Grip the pen more tightly and attempt to force the cap on\nD. Adjust the position of the tissue box to better align the cap with the pen"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B",
+    "latency_sec": 1.9327
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:8",
+    "image": [
+      "2325/31312/A2D0001AB00086/1284244/camera/896/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/909/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/923/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/937/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/951/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/965/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the dinner plate into the dishwasher\". How to recover from this mistake?\nA. Grabs the plate with both arms and forces it into the slot.\nB. Adjusts the dishwasher's slot to fit the incorrectly placed plate.\nC. Moves the bowl in the sink to make space for the plate.\nD. The robot picks up the plate again and places it into the slot correctly."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9166
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:9",
+    "image": [
+      "2325/31315/A2D0015AB00011/1276472/camera/743/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/754/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/765/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/776/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/787/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/798/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"throw away the trash on the coffee table\". How to recover from this mistake?\nA. Picks up the paper ball again and successfully throws it into the bin.\nB. Adjusts the left arm to block the view of the paper ball.\nC. Moves the trash bin closer to the paper ball on the ground.\nD. Grabs the tissue box to cover the paper ball on the ground."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 1.9295
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:10",
+    "image": [
+      "2325/31314/A2D0013B200289/1301006/camera/806/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/820/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/834/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/848/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/862/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/877/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"carry bottled water\". How to recover from this mistake?\nA. The robot adjusts its arm position and then releases the basket.\nB. The robot reattempts to grip the water bottle.\nC. Moves the basket closer to the water bottle on the ground.\nD. Activates the right arm to assist in picking up the water bottle."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 2.1344
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:11",
+    "image": [
+      "2325/31314/A2D0013B200289/1301006/camera/603/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/615/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/628/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/641/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/654/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/667/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"carry bottled water\". How to recover from this mistake?\nA. Releases any objects currently held by the left arm\nB. Moves the basket closer to the water bottle\nC. Attempts to grip the water bottle again\nD. Adjusts the position of the right arm to assist in gripping"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 2.1467
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:12",
+    "image": [
+      "2325/31314/A2D0013B200289/1301006/camera/407/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/417/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/428/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/439/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/450/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/461/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"carry bottled water\". How to recover from this mistake?\nA. Proceed to regrip the water bottle\nB. Adjust the position of the basket on the floor\nC. Activate the right arm to assist in picking up the water bottle\nD. Release the grippers and move the arm away from the water bottle"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 1.9958
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:13",
+    "image": [
+      "2325/31314/A2D0013B200289/1301006/camera/248/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/261/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/274/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/287/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/300/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/313/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"carry bottled water\". How to recover from this mistake?\nA. Adjusts the position of the water bottle on the ground\nB. Attempts to grip the water bottle again\nC. Releases any objects currently held by the left arm\nD. Moves the right arm to assist in gripping the water bottle"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 2.1244
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:14",
+    "image": [
+      "2325/31329/A2D0013B200289/1282333/camera/321/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/327/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/333/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/339/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/345/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/351/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"use a cloth to wipe the toilet\". How to recover from this mistake?\nA. The robot lowered height, bend down at the waist to pick up the cloth, and continue wiping the toilet.\nB. The robot turned around to ask for assistance from nearby equipment.\nC. The robot extended the arm to reach the cloth on the floor without bending.\nD. The vacuum cleaner moves closer to suck up the cloth from the floor."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C",
+    "latency_sec": 2.0046
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:15",
+    "image": [
+      "2325/31324/A2D0013B200289/1282951/camera/1215/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1222/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1230/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1238/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1246/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1254/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"hang clothes with hangers\". How to recover from this mistake?\nA. Releases the shirt and starts over\nB. Grabs the collar again\nC. Adjusts the hanger position slightly\nD. Moves the left arm to support the shirt"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 2.0007
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:16",
+    "image": [
+      "2325/31324/A2D0013B200289/1282951/camera/1066/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1076/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1086/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1096/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1106/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1117/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"hang clothes with hangers\". How to recover from this mistake?\nA. Regrip the collar\nB. Pull the sleeve gently\nC. Adjust the hanger position\nD. Loosen the grip on the fabric"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 1.9964
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:17",
+    "image": [
+      "2325/31323/A2D0001AB00086/1281308/camera/1221/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1232/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1244/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1255/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1267/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1279/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"food sorting\". How to recover from this mistake?\nA. The robot places the brown bottle into the empty slot of the blue tray.\nB. The robot picks up the orange soda that had dropped onto the table.\nC. The robot pushes the blue tray to reposition the fallen orange soda.\nD. The robot adjusts its left arm to grip a different item from the bin."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 1.8004
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:18",
+    "image": [
+      "2325/31323/A2D0001AB00086/1281308/camera/488/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/498/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/508/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/518/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/528/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/539/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"food sorting\". How to recover from this mistake?\nA. Grabs a bottle of juice with the left arm to balance the load.\nB. Picks up the dropped sunflower seeds from the table with the right arm.\nC. Adjusts the position of the sunflower seed bag in the blue tray.\nD. Moves the blue tray to cover the dropped sunflower seeds."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C",
+    "latency_sec": 1.7994
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:19",
+    "image": [
+      "2325/31327/A2D0001AB00086/1281489/camera/210/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/217/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/225/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/232/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/240/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/248/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the pen into the pen holder\". How to recover from this mistake?\nA. The left arm attempts to grasp the fallen marker.\nB. The marker is picked up again by the right arm.\nC. The left arm adjusts the position of the pen holder.\nD. The right arm moves the red box closer to the marker."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 1.7848
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:20",
+    "image": [
+      "2325/31328/A2D0001AB00086/1279770/camera/924/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/935/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/946/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/957/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/968/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/979/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pick up the item and wipe off the stains\". How to recover from this mistake?\nA. Lifts the cup slightly and tilts it to pour the remaining water into a sink\nB. Picks up the cup and places it back on the table, then wipes away the spill\nC. Moves the right arm to catch the spilled water with a tissue\nD. Adjusts the tablecloth to cover the spill while keeping the cup in place"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 1.7935
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:21",
+    "image": [
+      "2325/31337/A2D0013B200289/1283034/camera/295/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/302/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/310/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/317/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/325/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/333/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"hang the key\". How to recover from this mistake?\nA. Grasps the black object near the right arm and attempts to hang it on the hook.\nB. Moves the white container to cover the keychain hook.\nC. Adjusts the position of the keychain on the table before another attempt.\nD. Picks up the key pouch from the table again and successfully hangs it on the hook."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.0088
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:22",
+    "image": [
+      "2325/31330/A2D0001AB00086/1281525/camera/730/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/745/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/761/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/777/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/793/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/809/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"product sorting\". How to recover from this mistake?\nA. Grasps the nail clippers with the right hand directly from the table.\nB. Adjusts the position of the cardboard box to facilitate easier item transfer.\nC. Moves the blue tray to align better for the right hand to catch the nail clippers.\nD. Picks up the nail clippers again with the left hand and passes them to the right hand."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.8892
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:23",
+    "image": [
+      "2325/31338/A2D0001AB00086/1280641/camera/663/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/675/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/687/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/700/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/712/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/725/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"plug in the plug\". How to recover from this mistake?\nA. Grabs the left arm to assist in holding the charger steady.\nB. Adjusts the power strip position to better align with the charger.\nC. Picks up the charger again and properly inserts it into the power strip.\nD. Disconnects the cable from the charger before retrying the insertion."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 1.8092
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:24",
+    "image": [
+      "2325/31314/A2D0001AB00023/1281171/camera/1718/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1732/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1746/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1760/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1774/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1788/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pick up the bottled water\". How to recover from this mistake?\nA. Moves the right arm to grab the fallen bottle instead\nB. Pick up the bottled water again\nC. Adjusts the position of the other bottles on the table\nD. Releases the grip and lets the bottle roll further away"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 1.9269
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:25",
+    "image": [
+      "2325/31314/A2D0001AB00023/1281171/camera/1510/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1522/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1535/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1547/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1560/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1573/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pick up the bottled water\". How to recover from this mistake?\nA. The robot places the blue tray under the fallen bottle\nB. It moves the right arm to block the falling bottle\nC. Pick up the bottled water again\nD. The robot adjusts its left arm to grab a different object"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 1.856
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:26",
+    "image": [
+      "2325/31335/A2D0013B200289/1282394/camera/1465/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1474/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1483/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1492/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1501/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1510/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"wipe the bathroom faucet\". How to recover from this mistake?\nA. The robot moves the soap bottle to make space for the rag on the washstand.\nB. The robot uses its right hand to grab the rag from the floor.\nC. The robot adjusts the faucet to secure the rag on the washstand.\nD. The robot picks up the rag from the floor and places it back on the washstand."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.0423
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:27",
+    "image": [
+      "2325/31335/A2D0013B200289/1282394/camera/538/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/550/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/562/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/574/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/586/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/598/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"wipe the bathroom faucet\". How to recover from this mistake?\nA. Grasps the sink edge to stabilize itself before retrying.\nB. Adjusts the faucet to dry the cloth quickly.\nC. The robot picks up the cloth again from the sink.\nD. Moves the bottle aside to clear space for the cloth."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A",
+    "latency_sec": 2.0237
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:28",
+    "image": [
+      "2325/31336/A2D0013B200289/1282817/camera/733/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/739/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/746/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/753/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/760/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/767/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"take the pillowcase\". How to recover from this mistake?\nA. Release the clothes on the floor and move the arm back to its initial position\nB. Pick up the clothes from the ground and place them into the basket\nC. Adjust the position of the basket to align better with the arm's reach\nD. Grip the edge of the basket and attempt to pull it closer to the arm"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 2.0718
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:29",
+    "image": [
+      "2325/31326/A2D0001AB00086/1281406/camera/1164/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1174/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1184/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1194/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1204/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1215/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"brewing tea\". How to recover from this mistake?\nA. Lifts the lid of the container with the left arm\nB. Adjusts the container position to better access the tea bag\nC. Re-grips the tea bag with the left arm\nD. Moves the right arm to pick up the fallen tea bag"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 1.8239
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:30",
+    "image": [
+      "2325/31326/A2D0001AB00086/1281406/camera/358/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/373/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/388/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/403/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/418/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/433/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"brewing tea\". How to recover from this mistake?\nA. Moves the cup closer to the kettle while still pouring to catch the water.\nB. Lifts the kettle higher to pour more forcefully into the cup.\nC. Continues pouring water, attempting to fill the cup despite the spill.\nD. Stops pouring, wipes the spilled water from the table, and then pours water into the cup again."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9527
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:31",
+    "image": [
+      "2325/31332/A2D0001AB00086/1278658/camera/1078/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1089/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1101/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1112/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1124/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1136/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"toasting bread\". How to recover from this mistake?\nA. Adjust the toaster's position slightly forward on the countertop.\nB. Release the bread slices from the toaster and reinsert them properly.\nC. Move the blue basket closer to the toaster to adjust the arm's reach.\nD. Press the start button again with the right arm to ensure it is fully depressed."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B",
+    "latency_sec": 1.9038
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:32",
+    "image": [
+      "2325/31332/A2D0001AB00086/1278658/camera/366/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/376/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/387/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/397/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/408/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/419/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"toasting bread\". How to recover from this mistake?\nA. Grabs the blue basket to stabilize the setup.\nB. The robot picks up the toast again from the countertop.\nC. Adjusts the right arm to assist in holding the toast.\nD. Moves the toaster slightly to align the slots better."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C",
+    "latency_sec": 1.9809
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:33",
+    "image": [
+      "2325/31317/A2D0013B200289/1293660/camera/601/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/617/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/634/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/651/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/668/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/685/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"clearing the takeout boxes from the dining table\". How to recover from this mistake?\nA. The robot adjusts the takeout bag's position to better align with the table.\nB. The robot picks up the takeout box and places it back into the takeout bag.\nC. The robot uses its right arm to close the takeout bag tightly.\nD. The robot moves the chopsticks closer to the takeout box."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 2.1246
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:34",
+    "image": [
+      "2325/31322/A2D0001AB00086/1280969/camera/1056/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1066/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1076/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1086/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1096/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1107/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the toys into the box\". How to recover from this mistake?\nA. Adjust the right arm to grab the green toy frog from the table\nB. Pick up the red ball from the storage box and place it next to the green toy frog\nC. Re-grip the green toy frog and place it into the storage box\nD. Move the storage box closer to the green toy frog on the table"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 1.8869
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:35",
+    "image": [
+      "2325/31322/A2D0001AB00086/1280969/camera/426/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/436/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/446/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/456/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/466/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/477/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the toys into the box\". How to recover from this mistake?\nA. Adjusts the position of the storage box to better fit the green toy car.\nB. Moves the red object to make space for the green toy car in the box.\nC. Grabs the green toy car with the left arm and attempts to place it in the box.\nD. Picks up the green toy car again and places it inside the storage box."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9492
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:36",
+    "image": [
+      "2325/31339/A2D0013B200289/1282837/camera/705/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/712/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/720/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/727/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/735/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/743/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pick up the clothes\". How to recover from this mistake?\nA. Adjust the position of the laundry basket closer to the robot's arm\nB. Release the clothes again to ensure they fall correctly into the basket next time\nC. Pick up the clothes from the floor and put them into the basket\nD. Move the right arm to catch the clothes and place them in the basket"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": "B",
+    "latency_sec": 2.0687
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:37",
+    "image": [
+      "2325/31339/A2D0013B200289/1282837/camera/971/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/980/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/989/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/998/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/1007/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/1016/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pick up the clothes\". How to recover from this mistake?\nA. The robot adjusts the position of the basket to catch the fallen hanger.\nB. The robot picks up the fallen hanger and rehangs it on the clothes rack.\nC. The robot moves the clothesline closer to retrieve the fallen hanger.\nD. The robot uses its left arm to push the hanger back onto the clothesline."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 2.1377
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:38",
+    "image": [
+      "2325/31325/A2D0013B200181/1281332/camera/1048/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1055/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1063/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1070/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1078/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1086/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"clear the countertop trash\". How to recover from this mistake?\nA. The robot moves the trash bin closer to the bottle.\nB. The robot pushes the bottle off the table to clear the workspace.\nC. The robot places the bottle upright on the table for another attempt.\nD. The robot picks up the bottle again and throws it into the trash bin."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.1337
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:39",
+    "image": [
+      "2325/31325/A2D0013B200181/1281332/camera/553/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/562/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/571/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/580/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/589/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/598/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"clear the countertop trash\". How to recover from this mistake?\nA. Adjusts the position of the tissue box on the table\nB. Picks up the paper ball again and throws it into the trash bin\nC. Moves the bottle closer to the trash bin to clear space\nD. Grabs the fruit basket and shifts it away from the trash bin"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 2.1322
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:40",
+    "image": [
+      "2325/31325/A2D0013B200181/1281332/camera/233/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/241/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/250/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/258/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/267/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/276/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"clear the countertop trash\". How to recover from this mistake?\nA. Grab the tissue box and move it aside\nB. Push open the lid of the desktop trash bin again\nC. Adjust the position of the fruit basket\nD. Lift the bottle from the table to clear space"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 2.1035
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:41",
+    "image": [
+      "2325/31340/A2D0001AB00086/1280371/camera/621/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/627/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/633/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/640/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/646/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/653/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the items in the bag\". How to recover from this mistake?\nA. Moves the backpack to cover the fallen hand cream\nB. Grabs the blue box instead of the hand cream\nC. Adjusts the tongs while keeping the hand cream on the floor\nD. Picks up the hand cream from the table again"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9944
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:42",
+    "image": [
+      "2325/31331/A2D0001AB00023/1281821/camera/386/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/395/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/405/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/415/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/425/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/435/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"open the drawer to place items\". How to recover from this mistake?\nA. Realigns the arm with the handle's gap and successfully pulls the drawer out.\nB. Pushes the drawer slightly to feel its position before pulling again.\nC. Adjusts the right arm to assist in pulling the drawer open instead.\nD. Moves the mouse to the side to clear any obstruction before attempting again."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 2.0168
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:43",
+    "image": [
+      "2325/31331/A2D0001AB00023/1281821/camera/2144/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2158/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2173/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2188/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2203/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2218/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"open the drawer to place items\". How to recover from this mistake?\nA. Move the robot's left arm away from the drawer\nB. Adjust the right arm to secure the drawer's position\nC. Lift the drawer slightly and then release it\nD. Push the drawer back in completely to close it"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.8874
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:44",
+    "image": [
+      "2325/31331/A2D0001AB00023/1281821/camera/1495/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/1508/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/1521/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/1534/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/1547/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/1560/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"open the drawer to place items\". How to recover from this mistake?\nA. Moves the right arm to assist in stabilizing the mouse.\nB. Adjusts the position of the drawer to better access the mouse.\nC. Repicks the mouse with a firmer grip using the left arm.\nD. Closes the drawer to prevent the mouse from falling further."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 1.9212
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:45",
+    "image": [
+      "2325/31331/A2D0001AB00023/1281821/camera/956/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/967/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/979/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/990/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/1002/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/1014/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"open the drawer to place items\". How to recover from this mistake?\nA. The left arm attempts to pick up the mouse instead\nB. Moves the headphones with its fingers without lifting them\nC. The right arm readjusts to grasp the headphones again\nD. Grasps the drawer handle to stabilize itself"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 1.9632
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:46",
+    "image": [
+      "2325/31331/A2D0001AB00023/1281821/camera/323/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/332/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/342/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/351/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/361/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/371/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"open the drawer to place items\". How to recover from this mistake?\nA. Rotates the arm clockwise to find a better angle for gripping.\nB. Adjusts the right arm to push the drawer instead of pulling it.\nC. Realigns the arm with the handle's gap and successfully pulls the drawer open.\nD. Moves the mouse aside to clear any obstruction near the drawer."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 1.9413
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:47",
+    "image": [
+      "2325/31334/A2D0013B200181/1283155/camera/1520/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1532/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1544/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1556/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1568/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1581/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"open the fridge and take out the food\". How to recover from this mistake?\nA. The robot pushes the fallen sprite further under the fridge.\nB. The robot grabs a different green bottle from the fridge and places it on the counter.\nC. The robot adjusts the position of the milk carton inside the fridge.\nD. The robot picks up the sprite from the floor and places it back on the counter."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.1498
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:48",
+    "image": [
+      "2325/31320/A2D0013B200181/1282595/camera/1975/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/1990/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/2005/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/2020/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/2035/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/2050/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"clean the bar counter\". How to recover from this mistake?\nA. Replace the cloth with a paper towel from the blue tray\nB. Lift the bowl from the blue tray and use it to cover the stain\nC. Continue using the cloth to wipe away the stains on the table\nD. Pour the liquid from the cup into the stain to dilute it"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 2.162
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:49",
+    "image": [
+      "2325/31345/A2D0001AB00023/1281939/camera/132/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/139/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/146/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/153/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/160/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/167/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"hang the hair dryer up\". How to recover from this mistake?\nA. Releases the hair dryer and retracts the right arm.\nB. Adjusts the position of the hair dryer on the counter.\nC. Moves the left arm to assist in grasping the hair dryer.\nD. The right arm then attempts to pick up the hair dryer again."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9495
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:50",
+    "image": [
+      "2325/31342/A2D0001AB00086/1284204/camera/1003/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1013/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1024/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1034/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1045/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1056/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"separate light-colored and dark-colored clothes\". How to recover from this mistake?\nA. The robot adjusts its right arm settings while the clothes remain on the floor.\nB. The robot picks up the clothes from the floor and places them back into the laundry basket.\nC. The robot moves the laundry basket closer to the washing machine.\nD. The robot uses its left arm to push the clothes further into the basket."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 1.9194
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:51",
+    "image": [
+      "2325/31342/A2D0001AB00086/1284204/camera/210/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/221/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/232/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/243/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/254/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/265/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"separate light-colored and dark-colored clothes\". How to recover from this mistake?\nA. The robot picks up the clothes again from the dirty laundry basket on the floor.\nB. The robot moves the washing machine closer to the clothes on the floor.\nC. The robot adjusts its right arm settings while the clothes remain on the floor.\nD. The robot places the empty basket back onto the washing machine."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 1.9127
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:52",
+    "image": [
+      "2325/31341/A2D0013B200289/1282290/camera/616/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/623/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/631/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/639/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/647/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/655/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"change toilet paper roll\". How to recover from this mistake?\nA. Move the toilet paper roll holder closer to the ground to avoid future drops\nB. Reach out with the left arm to grab the fallen roll from the floor and place it back on the holder\nC. Lower your stance and bend at the waist to pick up the dropped empty roll, then dispose of it in the trash bin\nD. Adjust the camera angle to better see the toilet paper roll holder"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": "B",
+    "latency_sec": 2.0954
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:53",
+    "image": [
+      "2325/31352/A2D0001AB00086/1293905/camera/157/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/163/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/170/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/176/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/183/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/190/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"open the curtains\". How to recover from this mistake?\nA. Tightens the grip on the curtain with both arms simultaneously.\nB. Moves the right arm away and uses the left arm to hold the curtain.\nC. Adjusts the left arm to pull the curtain further.\nD. Re-grips the curtain with the right arm and opens it."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9863
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:54",
+    "image": [
+      "2325/31343/A2D0013B200289/1282215/camera/401/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/408/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/416/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/423/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/431/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/439/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"hang the towel\". How to recover from this mistake?\nA. Moves the soap bottle aside to clear space\nB. The left arm attempts to grasp the fallen towel\nC. Adjusts the sink faucet to stop water flow\nD. The right arm then picks up the towel again"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.1236
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:55",
+    "image": [
+      "2325/31358/A2D0001AB00086/1279583/camera/108/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/114/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/121/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/128/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/135/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/142/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"hand the menu\". How to recover from this mistake?\nA. The robot adjusts the tablecloth to cover the fallen menu\nB. The robot picks up the menu again\nC. The robot moves the chair to hide the fallen menu\nD. The person helps the robot by picking up the menu"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 1.9322
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:56",
+    "image": [
+      "2325/31344/A2D0013B200289/1282675/camera/1026/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1041/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1056/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1071/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1086/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1102/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place the goods from the material box onto the shelves\". How to recover from this mistake?\nA. Move the blue tray to align with the shelf and then place the moisturizing glycerin.\nB. Pick up the moisturizing glycerin again and place it in the designated spot on the shelf for moisturizing glycerin.\nC. Grasp the incorrectly placed moisturizing glycerin and slide it into alignment on the shelf.\nD. Adjust the position of other moisturizing glycerin bottles to make space for the misplaced one."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C",
+    "latency_sec": 2.1535
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:57",
+    "image": [
+      "2325/31344/A2D0013B200289/1282675/camera/656/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/665/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/675/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/684/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/694/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/704/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place the goods from the material box onto the shelves\". How to recover from this mistake?\nA. Picks up the pink facial cleanser and repositions it properly on the shelf\nB. Moves the blue tray to catch the fallen pink facial cleanser\nC. Grabs the white bottle with a pump dispenser to stabilize the shelf\nD. Adjusts the green-lidded bottle to make space for the pink facial cleanser"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 2.0986
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:58",
+    "image": [
+      "2325/31346/A2D0001AB00086/1294244/camera/178/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/192/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/207/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/222/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/237/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/252/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the paper into the shredder\". How to recover from this mistake?\nA. Adjust the paper on the table to ensure proper alignment\nB. Move the robotic arm away from the shredder to reset its position\nC. Disconnect the power cable and reconnect it securely\nD. Press the switch again to turn on the shredder"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": "A",
+    "latency_sec": 1.8765
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:59",
+    "image": [
+      "2325/31344/A2D0013B200289/1301071/camera/1008/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1016/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1025/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1033/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1042/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1051/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place the goods from the material box onto the shelves\". How to recover from this mistake?\nA. The robot picks up the shower gel again and places it steadily on the shelf.\nB. The robot scans the barcode of the fallen shower gel for inventory.\nC. The robot moves the shopping cart closer to the shelf for better reach.\nD. The robot adjusts the position of other body wash bottles to make space."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 2.0655
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:60",
+    "image": [
+      "2325/31344/A2D0013B200289/1301071/camera/576/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/586/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/596/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/606/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/616/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/626/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place the goods from the material box onto the shelves\". How to recover from this mistake?\nA. Adjusts the other bottles to make space for the fallen one without picking it up\nB. Grabs the fallen bottle with the left arm and places it in the shopping cart\nC. Uses both arms to clear the shelf and then repositions all items\nD. Picks up the white bottled shampoo and puts it back on the shelf"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B",
+    "latency_sec": 2.0904
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:61",
+    "image": [
+      "2325/31344/A2D0013B200289/1301071/camera/265/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/274/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/284/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/293/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/303/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/313/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place the goods from the material box onto the shelves\". How to recover from this mistake?\nA. The robot uses its left arm to pick up the orange bottle instead.\nB. The robot adjusts its position to pick up a different item from the shelf.\nC. The robot reattempts to grab the white bottled shampoo from the shelf.\nD. The robot scans the shelf for another white bottle of shampoo."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 2.1681
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:62",
+    "image": [
+      "2325/31329/A2D0013B200289/1301093/camera/474/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/482/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/491/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/500/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/509/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/518/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"wipe the toilet with a rag\". How to recover from this mistake?\nA. Adjust the position of the toilet lid to better access the cleaning cloth.\nB. Spray water on the cleaning cloth to make it easier to grip.\nC. Regrip the cleaning cloth with the left arm's fingers.\nD. Move the right arm to pick up the cleaning cloth from the toilet tank."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 2.0426
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:63",
+    "image": [
+      "2325/31347/A2D0001AB00086/1294048/camera/1640/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1675/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1711/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1747/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1783/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1819/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"throw the trash bag into the large trash bin\". How to recover from this mistake?\nA. The robot picks up the trash bag and throws it into the bin\nB. The robot moves the bin closer to the trash bag on the floor\nC. The robot uses its left arm to push the trash bag into the bin\nD. The robot adjusts its right arm to grab the bin instead"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C",
+    "latency_sec": 1.8366
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:64",
+    "image": [
+      "2325/31347/A2D0001AB00086/1294048/camera/187/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/203/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/219/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/235/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/251/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/268/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"throw the trash bag into the large trash bin\". How to recover from this mistake?\nA. Pull the trash bag slightly to the left using the right arm\nB. Grab the left handle of the trash bag with the right arm\nC. Adjust the position of the black robotic arm to better align with the right handle\nD. Lift the right handle of the trash bag again"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.8465
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:65",
+    "image": [
+      "2325/31357/A2D0013B200289/1301085/camera/827/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/838/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/850/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/861/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/873/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/885/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the goods on the shelves\". How to recover from this mistake?\nA. Adjusts the position of the green bags in the cart\nB. Moves the shopping cart slightly forward\nC. Attempts to grab the black bag of chips again\nD. Reaches for a different type of chip bag nearby"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 2.062
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:66",
+    "image": [
+      "2325/31353/A2D0001AB00086/1280741/camera/990/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/997/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/1005/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/1012/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/1020/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/1028/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"throw away the trash on the office desk\". How to recover from this mistake?\nA. The robot adjusts the position of the trash bin to catch the tissue wrapper as it falls again.\nB. The robot picks up the tissue wrapper from the floor and throws it into the trash bin properly.\nC. The robot places the blue object back on the table and then retrieves the tissue wrapper.\nD. The robot uses its left arm to sweep the tissue wrapper into the trash bin."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 1.8643
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:67",
+    "image": [
+      "2325/31350/A2D0001AB00086/1280813/camera/894/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/905/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/916/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/927/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/938/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/950/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place the items on the table into the storage box\". How to recover from this mistake?\nA. The arm retracts and then extends to push the marker into the storage box without picking it up.\nB. The robot adjusts the position of the storage box to better align with the marker on the desk.\nC. The robot uses its left arm to hold the storage box steady while the right arm attempts to place the marker inside.\nD. The robot picks up the marker from the desk again and places it into the storage box."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.8369
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:68",
+    "image": [
+      "2325/31360/A2D0013B200289/1282187/camera/900/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/909/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/918/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/927/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/936/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/945/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place the showerhead\". How to recover from this mistake?\nA. Grasps the showerhead from the floor using its left arm instead of the right arm.\nB. Adjusts the position of the slot to align with the showerhead on the floor.\nC. Activates a suction mechanism to lift the showerhead directly from the floor.\nD. The robot moves backward, lowers itself, and picks up the dropped showerhead again."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.1174
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:69",
+    "image": [
+      "2325/31360/A2D0013B200289/1282187/camera/311/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/319/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/327/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/335/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/343/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/351/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place the showerhead\". How to recover from this mistake?\nA. Adjusts the position of the switch to better align with the showerhead.\nB. Grasps the nearby faucet handle to stabilize its position.\nC. The robot picks up the showerhead again, ensuring a firm grip.\nD. Moves the left arm to reposition the shelf for easier access."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 2.0917
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:70",
+    "image": [
+      "2325/31306/A2D0013B200181/1282840/camera/2851/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2857/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2864/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2871/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2878/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2885/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"make milk tea\". How to recover from this mistake?\nA. Pour additional milk tea over the spilled boba to clean the counter\nB. Vacuum the spilled boba from the counter using the nearby vacuum cleaner\nC. Wipe the spilled boba off the counter with a cloth and discard it into the trash bin\nD. Scoop the spilled boba back into the container using the spoon in the right hand"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 2.0275
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:71",
+    "image": [
+      "2325/31357/A2D0013B200289/1282754/camera/995/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1002/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1009/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1016/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1023/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1031/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the goods on the shelves\". How to recover from this mistake?\nA. Push the misaligned snacks further to make space for the potato chips without adjusting them\nB. Grab a different snack from the cart and place it over the misaligned potato chips\nC. Adjust the blue container in the cart to create more space for the potato chips on the shelf\nD. Straighten the knocked-over items, then pick up the potato chips again and arrange them properly on the shelf"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.0996
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:72",
+    "image": [
+      "2325/31357/A2D0013B200289/1282754/camera/790/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/796/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/802/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/809/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/815/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/822/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"put the goods on the shelves\". How to recover from this mistake?\nA. Picks up the chips again from the restocking box using a firmer grip.\nB. Moves the shopping cart closer to the shelf to stabilize the pick-up.\nC. Adjusts the angle of the arm to lift the chips indirectly from below.\nD. Grabs a different bag of snacks to replace the dropped potato chips."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 2.0187
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:73",
+    "image": [
+      "2325/31356/A2D0013B200181/1283050/camera/703/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/712/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/721/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/730/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/739/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/749/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pack the fruits\". How to recover from this mistake?\nA. The robot uses its right arm to push the yellow peach into the felt bag from the side.\nB. The robot moves the apples aside to create more space for the yellow peach in the felt bag.\nC. The robot adjusts the felt bag to better catch the yellow peach as it falls again.\nD. The robot picks up the yellow peach from the floor and places it inside the felt bag."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.024
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:74",
+    "image": [
+      "2325/31349/A2D0013B200181/1282760/camera/1292/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1302/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1312/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1323/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1333/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1344/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"cleaning the table\". How to recover from this mistake?\nA. Grabs the bone-shaped object from the table and drops it into the trash bin\nB. Picks up the straw wrapper from the ground and properly disposes of it in the trash bin\nC. Adjusts the camera angle to better view the items on the table\nD. Moves the trash bin closer to the dropped straw wrapper without picking it up"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 2.0169
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:75",
+    "image": [
+      "2325/31349/A2D0013B200181/1282760/camera/1089/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1098/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1107/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1116/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1125/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1134/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"cleaning the table\". How to recover from this mistake?\nA. Picks up the straw wrapper again with a firmer grip.\nB. Grabs the wooden stick from the table instead.\nC. Moves the trash bin closer to the table for easier access.\nD. Adjusts the camera angle to better view the ground."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 2.0126
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:76",
+    "image": [
+      "2325/31361/A2D0001AB00086/1284309/camera/881/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/888/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/896/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/904/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/912/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/920/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pack the goods\". How to recover from this mistake?\nA. Pushes the stuck air column film harder into the cardboard box to force it in.\nB. Wraps additional air column film around the stuck part to ease its insertion.\nC. The robot picks up the air column film again and positions it correctly inside the box.\nD. The robot adjusts the cardboard box to better fit the air column film without picking it up."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 1.8103
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:77",
+    "image": [
+      "2325/31364/A2D0001AB00086/1280153/camera/272/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/284/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/297/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/310/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/323/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/336/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pack the takeout container\". How to recover from this mistake?\nA. Re-grip the takeout box lid with the right arm.\nB. Move the left arm to stabilize the remaining lids on the stack.\nC. Lift the detached lid using the left arm instead.\nD. Adjust the position of the stacked takeout boxes on the table."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C",
+    "latency_sec": 1.8047
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:78",
+    "image": [
+      "2325/31359/A2D0001AB00086/1280362/camera/710/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/716/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/723/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/730/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/737/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/744/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"sorting the electronic product\". How to recover from this mistake?\nA. Grasps a red box from the blue tray with the left arm\nB. The right arm then picked up another usb sound card from the material bin\nC. Moves the empty plastic bag to the right side of the table with the right arm\nD. Lifts the grey coiled cable from the blue tray using the left arm"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 1.8098
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:79",
+    "image": [
+      "2325/31371/A2D0001AB00023/1281648/camera/388/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/397/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/406/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/416/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/425/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/435/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"clean microwave & range hood\". How to recover from this mistake?\nA. Adjust the range hood's position to hide the stains\nB. Spray cleaning solution directly on the mirror without wiping\nC. Use the left arm to scrape off the stains with a tool\nD. Clean the stains again with a cloth"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.8115
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:80",
+    "image": [
+      "2325/31373/A2D0013B200181/1283013/camera/467/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/474/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/482/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/490/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/498/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/506/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"transfer the product\". How to recover from this mistake?\nA. The slipping handle is picked back up by the left arm.\nB. The right arm adjusts its grip on the remaining part of the bag.\nC. Both arms retract to reassess the position of the shopping bag.\nD. The left arm reaches for a nearby object to assist in lifting."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C",
+    "latency_sec": 2.0274
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:81",
+    "image": [
+      "2325/31351/A2D0013B200289/1282897/camera/1163/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1175/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1187/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1199/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1211/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1223/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"scan and pack items\". How to recover from this mistake?\nA. Place the bottled water on the table and scan it from a top-down angle\nB. Move the handheld barcode scanner closer to the label on the bottled water without adjusting the bottle\nC. Adjust the position to align the barcode of the bottled water directly with the scanner, then proceed with scanning\nD. Rotate the bottled water in the left arm to expose a different side to the scanner"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 2.0898
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:82",
+    "image": [
+      "2325/31351/A2D0013B200289/1282897/camera/591/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/602/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/614/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/625/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/637/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/649/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"scan and pack items\". How to recover from this mistake?\nA. Picks up the makeup remover again to scan it\nB. Adjusts the handheld barcode scanner's angle to scan the table\nC. Moves the water bottle to replace the makeup remover for scanning\nD. Grabs the bag to search for another item to scan"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C",
+    "latency_sec": 2.0228
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:83",
+    "image": [
+      "2325/31365/A2D0001AB00086/1278870/camera/578/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/585/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/592/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/600/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/607/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/615/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"get the toast\". How to recover from this mistake?\nA. Adjusts the plate to catch the fallen toast.\nB. Grabs the other piece of toast from the plate.\nC. Moves the toaster to a different position on the counter.\nD. Picks up the toast again and places it into the tray."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.8145
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:84",
+    "image": [
+      "2325/31365/A2D0001AB00086/1278870/camera/247/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/251/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/255/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/260/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/264/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/269/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"get the toast\". How to recover from this mistake?\nA. Pick up the toast from the plate again and position it properly\nB. Adjust the plate's position on the countertop to align with the toast\nC. Grip the toast more firmly with the right arm to stabilize it\nD. Move the toaster closer to the plate to realign the toast"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 1.8064
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:85",
+    "image": [
+      "2325/31367/A2D0001AB00086/1294312/camera/885/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/897/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/909/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/921/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/933/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/945/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pick fruits and vegetables\". How to recover from this mistake?\nA. Adjust the bag to make more space for the fruit\nB. Pick up the fruit again and place it in the bag\nC. Grasp a different fruit and attempt to place it in the bag\nD. Release the fruit onto the shelf to try picking it again later"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 1.8389
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:86",
+    "image": [
+      "2325/31367/A2D0001AB00086/1294312/camera/205/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/217/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/230/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/243/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/256/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/269/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"pick fruits and vegetables\". How to recover from this mistake?\nA. Releases the fruit and uses its left arm to catch it.\nB. Moves the shopping cart closer to the fruit rack.\nC. Adjusts the position of other fruits on the rack.\nD. Attempts to pick up the fruit again using a firmer grip."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9341
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:87",
+    "image": [
+      "2325/31367/A2D0001AB00086/1294403/camera/665/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/676/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/688/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/700/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/712/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/724/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"get fruits and vegetables\". How to recover from this mistake?\nA. Attempts to pick up the fruit from the fruit stand again\nB. Adjusts the position of the pomegranate on the fruit stand\nC. Grabs a banana instead of the pomegranate\nD. Moves the shopping cart closer to the fruit stand"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C",
+    "latency_sec": 1.9413
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:88",
+    "image": [
+      "2325/31367/A2D0001AB00086/1294403/camera/455/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/466/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/477/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/488/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/499/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/511/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"get fruits and vegetables\". How to recover from this mistake?\nA. Picks up the pomegranate again and successfully places it into the bag on the shopping cart.\nB. Grabs a banana from the shelf and places it into the bag on the shopping cart.\nC. Adjusts the position of the shopping cart to better align with the fruit shelf.\nD. Reaches for another pomegranate from the shelf and attempts to place it into the bag."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 1.9955
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:89",
+    "image": [
+      "2325/31366/A2D0001AB00086/1280095/camera/435/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/452/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/469/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/486/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/503/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/521/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"flower arrangement\". How to recover from this mistake?\nA. Hold the flower at an angle and push it into the vase\nB. Adjust the vase position on the table slightly to the left\nC. Grab a different flower from the table and try inserting it\nD. Lift the flower directly above the vase and insert it again"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9372
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:90",
+    "image": [
+      "2325/31368/A2D0001AB00086/1280138/camera/1161/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1172/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1183/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1194/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1205/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1216/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"fold pants\". How to recover from this mistake?\nA. Adjust the camera angle for better vision\nB. Fold the pants properly\nC. Reposition the shorts on the table symmetrically\nD. Tighten the grip on the waistband of the shorts"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 1.9319
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:91",
+    "image": [
+      "2325/31374/A2D0001AB00023/1282000/camera/1176/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1187/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1198/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1209/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1220/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1231/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"wipe the mirrored cabinet\". How to recover from this mistake?\nA. Spray water from the faucet onto the mirrored cabinet\nB. Wipe the stain clean again with a cloth\nC. Apply soap from the bottle to the stain and rub\nD. Hang the towel back on the hook and use a different cloth"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 1.9555
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:92",
+    "image": [
+      "2325/31374/A2D0001AB00023/1282000/camera/242/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/252/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/262/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/272/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/282/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/292/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"wipe the mirrored cabinet\". How to recover from this mistake?\nA. Release the left arm's grip to reset its position.\nB. Grasp the towel hanging on the wall.\nC. Move the right arm towards the mirror.\nD. Pick up the cleaning cloth from the sink."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9447
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:93",
+    "image": [
+      "2325/31362/A2D0001AB00086/1280227/camera/1180/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1186/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1192/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1198/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1204/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1211/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place water\". How to recover from this mistake?\nA. The robot pushes the box closer to itself.\nB. The robot adjusts its grip on another bottle in the box.\nC. The robot picks up the bottle again from the floor.\nD. The robot places a new bottle into the empty spot in the box."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 2.1009
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:94",
+    "image": [
+      "2325/31362/A2D0001AB00086/1280227/camera/529/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/534/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/539/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/545/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/550/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/556/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place water\". How to recover from this mistake?\nA. The robot adjusts the position of the box on the table.\nB. The arm tightens its grip on another water bottle in the box.\nC. The arm moves the remaining bottles to make space.\nD. The robot picks up the fallen water bottle again."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 2.0736
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:95",
+    "image": [
+      "2325/31362/A2D0001AB00086/1280227/camera/425/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/430/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/435/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/440/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/445/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/450/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place water\". How to recover from this mistake?\nA. The arm adjusts the position of the cardboard box to cover the fallen bottle.\nB. The robot pushes the fallen water bottle further away on the table.\nC. The arm grabs another water bottle from the box to replace the fallen one.\nD. The robot picks up the water bottle from the table and sets it upright again."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": "A",
+    "latency_sec": 1.9996
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:96",
+    "image": [
+      "2325/31362/A2D0001AB00086/1280227/camera/126/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/132/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/138/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/144/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/150/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/156/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"place water\". How to recover from this mistake?\nA. The robot picks up the bottle again from the floor.\nB. The robot adjusts the position of the box on the table.\nC. The robot places a new bottle into the empty spot in the box.\nD. The robot tightens the cap of another bottle in the box."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C",
+    "latency_sec": 2.0089
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:97",
+    "image": [
+      "2325/31376/A2D0001AB00086/1294165/camera/794/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/808/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/823/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/837/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/852/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/867/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"set the table\". How to recover from this mistake?\nA. Adjusts the position of the plate with the right arm\nB. The left arm attempts to pick up the spoon from the tray\nC. Moves the napkin aside with the right arm\nD. The right arm proceeds to re-grasp the fork"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C",
+    "latency_sec": 2.0108
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:98",
+    "image": [
+      "2325/31369/A2D0001AB00086/1280048/camera/2320/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2333/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2347/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2360/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2374/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2388/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"folding t-shirts\". How to recover from this mistake?\nA. Adjust the shirt's sleeves to align with the hem\nB. Reposition the arms to grasp the shirt differently\nC. Smooth out the fabric by pressing down on it\nD. Rearrange and fold them properly"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 1.9997
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:99",
+    "image": [
+      "2325/31369/A2D0001AB00086/1280048/camera/1599/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1610/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1622/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1634/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1646/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1658/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"folding t-shirts\". How to recover from this mistake?\nA. Adjust the collar by pulling it upwards\nB. Fold the bottom hem towards the middle\nC. Repick the sleeves and fold them\nD. Smooth out the fabric on the table"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 2.0472
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:100",
+    "image": [
+      "2325/31363/A2D0001AB00086/1278844/camera/3986/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3995/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/4004/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/4013/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/4022/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/4032/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"get the desserts\". How to recover from this mistake?\nA. Transfer the contents of the baking tray directly onto the plate using the right arm\nB. Pick up the dropped dessert and throw it in the trash bin\nC. Gather the fallen dessert with the left arm and return it to the baking tray\nD. Place the spatula back into the bowl to stabilize the remaining dessert"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C",
+    "latency_sec": 1.9294
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:101",
+    "image": [
+      "2325/31363/A2D0001AB00086/1278844/camera/3625/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3635/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3645/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3655/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3665/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3676/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"get the desserts\". How to recover from this mistake?\nA. Release the dessert from the tray onto the plate directly.\nB. Pick up the scoop again to complete the serving process.\nC. Adjust the position of the dessert on the plate using the left arm.\nD. Move the bowl closer to the tray to facilitate easier serving."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C",
+    "latency_sec": 1.8384
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:102",
+    "image": [
+      "2325/31363/A2D0001AB00086/1278844/camera/2770/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/2775/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/2781/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/2787/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/2793/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/2799/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"get the desserts\". How to recover from this mistake?\nA. Adjusts the position of the oven to better align the plate\nB. Grabs the fallen dessert with the left arm and sets it aside\nC. Picks it back up and places it on the plate again\nD. Moves the bowl closer to the plate to catch the dessert"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 1.8549
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:103",
+    "image": [
+      "2325/31363/A2D0001AB00086/1278844/camera/545/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/555/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/565/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/575/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/585/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/596/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"get the desserts\". How to recover from this mistake?\nA. Move the bottle closer to the oven to use it as leverage.\nB. Reopen the oven door using both arms with adjusted force.\nC. Adjust the position of the plate to align better with the oven door.\nD. Rotate the control knobs on the oven to unlock the door mechanism."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C",
+    "latency_sec": 1.865
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:104",
+    "image": [
+      "2325/31372/A2D0001AB00086/1279411/camera/2724/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2732/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2741/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2750/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2759/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2768/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"make a sandwich\". How to recover from this mistake?\nA. Adjust the toaster to a different angle before retrying the placement\nB. Lift the toast slightly and reposition it over the lettuce\nC. Push the lettuce aside and place the toast directly on the plate\nD. Grab the lettuce with the right arm and align it under the toast"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 1.9186
+  },
+  {
+    "id": "QA_MISTAKE_RECOVERY:105",
+    "image": [
+      "2325/31372/A2D0001AB00086/1279411/camera/201/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/212/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/224/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/235/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/247/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/259/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, the robot made a mistake while executing task: \"make a sandwich\". How to recover from this mistake?\nA. Pick up the toast from the plate and position it properly\nB. Adjust the toaster settings to straighten the toast on the plate\nC. Spread the condiment evenly on the crooked toast to stabilize it\nD. Move the plate slightly to align with the crooked toast"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 1.8266
+  }
+]

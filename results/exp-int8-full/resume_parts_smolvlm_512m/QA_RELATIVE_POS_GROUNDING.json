@@ -1,0 +1,4484 @@
+[
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:1",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/5997/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is left of the bottle with liquid on the screen?\nA. pink bounding box\nB. green bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.658
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:2",
+    "image": "relative_pos/603/14368/A2D0015AC00163/1016752/camera/400/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the red can with yellow lid visually?\nA. blue bounding box\nB. cyan bounding box\nC. purple bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": " Answer: C",
+    "latency_sec": 0.5623
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:3",
+    "image": "relative_pos/741/11649/A2D0015AB00129/931186/camera/404/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the grapes visually?\nA. green bounding box\nB. yellow bounding box\nC. purple bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": " C",
+    "latency_sec": 0.4024
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:4",
+    "image": "relative_pos/451/8590/A2D0015AB00003/810761/camera/3658/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the green peas based on the picture?\nA. red bounding box\nB. brown bounding box\nC. blue bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4073
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:5",
+    "image": "relative_pos/536/8601/A2D0001AB00019/789885/camera/500/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned on the right side of the clear plastic container visually?\nA. green bounding box\nB. blue bounding box\nC. red bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.401
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:6",
+    "image": "relative_pos/664/11259/A2D0015AC00132/862068/camera/150/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned on the right side of the crystal rock in the image?\nA. purple bounding box\nB. brown bounding box\nC. red bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": " C",
+    "latency_sec": 0.4077
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:7",
+    "image": "relative_pos/452/7545/A2D0015AC00022/735520/camera/2244/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the cup with orange slice in the 2D view?\nA. green bounding box\nB. brown bounding box\nC. blue bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.4059
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:8",
+    "image": "relative_pos/434/7167/A2D0015AC00526/830123/camera/614/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the power strip based on the picture?\nA. green bounding box\nB. cyan bounding box\nC. brown bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4304
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:9",
+    "image": "relative_pos/434/7167/A2D0015AC00526/830123/camera/308/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the water dispenser in the 2D view?\nA. brown bounding box\nB. red bounding box\nC. pink bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4075
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:10",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/248/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is on the left side of the glass cup based on the picture?\nA. brown bounding box\nB. purple bounding box\nC. blue bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.41
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:11",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/5910/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the plastic cup on the screen?\nA. yellow bounding box\nB. pink bounding box\nC. purple bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.406
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:12",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/5518/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the ice maker machine in the 2D view?\nA. red bounding box\nB. yellow bounding box\nC. green bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4075
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:13",
+    "image": "relative_pos/708/11296/A2D0015AB00108/931257/camera/438/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the vase with flowers based on the picture?\nA. cyan bounding box\nB. yellow bounding box\nC. purple bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.4037
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:14",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/2182/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the plastic cup with fork in the 2D view?\nA. pink bounding box\nB. green bounding box\nC. cyan bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.4016
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:15",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/5490/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned on the right side of the bottle of orange juice based on the picture?\nA. blue bounding box\nB. brown bounding box\nC. purple bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": " Answer: C",
+    "latency_sec": 0.5432
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:16",
+    "image": "relative_pos/428/6458/A2D0015AB00011/762285/camera/338/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the green tube on the screen?\nA. cyan bounding box\nB. brown bounding box\nC. pink bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4344
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:17",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/906/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned on the right side of the wooden spoon visually?\nA. purple bounding box\nB. brown bounding box\nC. cyan bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.4017
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:18",
+    "image": "relative_pos/471/6805/A2D0015AC00022/720211/camera/319/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the metal rack in the 2D view?\nA. yellow bounding box\nB. brown bounding box\nC. cyan bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4005
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:19",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/820/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the bread slice in toaster on the screen?\nA. red bounding box\nB. blue bounding box\nC. yellow bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4074
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:20",
+    "image": "relative_pos/434/7167/A2D0015AC00526/830123/camera/0/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the plastic cup on the screen?\nA. green bounding box\nB. pink bounding box\nC. purple bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": " B. pink bounding box.",
+    "latency_sec": 0.7646
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:21",
+    "image": "relative_pos/708/11296/A2D0015AB00108/931257/camera/2906/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the name tag Bruce in the 2D view?\nA. green bounding box\nB. purple bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4447
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:22",
+    "image": "relative_pos/471/6805/A2D0015AC00022/720211/camera/105/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is to the left of the bottle of dark liquid in the 2D view?\nA. pink bounding box\nB. yellow bounding box\nC. cyan bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4399
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:23",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/2191/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is left of the glass jar with nuts visually?\nA. red bounding box\nB. purple bounding box\nC. blue bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4315
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:24",
+    "image": "relative_pos/600/10063/A2D0015AB00246/827514/camera/309/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the keychain visually?\nA. red bounding box\nB. brown bounding box\nC. purple bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4125
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:25",
+    "image": "relative_pos/490/7233/A2D0015AC00132/717485/camera/0/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is to the left of the toy dump truck in the image?\nA. cyan bounding box\nB. yellow bounding box\nC. purple bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4075
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:26",
+    "image": "relative_pos/483/7832/A2D0015AB00237/751993/camera/1940/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the tissue box in the image?\nA. green bounding box\nB. cyan bounding box\nC. red bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4137
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:27",
+    "image": "relative_pos/621/11236/A2D0015AB00078/944269/camera/3481/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned to the right of the glass container with liquid based on the picture?\nA. purple bounding box\nB. cyan bounding box\nC. red bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4132
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:28",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/966/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the bottle with liquid based on the picture?\nA. yellow bounding box\nB. purple bounding box\nC. red bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.4152
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:29",
+    "image": "relative_pos/621/11236/A2D0015AB00078/944269/camera/2763/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the jar with powder in the image?\nA. purple bounding box\nB. blue bounding box\nC. cyan bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.4316
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:30",
+    "image": "relative_pos/428/6458/A2D0015AB00011/762285/camera/940/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is left of the mouse in the image?\nA. cyan bounding box\nB. red bounding box\nC. pink bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4365
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:31",
+    "image": "relative_pos/494/7283/A2D0015AC00022/721825/camera/1416/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the metal rack on the screen?\nA. purple bounding box\nB. cyan bounding box\nC. green bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4093
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:32",
+    "image": "relative_pos/773/12783/A2D0015AC00132/938444/camera/971/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the pink bowl with orange spheres on the screen?\nA. cyan bounding box\nB. yellow bounding box\nC. brown bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4021
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:33",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/2682/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the bottle with yellow liquid visually?\nA. blue bounding box\nB. purple bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " Answer: B",
+    "latency_sec": 0.5476
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:34",
+    "image": "relative_pos/563/9699/A2D0015AB00129/903013/camera/1544/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the donut in the 2D view?\nA. green bounding box\nB. yellow bounding box\nC. blue bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4037
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:35",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/388/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the ketchup bottle based on the picture?\nA. pink bounding box\nB. green bounding box\nC. red bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4063
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:36",
+    "image": "relative_pos/438/5904/A2D0015AB00044/714517/camera/593/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the eraser on the screen?\nA. cyan bounding box\nB. blue bounding box\nC. red bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4106
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:37",
+    "image": "relative_pos/600/10063/A2D0015AB00246/827514/camera/309/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the keychain visually?\nA. red bounding box\nB. brown bounding box\nC. purple bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4103
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:38",
+    "image": "relative_pos/1127/15974/A2D0001AB00029/1041999/camera/136/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the left side of the plastic bottle with yellow cap in the image?\nA. brown bounding box\nB. green bounding box\nC. red bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4226
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:39",
+    "image": "relative_pos/498/8604/A2D0015AC00526/807235/camera/803/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the container with dark contents on the screen?\nA. brown bounding box\nB. green bounding box\nC. pink bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4184
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:40",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/465/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the bottle of orange liquid in the image?\nA. yellow bounding box\nB. purple bounding box\nC. pink bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4149
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:41",
+    "image": "relative_pos/498/8604/A2D0015AC00526/807235/camera/3868/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the red liquid container in the 2D view?\nA. pink bounding box\nB. red bounding box\nC. green bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.449
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:42",
+    "image": "relative_pos/480/6908/A2D0015AB00149/782356/camera/309/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the container with bread based on the picture?\nA. cyan bounding box\nB. red bounding box\nC. yellow bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.4485
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:43",
+    "image": "relative_pos/438/5904/A2D0015AB00044/714517/camera/691/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the pencil on the screen?\nA. purple bounding box\nB. yellow bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4397
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:44",
+    "image": "relative_pos/782/12302/A2D0015AC00055/930309/camera/464/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the tissue box in the 2D view?\nA. yellow bounding box\nB. red bounding box\nC. purple bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4255
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:45",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/2019/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the left side of the fork in the image?\nA. brown bounding box\nB. yellow bounding box\nC. pink bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.412
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:46",
+    "image": "relative_pos/486/7099/A2D0015AC00055/769669/camera/2744/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the cardboard box visually?\nA. pink bounding box\nB. red bounding box\nC. brown bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4109
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:47",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/1863/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the chairs based on the picture?\nA. cyan bounding box\nB. yellow bounding box\nC. purple bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4623
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:48",
+    "image": "relative_pos/782/12302/A2D0015AC00055/930309/camera/108/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the crumpled yellow napkin in the 2D view?\nA. red bounding box\nB. yellow bounding box\nC. purple bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.453
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:49",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/2542/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned on the right side of the spoon on the screen?\nA. cyan bounding box\nB. purple bounding box\nC. brown bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4106
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:50",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/580/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the glass with stirrer in the 2D view?\nA. blue bounding box\nB. yellow bounding box\nC. green bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4127
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:51",
+    "image": "relative_pos/708/11296/A2D0015AB00108/931257/camera/2906/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the name tag Bruce in the 2D view?\nA. green bounding box\nB. purple bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4106
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:52",
+    "image": "relative_pos/483/7832/A2D0015AB00237/751993/camera/2994/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the tissue box on the screen?\nA. cyan bounding box\nB. purple bounding box\nC. yellow bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.4224
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:53",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/398/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the left side of the ice tray with ice cubes visually?\nA. red bounding box\nB. cyan bounding box\nC. yellow bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4151
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:54",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/2623/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is to the left of the tomato slice on the screen?\nA. brown bounding box\nB. red bounding box\nC. yellow bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4464
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:55",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/4197/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the fork in the image?\nA. blue bounding box\nB. cyan bounding box\nC. brown bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4452
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:56",
+    "image": "relative_pos/563/9699/A2D0015AB00129/903013/camera/2680/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned on the right side of the oil bottle based on the picture?\nA. yellow bounding box\nB. purple bounding box\nC. pink bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4145
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:57",
+    "image": "relative_pos/470/6742/A2D0015AC00132/736773/camera/1421/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the crumpled paper in the 2D view?\nA. red bounding box\nB. green bounding box\nC. purple bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4113
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:58",
+    "image": "relative_pos/698/11186/A2D0015AC00104/922706/camera/535/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the sugar packets on the screen?\nA. yellow bounding box\nB. brown bounding box\nC. purple bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": " C",
+    "latency_sec": 0.4086
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:59",
+    "image": "relative_pos/563/9699/A2D0015AB00129/903013/camera/1096/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned to the right of the oil bottle visually?\nA. red bounding box\nB. blue bounding box\nC. pink bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4043
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:60",
+    "image": "relative_pos/704/11246/A2D0001AB00054/859954/camera/309/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the basketball on the screen?\nA. yellow bounding box\nB. cyan bounding box\nC. purple bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": " C",
+    "latency_sec": 0.4084
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:61",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/1571/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the pink bowl on the screen?\nA. red bounding box\nB. brown bounding box\nC. yellow bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.4326
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:62",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/294/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the glass with stirrer in the 2D view?\nA. pink bounding box\nB. yellow bounding box\nC. brown bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4347
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:63",
+    "image": "relative_pos/434/7167/A2D0015AC00526/830123/camera/957/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the power strip in the image?\nA. red bounding box\nB. blue bounding box\nC. brown bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4315
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:64",
+    "image": "relative_pos/526/8549/A2D0015AC00080/761432/camera/735/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the television based on the picture?\nA. pink bounding box\nB. blue bounding box\nC. yellow bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4069
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:65",
+    "image": "relative_pos/434/7167/A2D0015AC00526/830123/camera/762/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned on the right side of the plastic cup based on the picture?\nA. cyan bounding box\nB. brown bounding box\nC. blue bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": " C",
+    "latency_sec": 0.4019
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:66",
+    "image": "relative_pos/486/7099/A2D0015AC00055/769669/camera/618/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the plastic bottle in the image?\nA. red bounding box\nB. purple bounding box\nC. blue bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A.",
+    "latency_sec": 0.489
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:67",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/316/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the frying pan based on the picture?\nA. green bounding box\nB. brown bounding box\nC. red bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4013
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:68",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/0/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the bread in the 2D view?\nA. purple bounding box\nB. cyan bounding box\nC. blue bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.5036
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:69",
+    "image": "relative_pos/470/6742/A2D0015AC00132/736773/camera/0/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the plastic cup with red straw visually?\nA. brown bounding box\nB. cyan bounding box\nC. yellow bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.4788
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:70",
+    "image": "relative_pos/483/7832/A2D0015AB00237/751993/camera/1170/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the pen based on the picture?\nA. pink bounding box\nB. yellow bounding box\nC. green bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4943
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:71",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/2479/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the sponge visually?\nA. pink bounding box\nB. green bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4753
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:72",
+    "image": "relative_pos/536/8601/A2D0001AB00019/789885/camera/529/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the water bottle visually?\nA. brown bounding box\nB. yellow bounding box\nC. green bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D. red bounding box.",
+    "latency_sec": 0.9802
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:73",
+    "image": "relative_pos/470/6742/A2D0015AC00132/736773/camera/927/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the crumpled paper in the 2D view?\nA. purple bounding box\nB. brown bounding box\nC. green bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4931
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:74",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/799/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the bowl based on the picture?\nA. green bounding box\nB. pink bounding box\nC. purple bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B. pink bounding box.",
+    "latency_sec": 0.9309
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:75",
+    "image": "relative_pos/470/6742/A2D0015AC00132/736773/camera/120/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the crumpled paper on the screen?\nA. red bounding box\nB. brown bounding box\nC. cyan bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4982
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:76",
+    "image": "relative_pos/603/14368/A2D0015AC00163/1016752/camera/469/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the yellow bottle with orange liquid on the screen?\nA. green bounding box\nB. red bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4608
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:77",
+    "image": "relative_pos/485/7184/A2D0015AC00062/716012/camera/1479/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is to the left of the notebook based on the picture?\nA. blue bounding box\nB. brown bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A. blue bounding box.",
+    "latency_sec": 0.847
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:78",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/520/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the bottle of orange liquid on the screen?\nA. pink bounding box\nB. purple bounding box\nC. brown bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4643
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:79",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/1414/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the ketchup bottle on the screen?\nA. pink bounding box\nB. cyan bounding box\nC. brown bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4693
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:80",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/2495/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is above the ketchup bottle in the image?\nA. cyan bounding box\nB. red bounding box\nC. yellow bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A.",
+    "latency_sec": 0.5758
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:81",
+    "image": "relative_pos/698/11186/A2D0015AC00104/922706/camera/0/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the plastic container with white objects based on the picture?\nA. cyan bounding box\nB. brown bounding box\nC. pink bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.5003
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:82",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/4634/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the ice maker based on the picture?\nA. pink bounding box\nB. red bounding box\nC. yellow bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": " B",
+    "latency_sec": 0.5218
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:83",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/6121/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the ice maker machine visually?\nA. red bounding box\nB. blue bounding box\nC. brown bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4642
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:84",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/1358/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is left of the sponge based on the picture?\nA. green bounding box\nB. pink bounding box\nC. yellow bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4547
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:85",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/6071/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the bottle with yellow liquid based on the picture?\nA. cyan bounding box\nB. green bounding box\nC. pink bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4837
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:86",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/951/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the sponge based on the picture?\nA. brown bounding box\nB. blue bounding box\nC. pink bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": " B",
+    "latency_sec": 0.495
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:87",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/1069/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the ham slice on the screen?\nA. brown bounding box\nB. green bounding box\nC. cyan bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4904
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:88",
+    "image": "relative_pos/787/12278/A2D0001AB00031/940774/camera/98/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the spoon on the screen?\nA. pink bounding box\nB. blue bounding box\nC. purple bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4754
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:89",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/4082/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned to the right of the bottle of orange juice visually?\nA. yellow bounding box\nB. cyan bounding box\nC. brown bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4791
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:90",
+    "image": "relative_pos/452/7545/A2D0015AC00022/735520/camera/288/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned on the right side of the bottle in the 2D view?\nA. purple bounding box\nB. brown bounding box\nC. green bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " Answer: C",
+    "latency_sec": 0.6546
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:91",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/1385/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the ketchup bottle on the screen?\nA. cyan bounding box\nB. purple bounding box\nC. yellow bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.508
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:92",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/3295/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the glass with ice cubes visually?\nA. cyan bounding box\nB. blue bounding box\nC. purple bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.5073
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:93",
+    "image": "relative_pos/452/7545/A2D0015AC00022/735520/camera/1682/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned on the right side of the bottle with white label on the screen?\nA. red bounding box\nB. purple bounding box\nC. brown bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4581
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:94",
+    "image": "relative_pos/664/11259/A2D0015AC00132/862068/camera/407/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the wooden ramp based on the picture?\nA. brown bounding box\nB. red bounding box\nC. green bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.5137
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:95",
+    "image": "relative_pos/434/7167/A2D0015AC00526/830123/camera/394/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the plastic cup in the 2D view?\nA. yellow bounding box\nB. blue bounding box\nC. red bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4939
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:96",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/5130/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the glass cup with red liquid based on the picture?\nA. brown bounding box\nB. pink bounding box\nC. red bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.5269
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:97",
+    "image": "relative_pos/787/12278/A2D0001AB00031/940774/camera/302/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the cup based on the picture?\nA. purple bounding box\nB. pink bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4599
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:98",
+    "image": "relative_pos/451/8590/A2D0015AB00003/810761/camera/2496/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the mixed nuts visually?\nA. yellow bounding box\nB. cyan bounding box\nC. purple bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4884
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:99",
+    "image": "relative_pos/577/10230/A2D0001AB00043/837315/camera/311/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned on the right side of the placemat in the image?\nA. pink bounding box\nB. green bounding box\nC. brown bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": " C",
+    "latency_sec": 0.4759
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:100",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/1659/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is on the left side of the white jug with brown liquid based on the picture?\nA. yellow bounding box\nB. pink bounding box\nC. red bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A.",
+    "latency_sec": 0.5721
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:101",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/2469/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned on the right side of the bread slice visually?\nA. yellow bounding box\nB. brown bounding box\nC. pink bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.5004
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:102",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/1767/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the bread slice on the screen?\nA. brown bounding box\nB. green bounding box\nC. red bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.5127
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:103",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/2371/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the fork in the image?\nA. purple bounding box\nB. green bounding box\nC. pink bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4943
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:104",
+    "image": "relative_pos/773/12783/A2D0015AC00132/938444/camera/2560/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the pink bowl with orange balls based on the picture?\nA. red bounding box\nB. green bounding box\nC. cyan bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4358
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:105",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/4549/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned to the right of the plastic cup based on the picture?\nA. green bounding box\nB. cyan bounding box\nC. purple bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4886
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:106",
+    "image": "relative_pos/708/11296/A2D0015AB00108/931257/camera/1356/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned on the right side of the nameplate Bruce in the 2D view?\nA. brown bounding box\nB. blue bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.5443
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:107",
+    "image": "relative_pos/498/8604/A2D0015AC00526/807235/camera/3573/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the glass cup based on the picture?\nA. red bounding box\nB. cyan bounding box\nC. pink bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.5234
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:108",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/472/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the plate with ham and lettuce in the 2D view?\nA. green bounding box\nB. yellow bounding box\nC. red bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4704
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:109",
+    "image": "relative_pos/621/11236/A2D0015AB00078/944269/camera/4725/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the small glass container in the image?\nA. yellow bounding box\nB. brown bounding box\nC. red bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " Answer: A",
+    "latency_sec": 0.646
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:110",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/765/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the measuring cup based on the picture?\nA. brown bounding box\nB. yellow bounding box\nC. blue bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": " B",
+    "latency_sec": 0.4698
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:111",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/765/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the measuring cup based on the picture?\nA. brown bounding box\nB. yellow bounding box\nC. blue bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": " B",
+    "latency_sec": 0.4775
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:112",
+    "image": "relative_pos/563/9699/A2D0015AB00129/903013/camera/404/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the spatula in the image?\nA. purple bounding box\nB. brown bounding box\nC. pink bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.5183
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:113",
+    "image": "relative_pos/524/10918/A2D0001AB00029/929068/camera/110/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned on the right side of the red bowl based on the picture?\nA. pink bounding box\nB. red bounding box\nC. green bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4767
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:114",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/247/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned on the right side of the green toaster in the image?\nA. purple bounding box\nB. brown bounding box\nC. yellow bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4783
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:115",
+    "image": "relative_pos/621/11236/A2D0015AB00078/944269/camera/1982/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the frying pan in the 2D view?\nA. pink bounding box\nB. red bounding box\nC. purple bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4711
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:116",
+    "image": "relative_pos/773/12783/A2D0015AC00132/938444/camera/1308/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned to the right of the plastic container with white substance based on the picture?\nA. red bounding box\nB. yellow bounding box\nC. cyan bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4961
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:117",
+    "image": "relative_pos/470/6742/A2D0015AC00132/736773/camera/811/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the blue cloth in the image?\nA. yellow bounding box\nB. purple bounding box\nC. pink bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A.",
+    "latency_sec": 0.579
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:118",
+    "image": "relative_pos/782/12302/A2D0015AC00055/930309/camera/273/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the green cup with cartoon design on the screen?\nA. blue bounding box\nB. cyan bounding box\nC. purple bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.4947
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:119",
+    "image": "relative_pos/773/12783/A2D0015AC00132/938444/camera/1131/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the red bowl with orange balls in the image?\nA. red bounding box\nB. green bounding box\nC. cyan bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4804
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:120",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/2191/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is left of the glass jar with nuts visually?\nA. red bounding box\nB. purple bounding box\nC. blue bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4916
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:121",
+    "image": "relative_pos/486/7099/A2D0015AC00055/769669/camera/1826/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the left side of the pen in the 2D view?\nA. red bounding box\nB. purple bounding box\nC. pink bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4954
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:122",
+    "image": "relative_pos/639/10587/A2D0015AC00007/846769/camera/685/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the plastic bottle based on the picture?\nA. brown bounding box\nB. yellow bounding box\nC. cyan bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4799
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:123",
+    "image": "relative_pos/751/12239/A2D0001AB00019/906177/camera/817/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the cutting board visually?\nA. purple bounding box\nB. green bounding box\nC. red bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.489
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:124",
+    "image": "relative_pos/664/11259/A2D0015AC00132/862068/camera/224/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned on the right side of the brown pig plushie in the 2D view?\nA. purple bounding box\nB. yellow bounding box\nC. blue bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " Answer: C",
+    "latency_sec": 0.6361
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:125",
+    "image": "relative_pos/1127/15974/A2D0001AB00029/1041999/camera/272/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the bottle of cola visually?\nA. red bounding box\nB. purple bounding box\nC. blue bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4458
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:126",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/1730/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is left of the black frying pan based on the picture?\nA. green bounding box\nB. purple bounding box\nC. brown bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": " C",
+    "latency_sec": 0.4608
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:127",
+    "image": "relative_pos/528/8722/A2D0015AB00108/922779/camera/1348/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the kettle on the screen?\nA. brown bounding box\nB. purple bounding box\nC. blue bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4258
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:128",
+    "image": "relative_pos/486/7099/A2D0015AC00055/769669/camera/2744/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the cardboard box visually?\nA. pink bounding box\nB. red bounding box\nC. brown bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4419
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:129",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/2839/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is left of the sponge based on the picture?\nA. brown bounding box\nB. pink bounding box\nC. green bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": " C",
+    "latency_sec": 0.4453
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:130",
+    "image": "relative_pos/455/7813/A2D0015AB00003/751568/camera/963/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is on the left side of the shrimp based on the picture?\nA. red bounding box\nB. brown bounding box\nC. blue bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4319
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:131",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/2542/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned on the right side of the spoon on the screen?\nA. cyan bounding box\nB. purple bounding box\nC. brown bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4416
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:132",
+    "image": "relative_pos/589/10260/A2D0015AC00037/828990/camera/316/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is on the left side of the electrical outlet visually?\nA. green bounding box\nB. brown bounding box\nC. blue bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.418
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:133",
+    "image": "relative_pos/568/9295/A2D0015AB00149/804755/camera/272/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the Lays potato chips in the image?\nA. yellow bounding box\nB. cyan bounding box\nC. purple bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": " Answer: C",
+    "latency_sec": 0.5653
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:134",
+    "image": "relative_pos/428/6458/A2D0015AB00011/762285/camera/1858/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the white vase with green plant in the image?\nA. brown bounding box\nB. cyan bounding box\nC. blue bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4508
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:135",
+    "image": "relative_pos/483/7832/A2D0015AB00237/751993/camera/911/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the sheet of paper on the screen?\nA. pink bounding box\nB. brown bounding box\nC. blue bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4434
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:136",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/4006/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is on the left side of the plastic cup on the screen?\nA. yellow bounding box\nB. cyan bounding box\nC. green bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4816
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:137",
+    "image": "relative_pos/483/7832/A2D0015AB00237/751993/camera/188/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the sheet of paper visually?\nA. yellow bounding box\nB. cyan bounding box\nC. brown bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": " C",
+    "latency_sec": 0.43
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:138",
+    "image": "relative_pos/468/7304/A2D0015AC00168/727448/camera/875/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the clothing rack in the 2D view?\nA. green bounding box\nB. cyan bounding box\nC. purple bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": " Answer: C",
+    "latency_sec": 0.5722
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:139",
+    "image": "relative_pos/555/9446/A2D0015AB00045/809040/camera/0/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is above the purple shorts based on the picture?\nA. yellow bounding box\nB. blue bounding box\nC. cyan bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D. cyan bounding box.",
+    "latency_sec": 0.8194
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:140",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/3590/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the measuring cup on the screen?\nA. yellow bounding box\nB. red bounding box\nC. purple bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4665
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:141",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/1929/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the left side of the jar of oats in the 2D view?\nA. green bounding box\nB. red bounding box\nC. yellow bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4795
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:142",
+    "image": "relative_pos/498/8604/A2D0015AC00526/807235/camera/643/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is above the four small metal bins visually?\nA. green bounding box\nB. red bounding box\nC. cyan bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4646
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:143",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/348/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the bottle with orange liquid in the 2D view?\nA. blue bounding box\nB. purple bounding box\nC. brown bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4531
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:144",
+    "image": "relative_pos/433/7809/A2D0015AB00159/748389/camera/393/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the white cup visually?\nA. brown bounding box\nB. cyan bounding box\nC. green bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4386
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:145",
+    "image": "relative_pos/719/11464/A2D0015AB00061/929259/camera/561/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the snack package in the image?\nA. cyan bounding box\nB. yellow bounding box\nC. pink bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4405
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:146",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/514/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned on the right side of the slice of bread in toaster in the 2D view?\nA. yellow bounding box\nB. green bounding box\nC. blue bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": " B",
+    "latency_sec": 0.4546
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:147",
+    "image": "relative_pos/451/8590/A2D0015AB00003/810761/camera/51/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the mixed nuts in the image?\nA. yellow bounding box\nB. blue bounding box\nC. green bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4446
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:148",
+    "image": "relative_pos/470/6742/A2D0015AC00132/736773/camera/445/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the spilled liquid in the 2D view?\nA. blue bounding box\nB. yellow bounding box\nC. cyan bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4455
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:149",
+    "image": "relative_pos/483/7832/A2D0015AB00237/751993/camera/1044/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the remote control in the 2D view?\nA. green bounding box\nB. purple bounding box\nC. brown bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4494
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:150",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/6607/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the bottle of alcohol in the image?\nA. yellow bounding box\nB. green bounding box\nC. blue bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4689
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:151",
+    "image": "relative_pos/483/7832/A2D0015AB00237/751993/camera/843/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the tissue box in the 2D view?\nA. pink bounding box\nB. cyan bounding box\nC. purple bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": " C",
+    "latency_sec": 0.4886
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:152",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/2338/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the ice maker in the image?\nA. yellow bounding box\nB. brown bounding box\nC. blue bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4721
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:153",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/5989/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the plastic pitcher in the 2D view?\nA. green bounding box\nB. yellow bounding box\nC. purple bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.4414
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:154",
+    "image": "relative_pos/621/11236/A2D0015AB00078/944269/camera/441/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the spoon in the image?\nA. blue bounding box\nB. brown bounding box\nC. cyan bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4436
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:155",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/1195/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is to the left of the water faucet visually?\nA. pink bounding box\nB. purple bounding box\nC. green bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.431
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:156",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/5358/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the bottle with liquid based on the picture?\nA. cyan bounding box\nB. yellow bounding box\nC. purple bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4279
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:157",
+    "image": "relative_pos/536/8601/A2D0001AB00019/789885/camera/156/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the white rectangular container on the screen?\nA. yellow bounding box\nB. blue bounding box\nC. purple bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": " B",
+    "latency_sec": 0.4471
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:158",
+    "image": "relative_pos/751/12239/A2D0001AB00019/906177/camera/927/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the flour visually?\nA. green bounding box\nB. pink bounding box\nC. cyan bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4336
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:159",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/780/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the sponge in the 2D view?\nA. purple bounding box\nB. pink bounding box\nC. brown bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.4377
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:160",
+    "image": "relative_pos/438/5904/A2D0015AB00044/714517/camera/691/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the pencil on the screen?\nA. purple bounding box\nB. yellow bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4226
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:161",
+    "image": "relative_pos/787/12278/A2D0001AB00031/940774/camera/149/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is to the left of the cup based on the picture?\nA. purple bounding box\nB. yellow bounding box\nC. brown bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4315
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:162",
+    "image": "relative_pos/788/12288/A2D0016AC00009/931246/camera/0/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is above the plastic cup with dark liquid on the screen?\nA. blue bounding box\nB. purple bounding box\nC. cyan bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4554
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:163",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/2317/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the glass container with oats based on the picture?\nA. red bounding box\nB. blue bounding box\nC. brown bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4977
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:164",
+    "image": "relative_pos/486/7099/A2D0015AC00055/769669/camera/2546/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned to the right of the notebook visually?\nA. red bounding box\nB. yellow bounding box\nC. pink bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " Answer: A",
+    "latency_sec": 0.5711
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:165",
+    "image": "relative_pos/470/6742/A2D0015AC00132/736773/camera/1187/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the plastic cup with a black lid visually?\nA. brown bounding box\nB. yellow bounding box\nC. cyan bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": " B",
+    "latency_sec": 0.4393
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:166",
+    "image": "relative_pos/589/10260/A2D0015AC00037/828990/camera/1670/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the bowl visually?\nA. yellow bounding box\nB. green bounding box\nC. cyan bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.4434
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:167",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/966/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the bottle with liquid based on the picture?\nA. yellow bounding box\nB. purple bounding box\nC. red bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.4535
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:168",
+    "image": "relative_pos/470/6742/A2D0015AC00132/736773/camera/689/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the plastic cup with red straw and sticker based on the picture?\nA. yellow bounding box\nB. purple bounding box\nC. red bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4352
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:169",
+    "image": "relative_pos/782/12302/A2D0015AC00055/930309/camera/2005/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the blue tray in the image?\nA. cyan bounding box\nB. yellow bounding box\nC. blue bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4258
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:170",
+    "image": "relative_pos/480/6908/A2D0015AB00149/782356/camera/1428/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the bread slices visually?\nA. cyan bounding box\nB. green bounding box\nC. blue bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4144
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:171",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/3928/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the bottle with orange liquid on the screen?\nA. yellow bounding box\nB. pink bounding box\nC. red bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.439
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:172",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/476/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is on the left side of the measuring cup on the screen?\nA. green bounding box\nB. brown bounding box\nC. yellow bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": " C",
+    "latency_sec": 0.4783
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:173",
+    "image": "relative_pos/526/8549/A2D0015AC00080/761432/camera/500/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned on the right side of the television visually?\nA. green bounding box\nB. purple bounding box\nC. yellow bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.4303
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:174",
+    "image": "relative_pos/708/11296/A2D0015AB00108/931257/camera/1356/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned on the right side of the nameplate Bruce in the 2D view?\nA. brown bounding box\nB. blue bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4489
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:175",
+    "image": "relative_pos/524/10918/A2D0001AB00029/929068/camera/807/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the orange bag in the image?\nA. red bounding box\nB. cyan bounding box\nC. purple bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4275
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:176",
+    "image": "relative_pos/751/12239/A2D0001AB00019/906177/camera/781/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the cutting board visually?\nA. red bounding box\nB. pink bounding box\nC. brown bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " Answer: D",
+    "latency_sec": 0.5734
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:177",
+    "image": "relative_pos/603/14368/A2D0015AC00163/1016752/camera/251/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the plastic bottle with yellow cap on the screen?\nA. blue bounding box\nB. purple bounding box\nC. yellow bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4595
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:178",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/3549/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the empty glass based on the picture?\nA. yellow bounding box\nB. pink bounding box\nC. green bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4377
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:179",
+    "image": "relative_pos/741/11649/A2D0015AB00129/931186/camera/960/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the kiwis visually?\nA. blue bounding box\nB. cyan bounding box\nC. brown bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4425
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:180",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/5875/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the fork based on the picture?\nA. green bounding box\nB. red bounding box\nC. pink bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.4371
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:181",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/2721/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned on the right side of the plate visually?\nA. cyan bounding box\nB. yellow bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4444
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:182",
+    "image": "relative_pos/451/8590/A2D0015AB00003/810761/camera/102/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the vegetables broccoli carrots visually?\nA. purple bounding box\nB. brown bounding box\nC. green bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4507
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:183",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/54/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the plastic cup with stirrer visually?\nA. green bounding box\nB. yellow bounding box\nC. blue bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": " C",
+    "latency_sec": 0.4254
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:184",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/5202/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is on the left side of the plastic cup with liquid visually?\nA. cyan bounding box\nB. red bounding box\nC. purple bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4329
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:185",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/556/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the plate with toasted bread in the image?\nA. yellow bounding box\nB. cyan bounding box\nC. brown bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4329
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:186",
+    "image": "relative_pos/451/8590/A2D0015AB00003/810761/camera/1834/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the mixed nuts and seeds on the screen?\nA. blue bounding box\nB. pink bounding box\nC. red bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4357
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:187",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/6392/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the bottle of alcohol in the 2D view?\nA. blue bounding box\nB. brown bounding box\nC. purple bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.4374
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:188",
+    "image": "relative_pos/708/11296/A2D0015AB00108/931257/camera/1282/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the blue cup with pens in the 2D view?\nA. blue bounding box\nB. green bounding box\nC. red bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4568
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:189",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/2638/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the white bottle on the screen?\nA. green bounding box\nB. yellow bounding box\nC. cyan bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": " B",
+    "latency_sec": 0.4477
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:190",
+    "image": "relative_pos/708/11296/A2D0015AB00108/931257/camera/1356/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned on the right side of the nameplate Bruce in the 2D view?\nA. brown bounding box\nB. blue bounding box\nC. cyan bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4363
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:191",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/4112/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the bottle of orange liquid in the image?\nA. yellow bounding box\nB. blue bounding box\nC. purple bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A.",
+    "latency_sec": 0.5126
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:192",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/6121/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the ice maker machine visually?\nA. red bounding box\nB. blue bounding box\nC. brown bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4538
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:193",
+    "image": "relative_pos/698/11186/A2D0015AC00104/922706/camera/0/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the plastic container with white objects based on the picture?\nA. cyan bounding box\nB. brown bounding box\nC. pink bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4531
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:194",
+    "image": "relative_pos/536/8601/A2D0001AB00019/789885/camera/78/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the water bottle based on the picture?\nA. yellow bounding box\nB. cyan bounding box\nC. red bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": " Answer: C",
+    "latency_sec": 0.6275
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:195",
+    "image": "relative_pos/451/8590/A2D0015AB00003/810761/camera/714/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the boiled eggs in the 2D view?\nA. yellow bounding box\nB. blue bounding box\nC. brown bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4722
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:196",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/5145/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is left of the plastic cup with liquid and ice in the 2D view?\nA. red bounding box\nB. cyan bounding box\nC. brown bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4613
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:197",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/820/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the bread slice in toaster on the screen?\nA. red bounding box\nB. blue bounding box\nC. yellow bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.446
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:198",
+    "image": "relative_pos/451/8590/A2D0015AB00003/810761/camera/1337/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the mixed nuts based on the picture?\nA. pink bounding box\nB. cyan bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4494
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:199",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/3914/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the glass bottle based on the picture?\nA. purple bounding box\nB. brown bounding box\nC. green bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.434
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:200",
+    "image": "relative_pos/451/8590/A2D0015AB00003/810761/camera/1307/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is above the broccoli and red bell peppers on the screen?\nA. blue bounding box\nB. pink bounding box\nC. brown bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4503
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:201",
+    "image": "relative_pos/753/12240/A2D0001AB00054/940431/camera/267/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is left of the bottle dark green visually?\nA. purple bounding box\nB. cyan bounding box\nC. red bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4947
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:202",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/430/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the plate with lettuce and ham based on the picture?\nA. green bounding box\nB. yellow bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4403
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:203",
+    "image": "relative_pos/664/11259/A2D0015AC00132/862068/camera/140/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the wooden pegboard toy based on the picture?\nA. cyan bounding box\nB. red bounding box\nC. green bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": " B",
+    "latency_sec": 0.4451
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:204",
+    "image": "relative_pos/751/12239/A2D0001AB00019/906177/camera/853/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the bottles on the screen?\nA. purple bounding box\nB. blue bounding box\nC. yellow bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4392
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:205",
+    "image": "relative_pos/732/11954/A2D0015AC00132/893968/camera/1039/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the container with yellow powder visually?\nA. red bounding box\nB. brown bounding box\nC. pink bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4496
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:206",
+    "image": "relative_pos/732/11954/A2D0015AC00132/893968/camera/1152/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the purple measuring cup with flour in the image?\nA. green bounding box\nB. cyan bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4267
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:207",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/158/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the cutting board in the 2D view?\nA. cyan bounding box\nB. green bounding box\nC. pink bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4496
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:208",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/1979/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the bread slice on the screen?\nA. blue bounding box\nB. yellow bounding box\nC. red bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.4876
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:209",
+    "image": "relative_pos/483/7832/A2D0015AB00237/751993/camera/2216/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the tissue box on the screen?\nA. purple bounding box\nB. green bounding box\nC. red bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.4417
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:210",
+    "image": "relative_pos/550/9722/A2D0015AB00238/823323/camera/205/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the cucumber on the screen?\nA. red bounding box\nB. blue bounding box\nC. yellow bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4402
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:211",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/2317/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned to the right of the glass container with oats based on the picture?\nA. red bounding box\nB. blue bounding box\nC. brown bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4445
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:212",
+    "image": "relative_pos/1127/15974/A2D0001AB00029/1041999/camera/136/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the left side of the plastic bottle with yellow cap in the image?\nA. brown bounding box\nB. green bounding box\nC. red bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4334
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:213",
+    "image": "relative_pos/498/8604/A2D0015AC00526/807235/camera/2881/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the plastic cup visually?\nA. brown bounding box\nB. pink bounding box\nC. green bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.437
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:214",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/1879/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is on the left side of the jar based on the picture?\nA. red bounding box\nB. yellow bounding box\nC. green bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4453
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:215",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/2644/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned to the right of the plastic cup with measurements visually?\nA. blue bounding box\nB. green bounding box\nC. yellow bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4304
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:216",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/738/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is above the wooden spoon in the 2D view?\nA. purple bounding box\nB. brown bounding box\nC. blue bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": " D",
+    "latency_sec": 0.4446
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:217",
+    "image": "relative_pos/498/8604/A2D0015AC00526/807235/camera/3933/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is above the plastic cup based on the picture?\nA. green bounding box\nB. pink bounding box\nC. purple bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.4369
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:218",
+    "image": "relative_pos/483/7832/A2D0015AB00237/751993/camera/2308/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the remote control based on the picture?\nA. red bounding box\nB. brown bounding box\nC. yellow bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4451
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:219",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/7269/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the plastic cup with red liquid and ice cubes in the image?\nA. red bounding box\nB. purple bounding box\nC. green bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.444
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:220",
+    "image": "relative_pos/639/10587/A2D0015AC00007/846769/camera/685/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the plastic bottle based on the picture?\nA. brown bounding box\nB. yellow bounding box\nC. cyan bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4453
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:221",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/598/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the bread slice visually?\nA. cyan bounding box\nB. red bounding box\nC. green bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": " B",
+    "latency_sec": 0.4613
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:222",
+    "image": "relative_pos/603/14368/A2D0015AC00163/1016752/camera/383/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the plastic bottle with yellow cap visually?\nA. purple bounding box\nB. blue bounding box\nC. cyan bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4379
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:223",
+    "image": "relative_pos/498/8604/A2D0015AC00526/807235/camera/643/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is above the four small metal bins visually?\nA. green bounding box\nB. red bounding box\nC. cyan bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4332
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:224",
+    "image": "relative_pos/486/7099/A2D0015AC00055/769669/camera/1783/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned right of the notebook in the image?\nA. purple bounding box\nB. blue bounding box\nC. green bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4168
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:225",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/2010/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned to the right of the bottle with liquid visually?\nA. green bounding box\nB. pink bounding box\nC. brown bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4327
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:226",
+    "image": "relative_pos/492/10014/A2D0015AB00108/811345/camera/1071/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the red can with yellow lid based on the picture?\nA. cyan bounding box\nB. green bounding box\nC. pink bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4414
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:227",
+    "image": "relative_pos/425/7507/A2D0001AB00019/930968/camera/210/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is on the left side of the bowl based on the picture?\nA. brown bounding box\nB. yellow bounding box\nC. red bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A.",
+    "latency_sec": 0.5015
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:228",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/6781/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the glass with red liquid and ice cubes in the image?\nA. green bounding box\nB. cyan bounding box\nC. blue bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.4374
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:229",
+    "image": "relative_pos/550/9722/A2D0015AB00238/823323/camera/1173/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the orange utensil holder in the 2D view?\nA. cyan bounding box\nB. red bounding box\nC. pink bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4418
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:230",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/565/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the small glass in the image?\nA. cyan bounding box\nB. blue bounding box\nC. pink bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4618
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:231",
+    "image": "relative_pos/433/7809/A2D0015AB00159/748389/camera/2762/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned right of the white pitcher based on the picture?\nA. red bounding box\nB. brown bounding box\nC. blue bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4736
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:232",
+    "image": "relative_pos/1127/15974/A2D0001AB00029/1041999/camera/136/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the left side of the plastic bottle with yellow cap in the image?\nA. brown bounding box\nB. green bounding box\nC. red bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4301
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:233",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/744/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the left of the fork based on the picture?\nA. green bounding box\nB. red bounding box\nC. pink bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": " A",
+    "latency_sec": 0.4335
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:234",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/4446/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the bottle with orange liquid based on the picture?\nA. pink bounding box\nB. brown bounding box\nC. red bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": " C",
+    "latency_sec": 0.4532
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:235",
+    "image": "relative_pos/738/11661/A2D0015AC00022/885919/camera/180/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is left of the blue soda cans on the screen?\nA. blue bounding box\nB. brown bounding box\nC. purple bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.43
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:236",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/2371/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the fork in the image?\nA. purple bounding box\nB. green bounding box\nC. pink bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4561
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:237",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/2606/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the plastic cup with spoon in the image?\nA. brown bounding box\nB. pink bounding box\nC. yellow bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C. yellow bounding box.",
+    "latency_sec": 0.827
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:238",
+    "image": "relative_pos/563/9699/A2D0015AB00129/903013/camera/1424/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned below the plate in the image?\nA. red bounding box\nB. yellow bounding box\nC. brown bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": " A",
+    "latency_sec": 0.4537
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:239",
+    "image": "relative_pos/596/10071/A2D0015AB00246/824534/camera/379/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned to the right of the rice cooker based on the picture?\nA. blue bounding box\nB. purple bounding box\nC. cyan bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D.",
+    "latency_sec": 0.5304
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:240",
+    "image": "relative_pos/507/7554/A2D0015AB00044/922017/camera/430/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is above the plate with lettuce and ham based on the picture?\nA. green bounding box\nB. yellow bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": " D",
+    "latency_sec": 0.4474
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:241",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/822/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is on the left side of the faucet based on the picture?\nA. purple bounding box\nB. blue bounding box\nC. red bounding box\nD. yellow bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4391
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:242",
+    "image": "relative_pos/455/7813/A2D0015AB00003/751568/camera/333/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is left of the small white bowl with dark contents in the 2D view?\nA. brown bounding box\nB. pink bounding box\nC. cyan bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": " D",
+    "latency_sec": 0.4257
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:243",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/5514/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the fork visually?\nA. green bounding box\nB. brown bounding box\nC. pink bounding box\nD. cyan bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": " B",
+    "latency_sec": 0.4369
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:244",
+    "image": "relative_pos/857/13364/A2D0001AB00023/1053853/camera/3631/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned right of the bottle with yellow liquid in the 2D view?\nA. purple bounding box\nB. green bounding box\nC. red bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": " D",
+    "latency_sec": 0.4599
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:245",
+    "image": "relative_pos/787/12278/A2D0001AB00031/940774/camera/1737/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is to the left of the white bowl in the image?\nA. brown bounding box\nB. purple bounding box\nC. red bounding box\nD. pink bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " A",
+    "latency_sec": 0.4738
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:246",
+    "image": "relative_pos/480/6908/A2D0015AB00149/782356/camera/100/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is positioned below the lampshade based on the picture?\nA. red bounding box\nB. blue bounding box\nC. pink bounding box\nD. green bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4488
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:247",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/92/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the left side of the plastic cup with fork on the screen?\nA. pink bounding box\nB. brown bounding box\nC. red bounding box\nD. purple bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": " A",
+    "latency_sec": 0.4487
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:248",
+    "image": "relative_pos/544/8809/A2D0015AB00187/826588/camera/780/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich object is positioned below the sponge in the 2D view?\nA. purple bounding box\nB. pink bounding box\nC. brown bounding box\nD. red bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": " C",
+    "latency_sec": 0.4414
+  },
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:249",
+    "image": "relative_pos/486/7099/A2D0015AC00055/769669/camera/2546/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is positioned to the right of the notebook visually?\nA. red bounding box\nB. yellow bounding box\nC. pink bounding box\nD. brown bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": " Answer: A",
+    "latency_sec": 0.5764
+  }
+]

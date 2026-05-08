@@ -1,0 +1,20 @@
+[
+  {
+    "id": "QA_RELATIVE_POS_GROUNDING:1",
+    "image": "relative_pos/580/11286/A2D0015AB00011/931292/camera/5997/head_color.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is left of the bottle with liquid on the screen?\nA. pink bounding box\nB. green bounding box\nC. brown bounding box\nD. blue bounding box"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "",
+    "gt_answer": "B",
+    "raw_output": "ERROR: Input type (float) and bias type (c10::Half) should be the same",
+    "latency_sec": null
+  }
+]

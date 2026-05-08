@@ -1,0 +1,2902 @@
+[
+  {
+    "id": "QA_MISTAKE_CLASSIFY:1",
+    "image": [
+      "2325/31307/A2D0013B200289/1300980/camera/557/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/562/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/567/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/572/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/577/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/583/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the building blocks from the storage box'?\nA. The building block was dropped because the left gripper's grip was too weak.\nB. The storage box tipped over due to the robot moving it too quickly.\nC. The right gripper accidentally grabbed the storage box instead of the building block.\nD. When placing the building block on the table, the lifting height was too low, causing the block to fall."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 1.2424
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:2",
+    "image": [
+      "2325/31307/A2D0013B200289/1300980/camera/384/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/389/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/395/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/401/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/407/head_color.jpg",
+      "2325/31307/A2D0013B200289/1300980/camera/413/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the building blocks from the storage box'?\nA. The left robotic gripper failed to hold the building blocks when picking them up.\nB. The building blocks were too heavy for the robot's left gripper to lift properly.\nC. The storage box was empty, causing the robot to pick up nothing.\nD. The right gripper accidentally knocked over the storage box while trying to assist."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.8603
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:3",
+    "image": [
+      "2325/31314/A2D0013B200289/1301006/camera/816/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/822/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/828/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/835/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/841/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/848/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the water bottle from the ground'?\nA. Attempted to pick up a non-existent object from the ground\nB. The right gripper accidentally knocked over a water bottle on the table\nC. Failed to grasp the water bottle\nD. Incorrectly placed the water bottle in the wrong basket"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A\n",
+    "latency_sec": 0.8429
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:4",
+    "image": [
+      "2325/31314/A2D0013B200289/1301006/camera/626/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/639/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/653/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/666/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/680/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/694/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the water bottle from the ground'?\nA. The robot accidentally knocked over the basket of water bottles\nB. The water bottle was too heavy for the robot's gripper to lift\nC. Failed to grip the water bottle\nD. The robot's sensors misidentified the water bottle as a different object"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A\n",
+    "latency_sec": 0.8473
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:5",
+    "image": [
+      "2325/31314/A2D0013B200289/1301006/camera/430/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/434/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/438/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/443/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/447/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/452/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the water bottle from the ground'?\nA. The robot failed to recognize the water bottle and attempted to pick up the crate instead.\nB. The robot's right gripper accidentally knocked over a water bottle on the table.\nC. When picking up the water bottle, it slipped and fell.\nD. The robot grabbed the wrong water bottle from the crate."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A\n",
+    "latency_sec": 0.8341
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:6",
+    "image": [
+      "2325/31314/A2D0013B200289/1301006/camera/280/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/291/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/302/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/313/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/324/head_color.jpg",
+      "2325/31314/A2D0013B200289/1301006/camera/335/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the water bottle from the ground'?\nA. The water bottle was accidentally knocked over by the robot's gripper\nB. The robot dropped the water bottle after successfully picking it up\nC. The right gripper mistakenly picked up a non-existent object\nD. Failed to grip the water bottle"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B\n",
+    "latency_sec": 0.8451
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:7",
+    "image": [
+      "2325/31344/A2D0013B200289/1301071/camera/1013/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1020/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1028/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1035/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1043/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/1051/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper placed the held shower gel onto the shelf'?\nA. The robot accidentally picked up the wrong item instead of the shower gel.\nB. The robot's right gripper interfered with the placement, causing the shower gel to be misaligned.\nC. The shelf was too full, causing the robot to knock over other items while placing the shower gel.\nD. When placing the shower gel on the shelf, it was not secured properly and fell off."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": "A\n",
+    "latency_sec": 0.8434
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:8",
+    "image": [
+      "2325/31344/A2D0013B200289/1301071/camera/595/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/601/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/607/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/613/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/619/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/626/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the white bottled shampoo on the shelf'?\nA. The robot's left gripper accidentally knocked over a bottle of orange liquid.\nB. The robot picked up the wrong item, grabbing a pink bottle instead of the white one.\nC. The white bottled shampoo wasn't secured properly and fell off the shelf.\nD. The shopping cart was pushed into the shelf, causing items to fall."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.8362
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:9",
+    "image": [
+      "2325/31344/A2D0013B200289/1301071/camera/258/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/275/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/293/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/311/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/329/head_color.jpg",
+      "2325/31344/A2D0013B200289/1301071/camera/347/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the white bottle of shampoo from the shelf'?\nA. The robot mistakenly grabbed a pink container from the lower shelf.\nB. The robot accidentally picked up a bottle of orange liquid instead.\nC. The robot dropped the shopping cart, spilling its contents.\nD. The robot failed to pick up the white bottled shampoo."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.863
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:10",
+    "image": [
+      "2325/31357/A2D0013B200289/1301085/camera/836/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/847/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/859/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/870/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/882/head_color.jpg",
+      "2325/31357/A2D0013B200289/1301085/camera/894/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the black bag of chips from the shopping cart'?\nA. The right gripper accidentally picked up a green bag instead.\nB. The left gripper failed to grab the black bag of chips.\nC. The shopping cart moved out of position unexpectedly.\nD. The robot dropped a purple bag on the floor."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8495
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:11",
+    "image": [
+      "2325/31329/A2D0013B200289/1301093/camera/498/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/509/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/520/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/531/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/542/head_color.jpg",
+      "2325/31329/A2D0013B200289/1301093/camera/554/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'she bends at the waist, picking up the cleaning cloth on top of the toilet tank with her left gripper'?\nA. The robot's right gripper accidentally knocked over the toilet lid.\nB. The floor became wet due to a water spill from the robot.\nC. The robot failed to grasp the cloth.\nD. The cleaning cloth slipped off the toilet tank."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.8511
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:12",
+    "image": [
+      "2325/31318/A2D0001AB00086/1293918/camera/271/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/283/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/295/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/307/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/319/head_color.jpg",
+      "2325/31318/A2D0001AB00086/1293918/camera/331/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'both grippers work together to tie the curtain sash'?\nA. The curtains weren't tied properly because the grippers weren't aligned correctly.\nB. The robot used too much force, causing the curtain fabric to tear.\nC. The sash was too short for the robot to tie it effectively.\nD. The robot's sensors failed, leading it to miss the curtain entirely."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7827
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:13",
+    "image": [
+      "2325/31311/A2D0013B200289/1282922/camera/675/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/680/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/685/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/690/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/695/head_color.jpg",
+      "2325/31311/A2D0013B200289/1282922/camera/700/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'hand the bottled drink held in the right gripper to the customer in front'?\nA. The robot gave the wrong item, handing a water bottle instead.\nB. The bottled drink fell before the guest could grasp it.\nC. The robot handed an empty bottle instead of the bottled drink.\nD. The robot's gripper accidentally knocked over a nearby chair."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A\n",
+    "latency_sec": 0.8497
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:14",
+    "image": [
+      "2325/31308/A2D0001AB00086/1278053/camera/468/head_color.jpg",
+      "2325/31308/A2D0001AB00086/1278053/camera/477/head_color.jpg",
+      "2325/31308/A2D0001AB00086/1278053/camera/486/head_color.jpg",
+      "2325/31308/A2D0001AB00086/1278053/camera/495/head_color.jpg",
+      "2325/31308/A2D0001AB00086/1278053/camera/504/head_color.jpg",
+      "2325/31308/A2D0001AB00086/1278053/camera/513/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper pours water from the held kettle into the cup on the table'?\nA. The robot placed the cup in the wrong position before pouring.\nB. The kettle was held too high, causing the water to splash out of the cup.\nC. When pouring water into the cup, it missed the rim and spilled onto the table.\nD. The left gripper accidentally knocked over the cup while the right gripper was pouring."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7785
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:15",
+    "image": [
+      "2325/31310/A2D0001AB00086/1284300/camera/181/head_color.jpg",
+      "2325/31310/A2D0001AB00086/1284300/camera/187/head_color.jpg",
+      "2325/31310/A2D0001AB00086/1284300/camera/193/head_color.jpg",
+      "2325/31310/A2D0001AB00086/1284300/camera/199/head_color.jpg",
+      "2325/31310/A2D0001AB00086/1284300/camera/205/head_color.jpg",
+      "2325/31310/A2D0001AB00086/1284300/camera/212/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper grabs the backpack on the desk'?\nA. The robot didn't hold the backpack properly, causing it to fall.\nB. The robot accidentally grabbed the pencil case instead of the backpack.\nC. The robot failed to recognize the backpack and tried to pick up the table.\nD. The robot's right gripper moved too quickly and knocked over the pink object."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B\n",
+    "latency_sec": 0.7739
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:16",
+    "image": [
+      "2325/31312/A2D0001AB00086/1284244/camera/910/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/918/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/926/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/934/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/942/head_color.jpg",
+      "2325/31312/A2D0001AB00086/1284244/camera/950/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper places the held plate into the dishwasher's slot'?\nA. The plate was placed into the dishwasher slot, but it wasn't aligned properly and positioned incorrectly.\nB. The faucet was turned on, causing water to spill over the sink.\nC. The robot's right gripper accidentally grabbed the bowl instead of the plate.\nD. The dishwasher door was left open, preventing the plate from being placed inside."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7872
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:17",
+    "image": [
+      "2325/31316/A2D0001AB00023/1281609/camera/208/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/213/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/218/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/223/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/228/head_color.jpg",
+      "2325/31316/A2D0001AB00023/1281609/camera/234/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper places the held pear onto the plate'?\nA. The pear fell off the plate because it wasn't held firmly enough by the left gripper.\nB. The plate was too small to hold the pear, causing it to fall off.\nC. The sink interfered with the placement of the pear on the plate.\nD. The robot's right gripper accidentally knocked the pear off the plate."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7818
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:18",
+    "image": [
+      "2325/31319/A2D0001AB00086/1280679/camera/578/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/580/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/583/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/586/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/589/head_color.jpg",
+      "2325/31319/A2D0001AB00086/1280679/camera/592/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'collaborate with both grippers to insert the uncapped pen into its corresponding pen cap'?\nA. The table was uneven, causing the robot's grippers to move inaccurately.\nB. The cap didn't align properly with the pen, causing it to fail to close.\nC. The robot's grippers were too tight, damaging the pen and cap.\nD. The robot accidentally picked up the wrong pen from the box."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8323
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:19",
+    "image": [
+      "2325/31327/A2D0001AB00086/1281489/camera/731/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/735/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/739/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/744/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/748/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/753/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper places the held paintbrush into the pen holder on the table'?\nA. The paintbrush was placed in the wrong orientation, causing the pen holder to tip over.\nB. When the robotic gripper put the pen into the pen holder, it didn't hold it tightly, and the marker pen dropped onto the table.\nC. The robot's right gripper accidentally knocked over the pen holder.\nD. The red box on the table interfered with the robot's movement, causing the mistake."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8587
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:20",
+    "image": [
+      "2325/31327/A2D0001AB00086/1281489/camera/220/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/225/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/231/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/236/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/242/head_color.jpg",
+      "2325/31327/A2D0001AB00086/1281489/camera/248/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the marker on the table'?\nA. The white pen was mistakenly picked up instead of the black marker.\nB. The marker fell because it wasn't held properly by the right gripper.\nC. The left gripper accidentally knocked over the basket on the table.\nD. The robot's sensors failed to detect the red box, causing confusion."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A\n",
+    "latency_sec": 0.8321
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:21",
+    "image": [
+      "2325/31329/A2D0013B200289/1282333/camera/340/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/341/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/342/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/344/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/345/head_color.jpg",
+      "2325/31329/A2D0013B200289/1282333/camera/347/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'wipe the toilet with the cloth in gripper'?\nA. While wiping the toilet, the cleaning cloth fell to the ground.\nB. The robot used the wrong side of the cloth, making the toilet dirtier.\nC. The toilet brush was knocked over by the robot's gripper.\nD. The robot accidentally sprayed water on the floor instead of the toilet."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.8658
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:22",
+    "image": [
+      "2325/31315/A2D0015AB00011/1276472/camera/761/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/765/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/769/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/773/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/777/head_color.jpg",
+      "2325/31315/A2D0015AB00011/1276472/camera/781/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper throws the crumpled paper into the trash can on the desk'?\nA. The crumpled paper missed the trash can and fell to the table.\nB. The left gripper accidentally knocked over the trash can.\nC. The robot grabbed the wrong item, picking up the tissue box instead of the paper.\nD. The right gripper dropped the crumpled paper before attempting to throw it."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7777
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:23",
+    "image": [
+      "2325/31326/A2D0001AB00086/1281406/camera/1183/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1186/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1190/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1194/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1198/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/1202/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the tea bag from the container on the table'?\nA. The right gripper accidentally knocked over the glass of water.\nB. The tea bag was dropped after being picked up by the left gripper.\nC. The container lid was not properly closed by the robot.\nD. The left gripper grabbed the wrong item from the table."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B. The tea bag was dropped after being picked up by the left gripper.\n",
+    "latency_sec": 1.2201
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:24",
+    "image": [
+      "2325/31326/A2D0001AB00086/1281406/camera/391/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/397/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/403/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/409/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/415/head_color.jpg",
+      "2325/31326/A2D0001AB00086/1281406/camera/421/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper pours water from the held kettle into the cup'?\nA. The kettle was not lifted high enough, causing water to splash out prematurely.\nB. The left gripper accidentally knocked over the empty cup on the table.\nC. When pouring water into the cup, it missed the opening and spilled it onto the table.\nD. The robot's right gripper grabbed the wrong cup instead of the kettle."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.8749
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:25",
+    "image": [
+      "2325/31309/A2D0001AB00086/1280107/camera/511/head_color.jpg",
+      "2325/31309/A2D0001AB00086/1280107/camera/516/head_color.jpg",
+      "2325/31309/A2D0001AB00086/1280107/camera/521/head_color.jpg",
+      "2325/31309/A2D0001AB00086/1280107/camera/526/head_color.jpg",
+      "2325/31309/A2D0001AB00086/1280107/camera/531/head_color.jpg",
+      "2325/31309/A2D0001AB00086/1280107/camera/537/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'both grippers work together to unfold and smooth out a pair of messy shorts'?\nA. The waistband of the shorts slipped down because they weren't held properly by the robot's grippers.\nB. The table was uneven, causing the shorts to shift and the waistband to slip down.\nC. The robot moved too quickly.\nD. The robot accidentally grabbed the wrong part of the shorts, pulling on the leg instead of the waist."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.776
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:26",
+    "image": [
+      "2325/31324/A2D0013B200289/1282951/camera/1220/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1223/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1226/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1229/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1232/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1235/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper grabs the right side of the collar'?\nA. The robot's sensors failed to detect the hanger, causing a delay in action.\nB. When grabbing the collar of the clothes, it wasn't caught properly and slipped from the hand.\nC. The right gripper applied too much force, tearing a small part of the shirt.\nD. The left gripper accidentally grabbed the sleeve instead of the collar."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8609
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:27",
+    "image": [
+      "2325/31324/A2D0013B200289/1282951/camera/1090/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1093/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1096/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1099/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1102/head_color.jpg",
+      "2325/31324/A2D0013B200289/1282951/camera/1105/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper grabs the right side of the collar'?\nA. The left gripper accidentally grabbed the sleeve instead of the collar.\nB. The collar slipped from the hand because it wasn't held firmly.\nC. The shirt was too large for the robot's grippers to handle properly.\nD. The robot's sensors failed to detect the presence of the hanger."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A\n",
+    "latency_sec": 0.8548
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:28",
+    "image": [
+      "2325/31328/A2D0001AB00086/1279770/camera/955/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/959/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/963/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/967/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/971/head_color.jpg",
+      "2325/31328/A2D0001AB00086/1279770/camera/975/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper placed the held cup onto the table'?\nA. The tablecloth shifted unexpectedly, causing the cup to slide off the table.\nB. The left gripper moved too quickly, spilling the contents of the cup before it was fully placed on the table.\nC. When placing the water cup on the table, the left gripper collided with the cup, causing it to topple over.\nD. The right gripper accidentally grabbed the bread instead of assisting in placing the cup."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.8274
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:29",
+    "image": [
+      "2325/31314/A2D0001AB00023/1281171/camera/1763/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1772/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1781/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1790/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1799/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1808/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper lifts the grabbed bottle of water'?\nA. The robot's right gripper mistakenly grabbed an empty bottle instead of a full one.\nB. The robot accidentally knocked over a bottle while trying to grab another one.\nC. The table was uneven, causing the robot to lose balance and drop the bottle.\nD. When picking up the bottled water, it failed to grip it properly and it fell."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.8065
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:30",
+    "image": [
+      "2325/31314/A2D0001AB00023/1281171/camera/1549/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1552/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1556/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1560/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1564/head_color.jpg",
+      "2325/31314/A2D0001AB00023/1281171/camera/1568/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper lifts the grabbed bottle of water'?\nA. The robot accidentally knocked over a second bottle while trying to pick up the first one.\nB. The robot's gripper moved too quickly, causing the table to shake and the bottle to fall.\nC. When picking up the bottled water, the robot failed to grasp it and the bottle fell.\nD. The robot grabbed the wrong bottle, picking up an empty one instead of the full one."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7967
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:31",
+    "image": [
+      "2325/31338/A2D0001AB00086/1280641/camera/680/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/685/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/690/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/695/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/700/head_color.jpg",
+      "2325/31338/A2D0001AB00086/1280641/camera/705/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper plugs the charger in gripper into the power strip'?\nA. The charger wasn't aligned with the socket properly and fell off when inserting it into the power strip.\nB. The right gripper accidentally knocked over the power strip while trying to plug in the charger.\nC. The power strip was not turned on, preventing the robot from successfully plugging in the charger.\nD. The robot grabbed the wrong charger, which was incompatible with the power strip."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7883
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:32",
+    "image": [
+      "2325/31322/A2D0001AB00086/1280969/camera/1080/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1084/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1088/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1092/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1096/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/1100/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper places the held green toy frog into the storage box'?\nA. The right gripper interfered with the left gripper's movement, causing the green toy frog to drop.\nB. The left gripper placed the green toy frog on the table.\nC. When placing the green toy frog into the storage box, the left gripper missed the box and dropped the toy outside.\nD. The red ball was accidentally picked up instead of the green toy frog."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7767
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:33",
+    "image": [
+      "2325/31322/A2D0001AB00086/1280969/camera/445/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/447/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/449/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/451/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/453/head_color.jpg",
+      "2325/31322/A2D0001AB00086/1280969/camera/456/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the held green toy truck into the storage box'?\nA. The robot placed the green toy truck on top of the storage box instead of inside it.\nB. The left gripper interfered with the right gripper's movement, causing a collision.\nC. When placing the green toy car into the storage box, it missed the box and fell outside.\nD. The red object was accidentally picked up instead of the green toy truck."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7875
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:34",
+    "image": [
+      "2325/31325/A2D0013B200181/1281332/camera/1050/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1054/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1058/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1062/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1066/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/1070/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper passes the drink bottle it is holding to the right gripper'?\nA. The robot mistakenly grabbed a fruit from the basket instead of the drink bottle.\nB. When the left gripper passed the empty bottle to the right gripper, the right gripper failed to catch it, causing the bottle to fall.\nC. The robot's left gripper accidentally dropped the bottle before it could pass it to the right gripper.\nD. The robot's right gripper moved too quickly and knocked the bottle off the table."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8461
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:35",
+    "image": [
+      "2325/31325/A2D0013B200181/1281332/camera/571/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/574/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/577/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/580/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/583/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/587/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the white paper ball'?\nA. The tissue box was moved to the wrong position by the robot.\nB. The fruit basket was incorrectly lifted by the robot's right gripper.\nC. When throwing a paper ball into the trash bin, the paper ball fell out of the robotic gripper.\nD. The bottle was accidentally knocked over by the robot's left gripper."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.8533
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:36",
+    "image": [
+      "2325/31325/A2D0013B200181/1281332/camera/250/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/258/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/266/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/275/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/283/head_color.jpg",
+      "2325/31325/A2D0013B200181/1281332/camera/292/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper opens the lid of the desktop trash bin'?\nA. The robot's right gripper accidentally knocked over the bottle of water.\nB. The tissue box was moved out of place by the robot's left gripper.\nC. The basket of fruits was mistakenly grabbed by the robot's right gripper.\nD. The lid of the trash bin was not fully opened and closed back."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C\n",
+    "latency_sec": 0.8539
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:37",
+    "image": [
+      "2325/31323/A2D0001AB00086/1281308/camera/1257/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1261/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1265/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1269/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1273/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/1277/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'left gripper picks up the orange soda from the upper left corner of the material frame'?\nA. The robot's sensors failed to detect the orange soda, causing it to miss the item entirely.\nB. The right gripper accidentally knocked over the brown bottle while trying to receive the orange soda.\nC. The material frame shifted unexpectedly, making the robot grab an incorrect item instead of the orange soda.\nD. The left gripper passed the orange soda to the right gripper, but the left gripper didn't hold the orange soda firmly, causing it to drop."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.7884
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:38",
+    "image": [
+      "2325/31323/A2D0001AB00086/1281308/camera/509/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/512/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/515/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/518/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/521/head_color.jpg",
+      "2325/31323/A2D0001AB00086/1281308/camera/525/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper passes the bag of melon seeds it is holding to the right gripper'?\nA. The right gripper accidentally dropped a bottle of juice on the table.\nB. The robot's grippers collided, causing all items in the tray to spill out.\nC. The left gripper grabbed an incorrect item, picking up a bag of chips instead of melon seeds.\nD. The left gripper passed the sunflower seeds to the right gripper, but they weren't caught and fell."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C\n",
+    "latency_sec": 0.7899
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:39",
+    "image": [
+      "2325/31336/A2D0013B200289/1282817/camera/744/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/748/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/753/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/757/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/762/head_color.jpg",
+      "2325/31336/A2D0013B200289/1282817/camera/767/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the held houndstooth-patterned pillowcase into the basket'?\nA. The robot failed to recognize the houndstooth-patterned pillowcase.\nB. The basket was knocked over by the robot's left gripper.\nC. The robot's gripper accidentally grabbed an incorrect item from the floor.\nD. The clothes missed the basket and fell outside when being placed."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C\n",
+    "latency_sec": 0.8467
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:40",
+    "image": [
+      "2325/31317/A2D0013B200289/1293660/camera/1546/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/1550/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/1555/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/1559/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/1564/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/1569/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picked up the used chopsticks from the table'?\nA. While picking up the chopsticks, they slipped from the robot's grip and fell to the ground.\nB. The chopsticks were dropped into the trash bin by the robot.\nC. The robot accidentally grabbed the red bag instead of the chopsticks.\nD. The robot's left gripper interfered with the right gripper, causing it to drop the chopsticks."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.8337
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:41",
+    "image": [
+      "2325/31317/A2D0013B200289/1293660/camera/645/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/653/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/661/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/669/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/677/head_color.jpg",
+      "2325/31317/A2D0013B200289/1293660/camera/685/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper throws the white takeout box it's holding into the takeout bag carried by the left gripper'?\nA. The chopsticks were accidentally picked up by the robot's right gripper instead of the takeout box.\nB. The robot's left gripper released the delivery bag too early, causing it to fall off the table.\nC. When placing the takeout box into the delivery bag, it missed the bag opening and fell outside the bag.\nD. The robot mistakenly grabbed the brown paper container instead of the white takeout box."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.8352
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:42",
+    "image": [
+      "2325/31320/A2D0013B200181/1282595/camera/1956/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/1970/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/1985/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/2000/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/2015/head_color.jpg",
+      "2325/31320/A2D0013B200181/1282595/camera/2030/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper uses the held cloth to wipe the water stains on the table'?\nA. The robot dropped the cloth into the blue tray during the cleaning process.\nB. The right gripper didn't completely wipe away the stains while cleaning.\nC. The cloth used for wiping became too wet and left new marks on the table.\nD. The left gripper accidentally knocked over a cup from the tray."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C\n",
+    "latency_sec": 0.8389
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:43",
+    "image": [
+      "2325/31334/A2D0013B200181/1283155/camera/1541/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1546/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1551/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1556/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1561/head_color.jpg",
+      "2325/31334/A2D0013B200181/1283155/camera/1566/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper placed the held sprite on the counter'?\nA. The robot's gripper moved too quickly, knocking over a nearby bottle of juice.\nB. The sprite was placed inside the refrigerator instead of on the counter.\nC. The robot accidentally grabbed a bottle of milk instead of the sprite.\nD. When placing the sprite on the counter, the gripper collided with the sprite, causing it to fall."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.8341
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:44",
+    "image": [
+      "2325/31337/A2D0013B200289/1283034/camera/739/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/743/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/747/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/751/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/755/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/759/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper hangs the keychain it's holding onto the hook'?\nA. The key pouch fell because it wasn't clamped properly by the left gripper.\nB. The hook was too weak to hold the weight of the keychain.\nC. The key pouch got tangled in the wires of the robot.\nD. The right gripper accidentally knocked over the basket while moving."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.8378
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:45",
+    "image": [
+      "2325/31337/A2D0013B200289/1283034/camera/300/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/306/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/313/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/319/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/326/head_color.jpg",
+      "2325/31337/A2D0013B200289/1283034/camera/333/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the key pouch on the table'?\nA. The right gripper failed to grip the key pouch tightly, causing it to fall onto the desk.\nB. The robot's left gripper interfered with the right gripper, causing the keychain to fall.\nC. The key pouch was dropped because it was too big to hold.\nD. The robot accidentally picked up the white container instead of the key pouch."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.8502
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:46",
+    "image": [
+      "2325/31330/A2D0001AB00086/1281525/camera/760/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/765/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/770/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/775/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/780/head_color.jpg",
+      "2325/31330/A2D0001AB00086/1281525/camera/786/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'pass the child nail clipper held in the left gripper to the right gripper'?\nA. The right gripper grabbed the wrong item from the cardboard box instead of catching the child nail clipper.\nB. When the left gripper passed the child nail clipper to the right gripper, the right gripper failed to catch it, and the clipper fell.\nC. The item was too heavy, causing the robotic gripper to be unable to grip it and resulting in its falling off.\nD. The robot's sensors malfunctioned, causing it to pass a different object instead of the child nail clipper."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B. When the left gripper passed the child nail clipper to the right gripper, the right gripper failed to catch it, and the clipper",
+    "latency_sec": 1.5712
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:47",
+    "image": [
+      "2325/31332/A2D0001AB00086/1278658/camera/1108/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1113/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1119/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1124/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1130/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/1136/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper presses the start button of the toaster on the countertop'?\nA. The left gripper accidentally knocked over the blue basket while the right gripper was trying to press the toaster button.\nB. The toaster failed to start because the bread slices were not properly aligned inside it.\nC. The right gripper pressed the wrong side of the toaster, activating an unintended function instead of starting it.\nD. When pressing the toaster button with the right gripper, the pressing position was too far outward, and the button was not fully depressed."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.8031
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:48",
+    "image": [
+      "2325/31332/A2D0001AB00086/1278658/camera/387/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/393/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/399/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/406/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/412/head_color.jpg",
+      "2325/31332/A2D0001AB00086/1278658/camera/419/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper places the held toast into the rear slot of the toaster on the counter'?\nA. The toast fell because it wasn't held properly when being placed into the toaster.\nB. The right gripper accidentally grabbed the toast instead of the left gripper.\nC. The toaster was turned off, preventing the toast from being inserted correctly.\nD. The blue container interfered with the placement of the toast into the toaster."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7965
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:49",
+    "image": [
+      "2325/31335/A2D0013B200289/1282394/camera/1491/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1494/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1498/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1502/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1506/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/1510/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper placed the held cloth on the washstand'?\nA. The left gripper grabbed the wrong object from the floor.\nB. The faucet was turned on by the robot's gripper unintentionally.\nC. When putting the rag back on the washstand, it slipped and fell.\nD. The right gripper accidentally knocked over the soap dispenser."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.8598
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:50",
+    "image": [
+      "2325/31335/A2D0013B200289/1282394/camera/560/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/564/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/568/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/573/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/577/head_color.jpg",
+      "2325/31335/A2D0013B200289/1282394/camera/582/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper passes the held cloth to the right gripper'?\nA. The faucet unexpectedly turned on, wetting the cloth and making it too slippery for the right gripper to grip.\nB. The robot's vision system misidentified the cloth as a bottle, causing both grippers to release it.\nC. The right gripper bumped into the left gripper, causing the object to fall.\nD. When the left gripper passed the cloth to the right gripper, the right gripper failed to grip it, causing the cloth to fall."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.8435
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:51",
+    "image": [
+      "2325/31339/A2D0013B200289/1282837/camera/710/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/716/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/723/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/729/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/736/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/743/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper places the held shorts into the laundry basket'?\nA. The shorts were placed inside the hanger instead of the laundry basket.\nB. The shorts missed the laundry basket and fell outside.\nC. The robot tangled the shorts with the hanger in the background.\nD. The right gripper accidentally grabbed the laundry basket instead of the shorts."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A\n",
+    "latency_sec": 0.8555
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:52",
+    "image": [
+      "2325/31339/A2D0013B200289/1282837/camera/982/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/988/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/995/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/1002/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/1009/head_color.jpg",
+      "2325/31339/A2D0013B200289/1282837/camera/1016/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper hangs the clothes hanger back onto the drying rack'?\nA. The drying rack was too high for the robot to reach with its right gripper.\nB. The hanger wasn't aligned properly and fell off the drying rack.\nC. The robot's left gripper accidentally knocked over the basket on the floor.\nD. The robot grabbed the wrong item from the basket instead of the hanger."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8355
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:53",
+    "image": [
+      "2325/31345/A2D0001AB00023/1281939/camera/137/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/143/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/149/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/155/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/161/head_color.jpg",
+      "2325/31345/A2D0001AB00023/1281939/camera/167/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the hairdryer from the counter'?\nA. The left gripper accidentally knocked over the soap dispenser.\nB. The hair dryer was not plugged in before being picked up.\nC. The right gripper failed to pick up the hair dryer.\nD. The robotic gripper accidentally knocked the hair dryer to the ground."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7569
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:54",
+    "image": [
+      "2325/31306/A2D0013B200181/1282840/camera/2857/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2861/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2865/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2869/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2873/head_color.jpg",
+      "2325/31306/A2D0013B200181/1282840/camera/2877/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper uses the picked-up spoon to pour the black pearl boba into the cup held by the left gripper'?\nA. The robot accidentally picked up green tea instead of black pearl boba.\nB. The robot's left gripper dropped the milk tea cup on the counter.\nC. The spoon hit something, causing the contents to spill out.\nD. The black pearl boba spilled while pouring into the cup held by the left gripper."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.8395
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:55",
+    "image": [
+      "2325/31341/A2D0013B200289/1282290/camera/637/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/657/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/677/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/697/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/717/head_color.jpg",
+      "2325/31341/A2D0013B200289/1282290/camera/737/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'bend at the waist, and with your right gripper, retrieve the empty toilet paper roll from the holder'?\nA. The empty toilet paper roll fell to the ground because it wasn't held properly.\nB. The robot's gripper moved too quickly, causing the wall tiles to rattle.\nC. The shelf became unstable and tipped over when the robot reached for the roll.\nD. The robot accidentally grabbed the wrong item from the holder."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C\n",
+    "latency_sec": 0.8284
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:56",
+    "image": [
+      "2325/31340/A2D0001AB00086/1280371/camera/626/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/631/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/636/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/642/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/647/head_color.jpg",
+      "2325/31340/A2D0001AB00086/1280371/camera/653/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the hand cream from the table'?\nA. When picking up the hand cream, it slipped and fell.\nB. The backpack was incorrectly identified as the hand cream and was picked up instead.\nC. The left gripper accidentally grabbed the small red box instead of the hand cream.\nD. The robot's right gripper moved too quickly and knocked over the blue box."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.778
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:57",
+    "image": [
+      "2325/31352/A2D0001AB00086/1293905/camera/149/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/161/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/173/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/185/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/197/head_color.jpg",
+      "2325/31352/A2D0001AB00086/1293905/camera/210/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'both grippers work together to open the curtains'?\nA. The robot applied too much force, tearing a hole in the curtain fabric.\nB. When the right gripper clamped the curtain, the curtain detached.\nC. The curtain rod malfunctioned, causing the curtain to slide off unexpectedly.\nD. The left gripper failed to grasp the curtain properly, leaving it partially closed."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.7708
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:58",
+    "image": [
+      "2325/31333/A2D0001AB00023/1281730/camera/1398/head_color.jpg",
+      "2325/31333/A2D0001AB00023/1281730/camera/1403/head_color.jpg",
+      "2325/31333/A2D0001AB00023/1281730/camera/1409/head_color.jpg",
+      "2325/31333/A2D0001AB00023/1281730/camera/1415/head_color.jpg",
+      "2325/31333/A2D0001AB00023/1281730/camera/1421/head_color.jpg",
+      "2325/31333/A2D0001AB00023/1281730/camera/1427/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper neatly places the held soy sauce on the storage shelf by the wall'?\nA. The robot failed to pick up the soy sauce bottle from the counter.\nB. When placing the soy sauce on the shelf, it wasn't steady and tipped over.\nC. The robot accidentally placed the ketchup bottle on top of the soy sauce bottle.\nD. The left gripper of the robot knocked over a bottle already on the shelf."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.7787
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:59",
+    "image": [
+      "2325/31342/A2D0001AB00086/1284204/camera/1008/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1017/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1027/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1036/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1046/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/1056/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picked up the green clothes from the dirty laundry basket on the floor'?\nA. The right gripper failed to grip properly, causing the clothes to fall.\nB. The left gripper accidentally knocked over the laundry basket.\nC. The robot's sensors malfunctioned, picking up the wrong object.\nD. The robot misidentified the green clothes as a different item."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7804
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:60",
+    "image": [
+      "2325/31342/A2D0001AB00086/1284204/camera/215/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/225/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/235/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/245/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/255/head_color.jpg",
+      "2325/31342/A2D0001AB00086/1284204/camera/265/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'other'?\nA. The washing machine door was obstructed by the robot's movement.\nB. The robot's left gripper accidentally knocked over the laundry basket.\nC. The right gripper failed to grasp the clothes, causing them to fall.\nD. The robot mistakenly picked up a piece of equipment instead of clothes."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7893
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:61",
+    "image": [
+      "2325/31346/A2D0001AB00086/1294244/camera/207/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/221/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/235/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/249/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/263/head_color.jpg",
+      "2325/31346/A2D0001AB00086/1294244/camera/278/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'press the switch button on the right gripper to turn on the shredder'?\nA. The switch was not fully pressed when starting the shredder.\nB. The shredder was plugged into the wrong power outlet.\nC. The robot used its left gripper instead of the right gripper to press the switch.\nD. The robot's gripper accidentally hit the paper on the table."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C\n",
+    "latency_sec": 0.777
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:62",
+    "image": [
+      "2325/31343/A2D0013B200289/1282215/camera/913/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/916/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/920/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/923/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/927/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/931/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper hangs the towel it's holding on the hook'?\nA. The mirror reflected an incorrect position, causing the robot to hang the towel elsewhere.\nB. The robot accidentally grabbed the soap dispenser instead of the towel.\nC. While hanging the towel on the hook, it missed the target and fell.\nD. The robot's right gripper interfered with the left gripper, preventing it from hanging the towel."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.8543
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:63",
+    "image": [
+      "2325/31343/A2D0013B200289/1282215/camera/415/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/419/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/424/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/429/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/434/head_color.jpg",
+      "2325/31343/A2D0013B200289/1282215/camera/439/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper passes the held towel to the left gripper'?\nA. The right gripper moved too quickly, pulling the towel out of reach of the left gripper.\nB. When the right gripper passed the towel to the left gripper, it failed to grip properly, causing the towel to drop.\nC. The left gripper accidentally knocked over the soap dispenser while trying to receive the towel.\nD. The robot's sensors malfunctioned, causing both grippers to move simultaneously and tangle the towel."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8409
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:64",
+    "image": [
+      "2325/31347/A2D0001AB00086/1294048/camera/1650/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1660/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1670/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1680/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1690/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/1700/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper throws the held trash bag into the trash bin'?\nA. The trash bin was too far away, and the robot missed it entirely.\nB. While holding the trash bag with his left gripper, he failed to secure it properly, causing it to fall.\nC. The robot's right gripper accidentally threw an empty trash bag instead of a filled one.\nD. The robot's left gripper mistakenly grabbed a different object instead of the trash bag."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.7681
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:65",
+    "image": [
+      "2325/31347/A2D0001AB00086/1294048/camera/200/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/210/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/220/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/230/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/240/head_color.jpg",
+      "2325/31347/A2D0001AB00086/1294048/camera/250/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the trash bag by its right gripperle'?\nA. The trash bag was torn by the robot's right gripper while lifting.\nB. The table in the background moved unexpectedly during the action.\nC. When lifting the handle of the trash bag with the right gripper, the right gripper knock something down.\nD. The right gripper failed to grasp the right gripperle of the trash bag properly."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C\n",
+    "latency_sec": 0.7957
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:66",
+    "image": [
+      "2325/31358/A2D0001AB00086/1279583/camera/119/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/123/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/128/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/132/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/137/head_color.jpg",
+      "2325/31358/A2D0001AB00086/1279583/camera/142/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'carry the menu in gripper and move toward the guest's table'?\nA. The robot accidentally bumped into the tablecloth, causing it to slip off the table.\nB. The guest's chair was knocked over by the robot as it approached.\nC. While moving forward with the menu, it wasn't held properly and fell.\nD. The robot failed to recognize the guest and handed the menu to an empty chair."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7671
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:67",
+    "image": [
+      "2325/31354/A2D0001AB00086/1280416/camera/181/head_color.jpg",
+      "2325/31354/A2D0001AB00086/1280416/camera/182/head_color.jpg",
+      "2325/31354/A2D0001AB00086/1280416/camera/183/head_color.jpg",
+      "2325/31354/A2D0001AB00086/1280416/camera/184/head_color.jpg",
+      "2325/31354/A2D0001AB00086/1280416/camera/185/head_color.jpg",
+      "2325/31354/A2D0001AB00086/1280416/camera/186/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'both grippers work together to open the tissue box'?\nA. The robotic gripper pushed the tissue box off the table.\nB. The black gripper accidentally knocked over the tissue box.\nC. The lid of the tissue box was opened a little and then closed.\nD. The white gripper grabbed the wrong item instead of the tissue box."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A\n",
+    "latency_sec": 0.7752
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:68",
+    "image": [
+      "2325/31344/A2D0013B200289/1282675/camera/1031/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1045/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1059/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1073/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1087/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/1102/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the held moisturizing glycerin on the shelf where the moisturizing glycerin belongs'?\nA. The robot picked up the wrong item from the shelf, grabbing a bottle of hand sanitizer instead of the moisturizing glycerin.\nB. The blue tray below the shelf was incorrectly positioned, causing the robot to place the moisturizing glycerin off-target.\nC. The robot's left gripper accidentally knocked over a bottle of POND'S lotion while placing the moisturizing glycerin.\nD. The moisturizing glycerin was not aligned properly when placed on the shelf, resulting in incorrect positioning."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": "A\n",
+    "latency_sec": 0.8395
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:69",
+    "image": [
+      "2325/31344/A2D0013B200289/1282675/camera/691/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/693/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/696/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/698/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/701/head_color.jpg",
+      "2325/31344/A2D0013B200289/1282675/camera/704/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'place the pink facial cleanser held in the right gripper onto the shelf where the pink facial cleansers are located'?\nA. The blue tray was incorrectly placed under the shelf, blocking the robot's movement.\nB. When placing the pink facial cleanser on the shelf, it wasn't set down steadily and fell over.\nC. The robot dropped the pink facial cleanser into the blue tray instead of on the shelf.\nD. The robot accidentally picked up a different item instead of the pink facial cleanser."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C\n",
+    "latency_sec": 0.8298
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:70",
+    "image": [
+      "2325/31360/A2D0013B200289/1282187/camera/919/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/923/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/927/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/931/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/935/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/939/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'insert the handheld showerhead into the slot with the right gripper'?\nA. The shower head fell when it was not properly aligned with the slot during insertion.\nB. The left gripper accidentally knocked over the shelf while moving.\nC. Water sprayed uncontrollably due to a malfunction in the faucet.\nD. The robot's right gripper gripped the showerhead too tightly, causing damage."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.8409
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:71",
+    "image": [
+      "2325/31360/A2D0013B200289/1282187/camera/329/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/334/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/339/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/344/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/349/head_color.jpg",
+      "2325/31360/A2D0013B200289/1282187/camera/355/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'raise the showerhead above the switch with your left gripper'?\nA. The robot accidentally turned on the water while trying to lift the showerhead.\nB. The robot's gripper collided with the wall tiles, causing a delay in action.\nC. When picking up the showerhead, it wasn't held firmly and fell.\nD. The camera mounted on the robot malfunctioned, leading to incorrect positioning."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A\n",
+    "latency_sec": 0.8661
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:72",
+    "image": [
+      "2325/31364/A2D0001AB00086/1280153/camera/308/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/314/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/320/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/327/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/333/head_color.jpg",
+      "2325/31364/A2D0001AB00086/1280153/camera/340/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up a takeout box lid from the table'?\nA. The plastic lid was too slippery, causing it to slide off the stack before the gripper could grab it.\nB. When picking up the takeout box lid, the gripper collided with the lids.\nC. The left gripper accidentally grabbed the noodles instead of the lid.\nD. The robot's right gripper moved too slowly, allowing the lid to slip off the stack."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.791
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:73",
+    "image": [
+      "2325/31331/A2D0001AB00023/1281821/camera/428/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/429/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/430/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/432/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/433/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/435/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper pulls open the drawer'?\nA. The hand missed the gap of the handle, preventing the drawer from opening.\nB. The robot's right gripper accidentally knocked over the mouse on the table.\nC. The drawer was stuck due to an object inside it.\nD. The robot applied too much force, causing the drawer handle to break."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7724
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:74",
+    "image": [
+      "2325/31331/A2D0001AB00023/1281821/camera/2176/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2184/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2192/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2201/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2209/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/2218/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'left gripper closes the drawer'?\nA. The robot's right gripper accidentally hit the drawer handle, pulling it open.\nB. The robot applied too much force, breaking the drawer mechanism.\nC. When closing the drawer, it wasn't pushed all the way in, causing it to open.\nD. The drawer was obstructed by an object inside, preventing it from closing properly."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7742
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:75",
+    "image": [
+      "2325/31331/A2D0001AB00023/1281821/camera/975/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/981/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/987/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/994/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/1000/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/1007/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the headphones on the table'?\nA. When picking up the headphones, they weren't held steady and fell.\nB. The left gripper accidentally knocked over the mouse on the table.\nC. The robot picked up the wrong item, grabbing the mouse instead of the headphones.\nD. The robot failed to open the drawer properly before attempting to pick up the headphones."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C\n",
+    "latency_sec": 0.7795
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:76",
+    "image": [
+      "2325/31331/A2D0001AB00023/1281821/camera/362/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/362/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/363/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/363/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/364/head_color.jpg",
+      "2325/31331/A2D0001AB00023/1281821/camera/365/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper pulls open the drawer'?\nA. The table was too heavy for the robot to pull the drawer open.\nB. The power supply cable tangled with the drawer, blocking its movement.\nC. The right gripper accidentally grabbed the mouse instead of the drawer handle.\nD. The hand missed the gap of the handle, preventing the drawer from opening."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C\n",
+    "latency_sec": 0.7884
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:77",
+    "image": [
+      "2325/31353/A2D0001AB00086/1280741/camera/995/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/1001/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/1008/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/1014/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/1021/head_color.jpg",
+      "2325/31353/A2D0001AB00086/1280741/camera/1028/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper tosses the tissue bag it's holding into the trash bin held by the left gripper'?\nA. The robot mistakenly grabbed a different object instead of the tissue wrapper.\nB. The robot's left gripper accidentally released the trash bin too early.\nC. The tissue wrapper wasn't held firmly and fell to the ground when thrown into the trash bin.\nD. The robot's right gripper moved too slowly, causing the tissue wrapper to miss the bin."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7769
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:78",
+    "image": [
+      "2325/31356/A2D0013B200181/1283050/camera/717/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/723/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/729/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/736/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/742/head_color.jpg",
+      "2325/31356/A2D0013B200181/1283050/camera/749/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper placed the held yellow peach into the bag'?\nA. The felt cloth was too small to hold the yellow peach, causing it to fall out.\nB. When placing the yellow peach into the felt bag, it missed the bag opening and fell outside.\nC. The left gripper held a wrong fruit.\nD. The bag fell to the ground."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8457
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:79",
+    "image": [
+      "2325/31349/A2D0013B200181/1282760/camera/1321/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1324/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1327/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1330/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1333/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1337/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper throws the straw wrapper it is holding into the trash bin held by the left gripper'?\nA. The towel on the table was mistakenly picked up by the right gripper.\nB. The robot's left gripper accidentally dropped the trash bin.\nC. The straw wrapper missed the trash bin and fell outside.\nD. The right gripper grabbed the bone-shaped object instead of the straw wrapper."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.8652
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:80",
+    "image": [
+      "2325/31349/A2D0013B200181/1282760/camera/1102/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1107/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1112/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1117/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1122/head_color.jpg",
+      "2325/31349/A2D0013B200181/1282760/camera/1128/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the straw wrapper from the ground'?\nA. The robot's left gripper interfered with the right gripper while picking up the straw wrapper.\nB. The robot didn't hold the straw wrapper properly, causing it to fall.\nC. The robot accidentally picked up the trash bin instead of the straw wrapper.\nD. The robot mistakenly grabbed a piece of paper from the table instead of the straw wrapper."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C\n",
+    "latency_sec": 0.8455
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:81",
+    "image": [
+      "2325/31357/A2D0013B200289/1282754/camera/1006/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1009/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1013/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1016/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1020/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/1024/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the pink bag of chips it is holding onto the snack shelf where snacks are kept'?\nA. While placing the potato chips on the shelf, they collided with adjacent products, causing the chips to be placed unevenly.\nB. The robot picked up a green bag of snacks instead of the pink bag of chips.\nC. The blue container in the shopping cart was accidentally knocked over by the robot's gripper.\nD. Adjacent products on the shelf were incorrectly identified as empty spaces by the robot."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.8571
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:82",
+    "image": [
+      "2325/31357/A2D0013B200289/1282754/camera/784/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/789/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/795/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/800/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/806/head_color.jpg",
+      "2325/31357/A2D0013B200289/1282754/camera/812/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the pink bag of chips from the restocking box'?\nA. The robot failed to grip the pink bag of chips properly, causing it to fall.\nB. The robot accidentally picked up a green bag instead of the pink bag.\nC. The robot dropped the blue tray while trying to pick up the pink bag.\nD. The shelf was too high for the robot's gripper to reach the pink bag."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.8376
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:83",
+    "image": [
+      "2325/31361/A2D0001AB00086/1284309/camera/912/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/914/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/917/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/920/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/923/head_color.jpg",
+      "2325/31361/A2D0001AB00086/1284309/camera/926/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the air column film into the cardboard box on the table'?\nA. The air column cushion was too large to fit inside the cardboard box.\nB. The robot dropped the air column cushion on the floor before it could be placed in the box.\nC. The left gripper accidentally grabbed the cardboard box instead of the air column cushion.\nD. The air column cushion got stuck on the edge of the box due to improper alignment."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C\n",
+    "latency_sec": 0.7902
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:84",
+    "image": [
+      "2325/31367/A2D0001AB00086/1294312/camera/909/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/916/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/923/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/930/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/937/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/944/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'raise the right gripper and place the held pear into the bag on the shopping cart'?\nA. The shopping cart moved unexpectedly, causing the robot to miss the bag.\nB. The robot accidentally grabbed a starfruit instead of a pear.\nC. When placing the fruit in the bag on the shopping cart, the fruit fell out.\nD. The bag was too small, preventing the robot from placing the fruit inside."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7719
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:85",
+    "image": [
+      "2325/31367/A2D0001AB00086/1294312/camera/179/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/197/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/215/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/233/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/251/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294312/camera/270/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the star fruit from the fruit stand'?\nA. The robot's left gripper accidentally grabbed the wrong fruit.\nB. The robot picked up a plastic fruit instead of a real one.\nC. The fruit dropped while the robot was picking it up.\nD. The shopping cart moved, causing the robot to miss the fruit."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A\n",
+    "latency_sec": 0.7791
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:86",
+    "image": [
+      "2325/31359/A2D0001AB00086/1280362/camera/727/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/732/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/738/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/744/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/750/head_color.jpg",
+      "2325/31359/A2D0001AB00086/1280362/camera/756/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper passes the held usb sound card to the right gripper'?\nA. While passing the USB sound card, it was not clamped securely and fell.\nB. The right gripper accidentally dropped a green box instead of receiving the USB sound card.\nC. The left gripper grabbed an incorrect item from the tray instead of the USB sound card.\nD. The robot's vision system misidentified the USB sound card as a red package."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B\n",
+    "latency_sec": 0.7838
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:87",
+    "image": [
+      "2325/31365/A2D0001AB00086/1278870/camera/589/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/595/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/601/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/607/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/613/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/619/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the held toast onto the plate on the counter'?\nA. The toaster was turned on while the toast was being placed on the plate.\nB. The robot's right gripper moved too quickly and knocked over the plate.\nC. When placing the toast onto the plate, it wasn't held firmly and fell off.\nD. The left gripper accidentally grabbed the plate instead of the toast."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7766
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:88",
+    "image": [
+      "2325/31365/A2D0001AB00086/1278870/camera/250/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/253/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/257/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/260/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/264/head_color.jpg",
+      "2325/31365/A2D0001AB00086/1278870/camera/268/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the held toast onto the plate on the counter'?\nA. The right gripper accidentally grabbed the toaster instead of the toast.\nB. The toast was placed on the plate without aligning it properly.\nC. The robot dropped the toast on the floor before placing it on the plate.\nD. The plate moved out of position when the robot attempted to place the toast."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A\n",
+    "latency_sec": 0.7981
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:89",
+    "image": [
+      "2325/31367/A2D0001AB00086/1294403/camera/663/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/684/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/705/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/726/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/747/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/769/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up a pomegranate from the fruit stand'?\nA. The robot grabbed an empty spot on the fruit rack, missing the pomegranate.\nB. The robot failed to pick up the pomegranate from the fruit rack.\nC. The robot dropped the pomegranate after picking it up.\nD. The robot accidentally picked up a banana instead of a pomegranate."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.7992
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:90",
+    "image": [
+      "2325/31367/A2D0001AB00086/1294403/camera/462/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/469/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/477/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/485/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/493/head_color.jpg",
+      "2325/31367/A2D0001AB00086/1294403/camera/501/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the held pomegranate into the bag in the shopping cart'?\nA. The robot grabbed an empty spot, thinking it was holding the pomegranate.\nB. The pomegranate fell out of the robot's grip and didn't land inside the bag.\nC. The shopping cart moved unexpectedly, causing the robot to miss the bag.\nD. The robot accidentally placed a banana instead of the pomegranate into the bag."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.7845
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:91",
+    "image": [
+      "2325/31371/A2D0001AB00023/1281648/camera/428/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/429/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/430/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/432/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/433/head_color.jpg",
+      "2325/31371/A2D0001AB00023/1281648/camera/435/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper wipes the stains off the range hood'?\nA. The range hood was turned off instead of being cleaned.\nB. The tiles on the wall were damaged by the robot's movements.\nC. The stains on the mirror weren't wiped clean.\nD. The robot's gripper accidentally knocked over the pot on the stove."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C\n",
+    "latency_sec": 0.7808
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:92",
+    "image": [
+      "2325/31350/A2D0001AB00086/1280813/camera/905/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/914/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/923/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/932/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/941/head_color.jpg",
+      "2325/31350/A2D0001AB00086/1280813/camera/950/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper places the held marker pen into the desktop storage box'?\nA. The left gripper accidentally grabbed the wrong marker from the table.\nB. The storage box was too small to fit the marker properly.\nC. The robot's right gripper moved too quickly and knocked over the storage box.\nD. When placing the marker into the storage box, it wasn't secured and fell out."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.7728
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:93",
+    "image": [
+      "2325/31351/A2D0013B200289/1282897/camera/1171/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1178/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1186/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1194/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1202/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/1210/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper uses the handheld barcode scanner to scan the barcode of the bottled water held in the left gripper'?\nA. The barcode scanner was not aligned correctly with the barcode on the bottled water.\nB. The robot's left gripper accidentally dropped the bottled water during scanning.\nC. The lighting conditions were too dim for the barcode scanner to function properly.\nD. The robot scanned the wrong item, picking up the smaller bottle instead of the bottled water."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D\n",
+    "latency_sec": 0.8912
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:94",
+    "image": [
+      "2325/31351/A2D0013B200289/1282897/camera/608/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/613/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/618/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/623/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/628/head_color.jpg",
+      "2325/31351/A2D0013B200289/1282897/camera/633/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper uses the handheld barcode scanner to scan the barcode of the makeup remover held by the left gripper'?\nA. The left gripper did not hold the makeup remover properly, causing it to fall.\nB. The right gripper accidentally knocked over the water bottle instead of scanning.\nC. The robot's vision system misidentified the makeup remover as the water bottle.\nD. The barcode scanner malfunctioned and failed to read the barcode."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B\n",
+    "latency_sec": 0.881
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:95",
+    "image": [
+      "2325/31366/A2D0001AB00086/1280095/camera/1338/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/1347/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/1356/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/1365/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/1374/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/1384/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while   : 'the right gripper inserts the held flower into the vase'?\nA. The robot's left gripper accidentally grabbed the vase instead of inserting the flower.\nB. The robot dropped the flower on the table before attempting to insert it.\nC. The vase was knocked over by the robot's gripper.\nD. The flower was not inserted into the vase; it missed the mark."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.7894
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:96",
+    "image": [
+      "2325/31366/A2D0001AB00086/1280095/camera/467/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/477/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/488/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/499/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/510/head_color.jpg",
+      "2325/31366/A2D0001AB00086/1280095/camera/521/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper inserts the held flower into the vase'?\nA. The flower was inserted into the vase, but it didn't align properly, causing it to miss the vase.\nB. The vase was too small for the flower, preventing it from being inserted.\nC. The robot dropped the flower before attempting to insert it into the vase.\nD. The robot's left gripper accidentally knocked over the vase while holding the flower."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7976
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:97",
+    "image": [
+      "2325/31373/A2D0013B200181/1283013/camera/472/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/478/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/485/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/492/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/499/head_color.jpg",
+      "2325/31373/A2D0013B200181/1283013/camera/506/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'right gripper lifts the shopping bag'?\nA. The robot dropped the shopping bag on the floor.\nB. When lifting the shopping bag with the right gripper, the handle detached.\nC. The shopping bag was lifted too high, causing it to tear.\nD. The left gripper failed to grasp the shopping bag properly."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8601
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:98",
+    "image": [
+      "2325/31368/A2D0001AB00086/1280138/camera/1186/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1192/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1198/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1204/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1210/head_color.jpg",
+      "2325/31368/A2D0001AB00086/1280138/camera/1216/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'both grippers work together to grasp the waistband of the shorts and fold it down to the leg'?\nA. The pants are not neatly folded.\nB. The table surface was uneven, causing the shorts to fold incorrectly.\nC. The robot used too much force, tearing a small hole in the shorts.\nD. The robot's grippers accidentally grabbed the wrong part of the shorts."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D\n",
+    "latency_sec": 0.8002
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:99",
+    "image": [
+      "2325/31374/A2D0001AB00023/1282000/camera/1181/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1191/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1201/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1211/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1221/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/1231/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'using the cloth in her right gripper, she wiped away the stains on the mirrored cabinet'?\nA. The mirror's reflection showed an incorrect angle.\nB. The stain wasn't cleaned properly.\nC. The robot used the wrong cloth for cleaning.\nD. The water bottle on the sink was knocked over."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C\n",
+    "latency_sec": 0.7911
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:100",
+    "image": [
+      "2325/31374/A2D0001AB00023/1282000/camera/265/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/270/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/275/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/281/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/286/head_color.jpg",
+      "2325/31374/A2D0001AB00023/1282000/camera/292/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper passes the held rag to the right gripper'?\nA. The mirror reflected an incorrect position of the robot's grippers.\nB. The robot's right gripper failed to grip the soap bottle properly.\nC. The towel hanging on the wall interfered with the robot's movement.\nD. The rag was dropped while being passed from the left gripper to the right gripper."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.8043
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:101",
+    "image": [
+      "2325/31369/A2D0001AB00086/1280048/camera/2375/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2377/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2380/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2382/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2385/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/2388/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'both grippers work together to fold the collar of the short sleeve down to the hem'?\nA. The robot's gripper accidentally grabbed the wrong part of the fabric.\nB. The table surface was uneven, causing the fabric to fold incorrectly.\nC. The clothes aren't folded neatly.\nD. The robot applied too much force, tearing the fabric."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A\n",
+    "latency_sec": 0.8139
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:102",
+    "image": [
+      "2325/31369/A2D0001AB00086/1280048/camera/1626/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1632/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1638/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1645/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1651/head_color.jpg",
+      "2325/31369/A2D0001AB00086/1280048/camera/1658/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'both grippers work together to fold the top quarter of the garment to the middle'?\nA. The fabric was stretched too tightly during the folding process.\nB. The sleeves were not folded over.\nC. The robot's grippers moved at different speeds, causing an uneven fold.\nD. The robot accidentally folded the bottom half of the garment instead."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A\n",
+    "latency_sec": 0.8107
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:103",
+    "image": [
+      "2325/31376/A2D0001AB00086/1294165/camera/799/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/824/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/849/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/875/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/900/head_color.jpg",
+      "2325/31376/A2D0001AB00086/1294165/camera/926/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the fork from the plate'?\nA. The right gripper failed to grasp the fork during the empty gripping attempt.\nB. The robot's vision system misidentified the spoon as a fork and attempted to pick it up instead.\nC. The left gripper accidentally knocked over a plate while trying to pick up the fork.\nD. The tray was moved out of position, causing the right gripper to miss the fork entirely."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B\n",
+    "latency_sec": 0.7965
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:104",
+    "image": [
+      "2325/31370/A2D0013B200181/1282948/camera/726/head_color.jpg",
+      "2325/31370/A2D0013B200181/1282948/camera/730/head_color.jpg",
+      "2325/31370/A2D0013B200181/1282948/camera/735/head_color.jpg",
+      "2325/31370/A2D0013B200181/1282948/camera/740/head_color.jpg",
+      "2325/31370/A2D0013B200181/1282948/camera/745/head_color.jpg",
+      "2325/31370/A2D0013B200181/1282948/camera/750/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'pour the drink from the cup held in the left gripper into the milk tea cup on the counter tray'?\nA. When pouring the drink into the cup, it missed and spilled onto the table.\nB. The milk tea cup on the tray tipped over before the robot could pour the drink.\nC. The robot accidentally grabbed the wrong cup from the tray.\nD. The robot placed the glass too far from the tray, causing a delay in the action."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.8764
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:105",
+    "image": [
+      "2325/31363/A2D0001AB00086/1278844/camera/4005/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/4010/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/4015/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/4020/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/4025/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/4030/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper uses the shovel to place the scooped dessert onto the plate on the table'?\nA. The plate moved out of position due to a sudden gust of wind.\nB. The left gripper grabbed the wrong tool instead of the knife.\nC. The oven was accidentally turned on by the robot's gripper.\nD. The robot dropped the dessert while placing it on the plate."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D\n",
+    "latency_sec": 0.8136
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:106",
+    "image": [
+      "2325/31363/A2D0001AB00086/1278844/camera/3653/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3658/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3663/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3668/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3673/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/3678/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper uses the shovel to place the scooped dessert onto the plate on the table'?\nA. The plate was placed upside down on the table.\nB. The robotic gripper mistakenly released the shovel.\nC. The left gripper accidentally knocked over the toaster oven.\nD. The dessert was dropped on the floor instead of the plate."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D\n",
+    "latency_sec": 0.7865
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:107",
+    "image": [
+      "2325/31363/A2D0001AB00086/1278844/camera/578/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/583/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/588/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/594/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/599/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/605/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'both grippers work together to open the oven door'?\nA. The robot was unable to open the oven door on the first attempt.\nB. The robot accidentally knocked over the plate with fish patterns.\nC. The oven door was already open, causing the robot to pause its action.\nD. The robot's gripper grabbed the wrong object, picking up the bottle instead."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A\n",
+    "latency_sec": 0.7821
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:108",
+    "image": [
+      "2325/31363/A2D0001AB00086/1278844/camera/383/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/388/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/393/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/398/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/403/head_color.jpg",
+      "2325/31363/A2D0001AB00086/1278844/camera/409/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'both grippers work together to open the oven door'?\nA. The toaster was incorrectly identified as an oven by the robot.\nB. The robot failed to open the oven door on the first attempt.\nC. The robot's gripper grabbed the bottle instead of the oven handle.\nD. The robot accidentally knocked over the plate with fish patterns."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.8102
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:109",
+    "image": [
+      "2325/31362/A2D0001AB00086/1280227/camera/1187/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1189/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1191/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1193/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1195/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/1198/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper picks up the water from the box on the table'?\nA. The left gripper grabbed the wrong item, picking up a cardboard piece instead.\nB. When picking up the water bottle, it slipped and fell.\nC. The robot placed an extra water bottle on top of the box.\nD. The right gripper accidentally knocked over a water bottle from the table."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A\n",
+    "latency_sec": 0.8597
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:110",
+    "image": [
+      "2325/31362/A2D0001AB00086/1280227/camera/537/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/538/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/540/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/542/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/544/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/546/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the water from the box on the table'?\nA. The left gripper accidentally knocked over the entire box of water bottles.\nB. The robot mistakenly picked up an empty bottle instead of a full one.\nC. While trying to clamp the water bottle, it slipped and fell.\nD. The robot's sensors failed to detect the water bottles, causing it to miss them entirely."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": "B\n",
+    "latency_sec": 0.864
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:111",
+    "image": [
+      "2325/31362/A2D0001AB00086/1280227/camera/440/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/442/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/444/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/446/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/448/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/451/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper placed the held water onto the table'?\nA. The left gripper accidentally knocked over a water bottle while trying to stabilize the box.\nB. The robot failed to grip the water bottle properly, causing it to fall when placing it on the table.\nC. The water bottle was placed upside down due to incorrect orientation by the robot's sensors.\nD. The robot's right gripper moved too quickly, spilling water from the bottle before it hit the table."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.7972
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:112",
+    "image": [
+      "2325/31362/A2D0001AB00086/1280227/camera/136/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/143/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/151/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/159/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/167/head_color.jpg",
+      "2325/31362/A2D0001AB00086/1280227/camera/175/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the water from the box on the table'?\nA. The water inside the bottle spilled out due to a loose cap as the robot lifted it.\nB. The water bottle wasn't held properly and fell when the right gripper attempted to pick it up.\nC. The left gripper accidentally knocked over several water bottles while trying to assist.\nD. The robot's sensors failed to detect the box, causing it to miss the water bottle entirely."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B\n",
+    "latency_sec": 0.7898
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:113",
+    "image": [
+      "2325/31372/A2D0001AB00086/1279411/camera/2746/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2749/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2753/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2756/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2760/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/2764/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper places the held toast onto the lettuce'?\nA. The left gripper dropped the toast on the table instead of the lettuce.\nB. The toast collided with the lettuce leaves while being placed.\nC. The right gripper accidentally grabbed the wrong plate.\nD. The toaster ejected the toast too early, interrupting the process."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A\n",
+    "latency_sec": 0.8068
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:114",
+    "image": [
+      "2325/31372/A2D0001AB00086/1279411/camera/1832/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/1839/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/1846/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/1854/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/1861/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/1869/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper pours the held salad dressing onto the meat slices'?\nA. The toaster caught fire due to a malfunction.\nB. The robot accidentally grabbed the tissue box instead of the salad dressing.\nC. The robot dropped the meat slices on the floor.\nD. The salad dressing was spilled on the table."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B\n",
+    "latency_sec": 0.8082
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:115",
+    "image": [
+      "2325/31372/A2D0001AB00086/1279411/camera/738/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/746/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/755/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/764/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/773/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/782/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the right gripper picks up the sliced meat from the plate'?\nA. The robot picked up the meat slices along with the vegetable leaves.\nB. The robot accidentally grabbed a slice of bread instead of the meat.\nC. The vegetable leaves were placed on the wrong plate by the robot.\nD. The robot spilled the contents of the bottle onto the table."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B\n",
+    "latency_sec": 0.7884
+  },
+  {
+    "id": "QA_MISTAKE_CLASSIFY:116",
+    "image": [
+      "2325/31372/A2D0001AB00086/1279411/camera/220/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/222/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/225/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/227/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/230/head_color.jpg",
+      "2325/31372/A2D0001AB00086/1279411/camera/233/head_color.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIn the video, what mistake did the robot make while performing action: 'the left gripper places the held toast onto the plate'?\nA. The right gripper accidentally grabbed the tissue box instead of the toast.\nB. The bottle of spread was knocked over by the left gripper.\nC. The toaster ejected the toast too early, burning it.\nD. The toast was placed crookedly in the plate."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": "A\n",
+    "latency_sec": 0.779
+  }
+]

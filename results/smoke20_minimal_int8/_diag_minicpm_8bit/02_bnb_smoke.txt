@@ -1,0 +1,2 @@
+cuda True
+ok (2, 64)

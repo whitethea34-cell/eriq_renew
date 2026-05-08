@@ -1,0 +1,41 @@
+# Smoke20 计时与质量汇总
+
+| 模型系列           |      参数 | 量化   | 环境                   | 已执行 |  条数 | Accuracy |    有效率 | 错误数 | 平均时延(s) | P50(s) | P95(s) | 吞吐(item/s) | 通过   | 备注            |
+| -------------- | ------: | ---- | -------------------- | --- | --: | -------: | -----: | --: | ------: | -----: | -----: | ---------: | ---- | ------------- |
+| qwen2.5-vl     |      3b | fp16 | eriq-qwen2.5-vl-3b   | Y   | 300 |   49.33% | 100.0% |   0 |   0.138 |  0.060 |  0.101 |       7.23 | PASS | ok            |
+| qwen2.5-vl     |      7b | fp16 | eriq-qwen2.5-vl-3b   | N   |   0 |   10.67% |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| qwen2-vl       |      2b | fp16 | eriq-qwen2.5-vl-3b   | N   |   0 |    7.33% |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| qwen2-vl       |      7b | fp16 | eriq-qwen2.5-vl-3b   | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| qwen3-vl       |      2b | fp16 | eriq-qwen3-vl-2b     | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| qwen3-vl       |      4b | fp16 | eriq-qwen3-vl-2b     | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| qwen3-vl       |      8b | fp16 | eriq-qwen3-vl-2b     | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| qwen3.5        |    0.8b | fp16 | eriq-qwen3.5-vl-0.8b | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| qwen3.5        |      2b | fp16 | eriq-qwen3.5-vl-0.8b | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| qwen3.5        |      4b | fp16 | eriq-qwen3.5-vl-0.8b | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| qwen3.5        |      9b | fp16 | eriq-qwen3.5-vl-0.8b | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| internvl2.5    |      1b | fp16 | eriq-internvl2.5-1b  | N   |   0 |    0.00% |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| internvl2.5    |      2b | fp16 | eriq-internvl2.5-1b  | Y   | 300 |   47.33% |  91.7% |  20 |   0.293 |  0.171 |  0.626 |       3.41 | FAIL | Ok            |
+| internvl2.5    |      4b | fp16 | eriq-internvl2.5-1b  | Y   | 300 |   36.67% |  57.7% |   0 |   0.234 |  0.122 |  0.634 |       4.27 | PASS | ok            |
+| internvl2.5    |      8b | fp16 | eriq-internvl2.5-1b  | N   |   0 |   12.33% |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| internvl3      |      1b | fp16 | eriq-internvl3-1b    | Y   | 300 |   37.00% |  74.3% |   0 |   0.052 |  0.038 |  0.071 |      19.39 | PASS | ok            |
+| internvl3      |      2b | fp16 | eriq-internvl3-1b    | N   |   0 |    0.00% |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| internvl3      |      8b | fp16 | eriq-internvl3-1b    | Y   | 300 |    3.67% |   7.3% |   0 |   0.398 |  0.392 |  1.010 |       2.51 | PASS | retry         |
+| internvl3.5    |      1b | fp16 | eriq-internvl3.5-1b  | Y   | 300 |   37.67% |  96.0% |   0 |   0.216 |  0.077 |  0.761 |       4.63 | PASS | ok            |
+| internvl3.5    |      2b | fp16 | eriq-internvl3.5-1b  | Y   | 300 |   37.33% |  90.0% |   0 |   0.057 |  0.053 |  0.087 |      17.47 | PASS | ok            |
+| internvl3.5    |      4b | fp16 | eriq-internvl3.5-1b  | Y   | 300 |   53.33% |  86.3% |   0 |   0.101 |  0.091 |  0.158 |       9.95 | PASS | ok            |
+| internvl3.5    |      8b | fp16 | eriq-internvl3.5-1b  | Y   | 300 |   37.33% |  51.0% |   0 |   0.106 |  0.092 |  0.123 |       9.44 | PASS | ok            |
+| internvl3.5    |     14b | fp16 | eriq-internvl3.5-1b  | Y   | 300 |   68.00% | 100.0% |   0 |   0.980 |  0.384 |  6.081 |       1.02 | PASS | ok            |
+| internvl3.5    | 20b-a3b | fp16 | eriq-internvl3.5-1b  | Y   |   0 |    0.00% |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | failed\_rule  |
+| minicpm-v      |     2.5 | fp16 | eriq-minicpm-v-2.5   | N   |   0 |    0.00% |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| minicpm-v      |     2.6 | fp16 | eriq-minicpm-v-2.5   | Y   | 300 |   44.67% |  93.7% |   0 |   0.256 |  0.170 |  0.592 |       3.91 | PASS | ok            |
+| minicpm-v      |     4.5 | fp16 | eriq-qwen3-vl-2b     | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| minicpm-v      |   o-4.5 | fp16 | eriq-qwen3-vl-2b     | Y   |   0 |    0.00% |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | failed\_rule  |
+| smolvlm        |    256m | fp16 | eriq-smolvlm         | Y   | 300 |   35.67% | 100.0% |   0 |   0.084 |  0.071 |  0.091 |      11.84 | PASS | ok            |
+| smolvlm        |    500m | fp16 | eriq-smolvlm         | Y   | 300 |   40.67% | 100.0% |   0 |   0.075 |  0.075 |  0.083 |      13.29 | PASS | ok            |
+| smolvlm        |      2b | fp16 | eriq-smolvlm         | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| phi-3-vision   |    4.2b | fp16 | eriq-phi-vision      | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| phi-3.5-vision |    4.2b | fp16 | eriq-phi-vision      | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| molmo          |    7b-d | fp16 | eriq-smolvlm         | N   |   0 |        - |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+| llava          |    0.5b | fp16 | eriq-llava-0.5b      | Y   | 300 |   16.67% | 100.0% |   0 |   0.315 |  0.330 |  0.601 |       3.18 | PASS | ok            |
+| llava          |      7b | fp16 | eriq-llava-0.5b      | N   |   0 |   33.33% |   0.0% |   0 |   0.000 |  0.000 |  0.000 |       0.00 | FAIL | missing\_file |
+

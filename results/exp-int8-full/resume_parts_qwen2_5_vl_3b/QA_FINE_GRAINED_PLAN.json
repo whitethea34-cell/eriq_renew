@@ -1,0 +1,2018 @@
+[
+  {
+    "id": "QA_FINE_GRAINED_PLAN:1",
+    "image": "fine_grained_plan/k000026.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the cap on the pen you're holding\", which annotated bounding box correctly specifies the target pen cap?\nA. Blue\nB. Black\nC. Yellow\nD. Red"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 16.5481
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:2",
+    "image": "fine_grained_plan/k000027.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the cap on the pen you're holding\", which annotated bounding box correctly specifies the target pen cap?\nA. Yellow\nB. Black\nC. Blue\nD. Red"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 9.0363
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:3",
+    "image": "fine_grained_plan/k000028.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the cap on the pen you're holding\", which annotated bounding box correctly specifies the target pen cap?\nA. Yellow\nB. Black\nC. Blue\nD. Red"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 8.9242
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:4",
+    "image": "fine_grained_plan/k000043.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Clean up the pile of clutter on the desktop\", which annotated bounding box correctly specifies the trash that should be thrown away first?\nA. Red\nB. Yellow\nC. Blue\nD. Black"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B.",
+    "latency_sec": 9.4857
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:5",
+    "image": "fine_grained_plan/k000048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take the plates out of the basket and stack them neatly\", which annotated bounding box should the holding plate be placed into?\nA. Black\nB. Blue\nC. Red\nD. Yellow"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 9.0043
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:6",
+    "image": "fine_grained_plan/k000049.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take out the bowls and stack them neatly\", which annotated bounding box should the holding bowl be placed into?\nA. Yellow\nB. Blue\nC. Red\nD. Black"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 9.4664
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:7",
+    "image": "fine_grained_plan/k000051.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Place the plates in the proper location in the dishwasher\", which annotated bounding box should the current item be placed into?\nA. White\nB. Yellow\nC. Blue\nD. Red"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C.",
+    "latency_sec": 9.5672
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:8",
+    "image": "fine_grained_plan/k000052.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the bowl in the appropriate position in the dishwasher\", which annotated bounding box should the current item be placed into?\nA. Blue\nB. Red\nC. Yellow\nD. White"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B.",
+    "latency_sec": 9.0428
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:9",
+    "image": "fine_grained_plan/k000053.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Arrange the tableware on the table\", which annotated bounding box correctly specifies the tableware that should be organized?\nA. Yellow\nB. Red\nC. Blue\nD. Black"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C.",
+    "latency_sec": 9.2507
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:10",
+    "image": "fine_grained_plan/k000054.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Arrange the tableware on the table\", which annotated bounding box correctly specifies the tableware that should be organized?\nA. Black\nB. Blue\nC. Yellow\nD. Red"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 9.1554
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:11",
+    "image": "fine_grained_plan/k000069.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Pack the backpack\", which annotated bounding box correctly specifies the items that should be put into the backpack?\nA. Yellow\nB. Red\nC. Black\nD. Blue"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B.",
+    "latency_sec": 9.4419
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:12",
+    "image": "fine_grained_plan/k000070.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Boil the water in the kettle\", which annotated bounding box correctly specifies the items that should be operated?\nA. Yellow\nB. Blue\nC. Black\nD. Red"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C.",
+    "latency_sec": 9.4966
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:13",
+    "image": "fine_grained_plan/k000081.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Plug the wire into the socket\", which annotated bounding box correctly specifies the port that the wire in gripper be inserted into?\nA. Black\nB. Blue\nC. Yellow\nD. Red"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C.",
+    "latency_sec": 9.5013
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:14",
+    "image": "fine_grained_plan/k000083.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the assembled building blocks back into the toy bucket\", which annotated bounding box correctly specifies the block should be moved first?\nA. Blue\nB. Yellow\nC. Red\nD. Black"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 9.2305
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:15",
+    "image": "fine_grained_plan/k000090.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Water the plant that looks most in need of water\", which annotated bounding box correctly specifies the plant that should be watered?\nA. Blue\nB. Black\nC. Yellow\nD. Red"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C.",
+    "latency_sec": 9.6473
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:16",
+    "image": "fine_grained_plan/k000129.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Sort items in the white material box into blue sorting trays\", which annotated bounding box should the item of blue box be placed into?\nA. Yellow\nB. Blue\nC. Red\nD. Black"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B",
+    "latency_sec": 9.1606
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:17",
+    "image": "fine_grained_plan/k000130.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Sort items in the white material box into blue sorting trays\", which annotated bounding box should the white material box be placed into?\nA. Black\nB. Blue\nC. Red\nD. Yellow"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C.",
+    "latency_sec": 8.8327
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:18",
+    "image": "fine_grained_plan/k000131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Sort items in the white material box into blue sorting trays\", which annotated bounding box should the product of blue box be placed into?\nA. Red\nB. Blue\nC. Black\nD. Yellow"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A.",
+    "latency_sec": 9.3565
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:19",
+    "image": "fine_grained_plan/k000136.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the cosmetics on the table into the makeup box\", which annotated bounding box should the cosmetics on the table be placed into?\nA. Blue\nB. Red\nC. Yellow\nD. Black"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C.",
+    "latency_sec": 9.4071
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:20",
+    "image": "fine_grained_plan/000001.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take the yellow Lay's chips from the very back of the shelf\", what should be done next?\nA. Clear the foreground by relocating the green Lay's chips.\nB. Clear the foreground by relocating the yellow Lay's chips.\nC. Clear the foreground by relocating the purple Lay's chips.\nD. Clear the foreground by relocating the red Lay's chips."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 9.0147
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:21",
+    "image": "fine_grained_plan/000012.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take the bottled milk tea from the very back of the shelf\", what should be done next?\nA. The robot relocates the milk tea bottle to clear the foreground.\nB. The robot relocates the bottled green tea to clear the foreground.\nC. The robot relocates the canned beer to clear the foreground.\nD. The robot relocates the orange-flavored drink to clear the foreground."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 9.0717
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:22",
+    "image": "fine_grained_plan/000003.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Make a two-slice ham meat sandwich (no lettuce)\", what should be done next?\nA. Put the second slice of ham into the sandwich.\nB. Pour oil from the bottle onto the sandwich.\nC. Put the lettuce on top of the ham slice.\nD. Put the second slice of bread into the toaster."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 8.8969
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:23",
+    "image": "fine_grained_plan/000017.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Make a normal sandwich (a slice of ham, a slice of lettuce)\", what should be done next?\nA. Pick up the ham slice and place it on the bread in the toaster.\nB. Pick up the ham slice and place it on the lettuce in the container.\nC. Pick up the ham slice and place it on the bread in the plate.\nD. Pick up the lettuce and place it on the bread in the plate."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 8.9186
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:24",
+    "image": "fine_grained_plan/000017.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Make a sandwich with two slices of lettuce (without ham)\", what should be done next?\nA. The robot puts the lettuce on the bread in the toaster.\nB. The robot puts the lettuce on the bread in the plate.\nC. The robot puts the lettuce on the bottle of sauce.\nD. The robot puts the lettuce on the chicken bouillon package."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 9.011
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:25",
+    "image": "fine_grained_plan/000018.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Make a sandwich with a slice of meat and a slice of lettuce\", what should be done next?\nA. The robot takes a slice of meat and places it on the bread in the plate.\nB. The robot takes a piece of lettuce and places it on the bread inside the toaster.\nC. The robot takes a piece of lettuce and places it on the bread in the plate.\nD. The robot takes a piece of lettuce and places it on the empty side of the plate."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 9.4083
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:26",
+    "image": "fine_grained_plan/000005.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take the bottom piece of clothing from a pile\", what should be done next?\nA. Pick up the top piece of clothing and put it aside.\nB. Pick up the bottom piece of clothing and put it aside.\nC. Pick up the top piece of clothing and place it on the pillow.\nD. Pick up the middle piece of clothing and put it aside."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B",
+    "latency_sec": 8.9409
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:27",
+    "image": "fine_grained_plan/000006.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Wash clothes separately according to color depth\", what should be done next?\nA. Take the light-colored clothes from the laundry basket and put them into the glass bowl.\nB. Take the dark-colored clothes from the laundry basket and put them into the glass bowl.\nC. Take the light-colored clothes from the laundry basket and put them into the washing machine.\nD. Take the dark-colored clothes from the laundry basket and put them into the washing machine."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 9.4773
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:28",
+    "image": "fine_grained_plan/000031.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Wash clothes separately according to color depth\", what should be done next?\nA. Take the dark clothes from the laundry basket and put them into the detergent bottle.\nB. Take the light clothes from the laundry basket and put them into the washing machine.\nC. Take the dark clothes from the laundry basket and put them into the washing machine.\nD. Take the dark clothes from the floor and put them into the washing machine."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 9.2053
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:29",
+    "image": "fine_grained_plan/000007.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take out the baked dessert, but prevent the table from being scorched\", what should be done next?\nA. Transfer the thermal pad from beneath the countertop to the table.\nB. Put the oil bottle on the table to keep it away from the oven.\nC. Move the cookbook from the countertop to the table for reference.\nD. Place the green colander on the table to protect it from heat."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 8.9226
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:30",
+    "image": "fine_grained_plan/000008.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take out the baked dessert\", what should be done next?\nA. Grab the spatula with the robot hand.\nB. Turn on the oven.\nC. Open the oven.\nD. Close the oven door."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 7.4788
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:31",
+    "image": "fine_grained_plan/000009.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take the dessert out and put it on the plate\", what should be done next?\nA. Use the chopsticks to grab the dessert.\nB. Use the tongs to pick up the dessert.\nC. Use the spatula to scoop up the dessert.\nD. Use the fork to lift the dessert."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": "B",
+    "latency_sec": 8.7869
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:32",
+    "image": "fine_grained_plan/000010.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put clothes into the wardrobe\", what should be done next?\nA. Close the wardrobe door.\nB. Hang the clothes outside the wardrobe.\nC. Open the wardrobe door.\nD. Put the hanger into the wardrobe without opening the door."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 8.7833
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:33",
+    "image": "fine_grained_plan/000019.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the clothes into the wardrobe\", what should be done next?\nA. Put the bag on the wardrobe.\nB. Open the wardrobe door.\nC. Close the wardrobe door.\nD. Hang the cable on the wardrobe handle."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 8.6056
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:34",
+    "image": "fine_grained_plan/000011.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the coat into the wardrobe\", what should be done next?\nA. Place the currently held clothes in the drawer.\nB. Hang the currently held clothes on the upper hanger.\nC. Swap the currently held clothes with the ones on the hanger.\nD. Fold the currently held clothes and put them on the shelf."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 9.1975
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:35",
+    "image": "fine_grained_plan/000020.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the shirt into the wardrobe\", what should be done next?\nA. Hang the currently held clothes on the upper hanger.\nB. Fold the currently held clothes and put them on the shelf.\nC. Swap the currently held clothes with the ones on the left hanger.\nD. Place the currently held clothes in the open drawer."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 9.0624
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:36",
+    "image": "fine_grained_plan/000021.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the shirt into the wardrobe\", what should be done next?\nA. Fold the currently held clothes and place them on the lower shelf.\nB. Place the currently held clothes in the drawer.\nC. Hang the currently held clothes on the upper rack.\nD. Put the currently held clothes on the shelf above the rack."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 8.5626
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:37",
+    "image": "fine_grained_plan/000022.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the pants into the wardrobe\", what should be done next?\nA. Put the holding pants next to the hanging clothes.\nB. Put the holding pants on top of the shirts in the wardrobe.\nC. Put the holding pants into the bottom drawer.\nD. Put the holding pants into the empty space above the drawer."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 8.939
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:38",
+    "image": "fine_grained_plan/000023.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the pants into the wardrobe\", what should be done next?\nA. Put the holding pants into the bottom drawer.\nB. Put the holding pants on top of the shirts in the wardrobe.\nC. Put the holding pants next to the plaid cloth in the drawer.\nD. Put the holding pants into the empty space above the shelf."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 8.8198
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:39",
+    "image": "fine_grained_plan/000024.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Let the outside sunlight into the room\", what should be done next?\nA. Push the right curtain against the left one.\nB. Slide the left curtain open along its track.\nC. Slide the right curtain open along its track.\nD. Pull the left curtain closed along its track."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "B",
+    "raw_output": "C",
+    "latency_sec": 8.8427
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:40",
+    "image": "fine_grained_plan/000025.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Reduce sunlight penetration into the room\", what should be done next?\nA. Slide the right curtain close along its track.\nB. Slide the left curtain close along its track.\nC. Pull the right curtain open further along its track.\nD. Push the left curtain upwards along its track."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 8.6306
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:41",
+    "image": "fine_grained_plan/000032.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Replace the toilet paper in the bathroom\", what should be done next?\nA. Remove the empty roll from the toilet paper holder.\nB. Attach the new roll to the wall above the holder.\nC. Place the new roll on the toilet seat.\nD. Clean the toilet paper holder with a cloth."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B",
+    "latency_sec": 9.1288
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:42",
+    "image": "fine_grained_plan/000033.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Replace the toilet paper in the bathroom\", what should be done next?\nA. Place the new roll of toilet paper into the toilet paper holder.\nB. Put the empty toilet paper roll into the toilet paper holder.\nC. Hang the new roll of toilet paper on the bathroom door.\nD. Place the new roll of toilet paper on top of the toilet tank."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 8.9113
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:43",
+    "image": "fine_grained_plan/000034.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Replace the toilet paper in the bathroom\", what should be done next?\nA. The robot replaces the toilet paper with a new roll.\nB. The robot adjusts the position of the toilet paper holder.\nC. The robot checks the toilet seat for cleanliness.\nD. The toilet paper roll is sufficient, no need to replace it."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 9.0182
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:44",
+    "image": "fine_grained_plan/000035.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the dirty clothes into the laundry basket\", what should be done next?\nA. Place the currently held light-colored clothes into the empty white pot.\nB. Place the currently held light-colored clothes into the washing machine.\nC. Place the currently held light-colored clothes into the right laundry basket.\nD. Place the currently held light-colored clothes into the left laundry basket."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C.",
+    "latency_sec": 9.637
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:45",
+    "image": "fine_grained_plan/000036.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the dirty clothes into the laundry basket\", what should be done next?\nA. Place the currently held dark-colored clothes into the laundry basket on the right.\nB. Place the currently held dark-colored clothes into the laundry basket on the left.\nC. Put the light-colored clothes from the left basket into the washing machine.\nD. Transfer the dark-colored clothes from the right basket into the left basket."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 9.4215
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:46",
+    "image": "fine_grained_plan/000037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Insert the flowers into the vases so that each vase has the same number of flowers\", what should be done next?\nA. Insert a red berry branch into the vase on the left.\nB. Insert a yellow sunflower into the vase on the left.\nC. Insert a green leafy plant into the vase on the left.\nD. Insert a white plum blossom into the vase on the left."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 9.0486
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:47",
+    "image": "fine_grained_plan/000038.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Insert the flowers into the vases so that each vase has the same number of flowers\", what should be done next?\nA. Insert a white flower into the vase on the left.\nB. Insert a red flower into the vase on the right.\nC. Insert a sunflower into the vase on the right.\nD. Insert a sunflower into the vase in the middle."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 9.0587
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:48",
+    "image": "fine_grained_plan/000039.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Insert the held flower into the corresponding vase\", what should be done next?\nA. Insert the held flower into the vase with the yellow flowers.\nB. Insert the held flower into the glass vase in the center.\nC. Insert the held flower into the vase on the left.\nD. Insert the held flower into the small white pot with the green plant."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 7.3804
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:49",
+    "image": "fine_grained_plan/000040.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Insert the held flower into the corresponding vase\", what should be done next?\nA. Insert the held flower into the vase on the left.\nB. Insert the held flower into the glass vase on the right.\nC. Insert the held flower into the white rectangular planter.\nD. Insert the held flower into the vase in the middle."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B",
+    "latency_sec": 8.8514
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:50",
+    "image": "fine_grained_plan/000041.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Insert the held flower into the corresponding vase\", what should be done next?\nA. The robot adjusts the position of the yellow flowers in the vase.\nB. None\nC. The robot moves the vase closer to itself.\nD. The robot picks up the white flower from the table."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 9.0825
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:51",
+    "image": "fine_grained_plan/000044.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Wipe the stains on the table surface\", what should be done next?\nA. Pick up the sponge on the table.\nB. Pick up the cloth on the table.\nC. Move the broom to the side of the table.\nD. Grab the laptop from the table."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 9.526
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:52",
+    "image": "fine_grained_plan/000045.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Clean up the garbage on the ground\", what should be done next?\nA. Pick up the dustpan.\nB. Pick up the broom.\nC. Grab the green towel.\nD. Move the table aside."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 8.4018
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:53",
+    "image": "fine_grained_plan/000046.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Clean the stains on the floor\", what should be done next?\nA. Pour water from the bucket onto the stains on the floor.\nB. Scrub the stains on the floor with the brush attached to the robot.\nC. Wipe the stains on the floor with a rag.\nD. Vacuum the stains on the floor again with the robot."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": "B",
+    "latency_sec": 9.1066
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:54",
+    "image": "fine_grained_plan/000047.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take the tableware out of the basket from right to left and arrange them neatly\", what should be done next?\nA. Placed the pink bowl from the basket on the tabletop.\nB. Placed the blue plate from the basket on the countertop.\nC. Placed the light-colored plate from the basket on the tabletop.\nD. Placed the purple bowl from the basket on the blender."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 9.3895
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:55",
+    "image": "fine_grained_plan/000047.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take the tableware out of the basket and arrange them neatly from left to right\", what should be done next?\nA. The robot places the beige bowl from the basket on the tabletop.\nB. The robot places the pink bowl back into the basket on the tabletop.\nC. The robot places the blue plate from the basket on the tabletop.\nD. The robot places the purple plate from the basket on the tabletop."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "A",
+    "raw_output": "C",
+    "latency_sec": 9.2541
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:56",
+    "image": "fine_grained_plan/000050.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the bowls and chopsticks into the dishwasher\", what should be done next?\nA. Open the dishwasher.\nB. Load the bowls into the sink.\nC. Place the chopsticks on the countertop.\nD. Turn on the faucet."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 9.2801
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:57",
+    "image": "fine_grained_plan/000055.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Please help set the table\", what should be done next?\nA. Pick up the knife from the tray.\nB. Pick up the fork from the tray.\nC. Pick up the plate from the tray.\nD. Pick up the wine glass from the stand."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 8.976
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:58",
+    "image": "fine_grained_plan/000056.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Set the table\", what should be done next?\nA. Pick up the plate from the tray.\nB. Pick up the spoon from the tray.\nC. Pick up the fork from the tray.\nD. Pick up the knife from the tray."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 9.1402
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:59",
+    "image": "fine_grained_plan/000057.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Organize the tableware\", what should be done next?\nA. Place the spoon on top of the plate with the chopsticks.\nB. Adjust the position of the fruit bowl closer to the chopsticks.\nC. Arrange the chopsticks that are not properly placed on the table.\nD. Move the glass of water next to the improperly placed chopsticks."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 9.4335
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:60",
+    "image": "fine_grained_plan/000058.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Organize the tableware\", what should be done next?\nA. Arrange the spoon that is not properly placed on the table.\nB. Move the chopsticks to the right side of the plate.\nC. Place the glass under the wine glass holder.\nD. Put the kettle next to the bowl of fruit."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B",
+    "latency_sec": 8.989
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:61",
+    "image": "fine_grained_plan/000059.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the incorrectly placed products on the fourth shelf in their correct positions\", what should be done next?\nA. Place the black chip bag in the rightmost column.\nB. Place the red Lays chips in the rightmost column.\nC. Place the purple chip bag in the rightmost column.\nD. Place the green shrimp snacks in the rightmost column."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 7.399
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:62",
+    "image": "fine_grained_plan/000060.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the misplaced chips back in place\", what should be done next?\nA. Put the Lay's chips above the orange chips in the middle column.\nB. Put the Lay's chips in the middle of the green chips in the farthest right column.\nC. Put the Lay's chips next to the red chips in the farthest left column.\nD. Put the Lay's chips below the yellow chips in the farthest right column."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 7.4804
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:63",
+    "image": "fine_grained_plan/000061.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the misplaced potato chips back in place\", what should be done next?\nA. Place the green chips from the back-left area into the middle column.\nB. Place the yellow chips from the back-left area into the middle column.\nC. Place the green chips from the front-left area into the middle column.\nD. Place the green chips from the back-left area into the right column."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 7.2037
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:64",
+    "image": "fine_grained_plan/000062.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the misplaced fruit in the right place\", what should be done next?\nA. Pick up the misplaced orange and put it back on the orange shelf.\nB. Pick up the carrot from the side and put it on the orange shelf.\nC. Pick up the misplaced orange and put it back on the bok choy shelf.\nD. Pick up the misplaced bok choy and put it back on the orange shelf."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 8.9896
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:65",
+    "image": "fine_grained_plan/000063.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the misplaced fruits in the correct positions\", what should be done next?\nA. Pick up the misplaced mango and put it back on the mango shelf.\nB. Pick up the misplaced starfruit and put it back on the starfruit tray.\nC. Pick up the misplaced carrot and put it back on the carrot tray.\nD. Pick up the misplaced potato and put it back on the potato tray."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 8.7707
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:66",
+    "image": "fine_grained_plan/000064.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the misplaced fruit in the correct position\", what should be done next?\nA. Pick up the red apple and place it among the bananas.\nB. Pick up the banana and place it with the green apples.\nC. Pick up the orange and place it on the apple shelf.\nD. Pick up the misplaced green apple and put it back on the apple shelf."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 7.8275
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:67",
+    "image": "fine_grained_plan/000065.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Restock the shelves with vegetables and fruits to the same quantity\", what should be done next?\nA. Stock the carrot shelf with three carrots taken from the handcart.\nB. Stock the green vegetable shelf with three items taken from the handcart.\nC. Stock the potato shelf with five potatoes taken from the handcart.\nD. Stock the potato shelf with three potatoes taken from the handcart."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 9.4895
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:68",
+    "image": "fine_grained_plan/000066.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Restock the fruits and vegetables on the shelf to the same quantity\", what should be done next?\nA. Stock the green vegetable shelf with four items taken from the handcart.\nB. Stock the carrot shelf with four carrots taken from the handcart.\nC. Stock the carrot shelf with two carrots and two potatoes taken from the handcart.\nD. Stock the potato shelf with four potatoes taken from the handcart."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 9.3481
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:69",
+    "image": "fine_grained_plan/000071.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Pour a cup of boiled water\", what should be done next?\nA. Place the electric kettle on its charging base.\nB. Fill the glass with water from the electric kettle.\nC. Turn off the heating switch on the electric kettle.\nD. Adjust the position of the glass on the table."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": "B",
+    "latency_sec": 9.4563
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:70",
+    "image": "fine_grained_plan/000072.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the tissues into the drawer on the left\", what should be done next?\nA. Close the drawer labeled \"daily necessities\".\nB. Place the tissues on top of the drawer unit.\nC. Open the drawer labeled \"stationery\".\nD. Open the drawer labeled \"tissue\"."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 7.9793
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:71",
+    "image": "fine_grained_plan/000073.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the cleaning and care products into the left drawer\", what should be done next?\nA. Put the facial cleanser on the table into the drawer labeled \"daily necessities\".\nB. Put the facial cleanser on the table into the drawer labeled \"stationery\".\nC. Put the facial tissue box on the table into the drawer labeled \"daily necessities\".\nD. Put the tape measure on the table into the drawer labeled \"daily necessities\"."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 8.6418
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:72",
+    "image": "fine_grained_plan/000074.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the stationery into the left drawer\", what should be done next?\nA. Put the pencil sharpener on the table into the drawer labeled \"stationery\".\nB. Put the pencil case from the drawer into the drawer labeled \"stationery\".\nC. Put the small blue box on the table into the drawer labeled \"daily necessities\".\nD. Put the tissue box on the table into the drawer labeled \"stationery\"."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 9.2486
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:73",
+    "image": "fine_grained_plan/000075.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Put the tissue into the left drawer\", what should be done next?\nA. Place the tissue box on the table into the drawer labeled \"tissue\".\nB. Place the tissue box on the table into the drawer labeled \"Daily necessities\".\nC. Place the tissue box on the table into the drawer labeled \"Stationery\".\nD. Place the tissue box on the table into the top drawer of the white cabinet."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 9.0959
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:74",
+    "image": "fine_grained_plan/000076.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Restock the tea bags in the tea box to the same quantity\", what should be done next?\nA. Put 3 green and 2 yellow tea bags into the tea box.\nB. Put 3 green and 3 yellow tea bags into the tea box.\nC. Put 4 green and 3 yellow tea bags into the tea box.\nD. Put 2 green and 4 yellow tea bags into the tea box."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 8.0607
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:75",
+    "image": "fine_grained_plan/000077.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Replenish the tea bags in the tea box to the same quantity\", what should be done next?\nA. Put 2 green and 4 yellow tea bags into the tea box.\nB. Put 2 green and 3 yellow tea bags into the tea box.\nC. Put 1 green and 3 yellow tea bags into the tea box.\nD. Put 3 green and 2 yellow tea bags into the tea box."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 8.0575
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:76",
+    "image": "fine_grained_plan/000078.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Restock the tea bags in the tea box to the same quantity\", what should be done next?\nA. Put 5 green and 5 yellow tea bags into the tea box.\nB. Put 5 green and 5 pink tea bags into the tea box.\nC. Put 4 green and 6 yellow tea bags into the tea box.\nD. Put 5 red and 5 white tea bags into the tea box."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B",
+    "latency_sec": 7.7437
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:77",
+    "image": "fine_grained_plan/000079.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Boil water in the electric kettle\", what should be done next?\nA. Plug the plug into the three-hole socket.\nB. Connect the plug to the wall without using a socket.\nC. Place the plug on top of the electric kettle.\nD. Plug the plug into the two-hole socket."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "A",
+    "raw_output": "A",
+    "latency_sec": 9.3303
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:78",
+    "image": "fine_grained_plan/000080.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Turn on electric mosquito repellent\", what should be done next?\nA. Plug the plug into the three-hole socket.\nB. Plug the plug into the two-hole socket.\nC. Place the mosquito repellent on the table.\nD. Connect the white cable to the mosquito repellent."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 8.8723
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:79",
+    "image": "fine_grained_plan/000082.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Organize the stools on the ground by stacking them together\", what should be done next?\nA. Place the plastic stool on top of the wooden stool.\nB. Stack the colorful blocks onto the green benches.\nC. Stack the wooden stool onto the green benches.\nD. Stack the sideways-overturned benches onto the green benches."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": "A",
+    "latency_sec": 7.4816
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:80",
+    "image": "fine_grained_plan/000086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Pour a cup of warm water into a cup that already has half a cup of cold water\", what should be done next?\nA. Add half a cup of cold water to the cup again.\nB. Pour the entire cup of warm water into the sink.\nC. Add half a cup of hot water to the cup again.\nD. Place the empty cup back under the hot water dispenser."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 9.0951
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:81",
+    "image": "fine_grained_plan/000087.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Pour a cup of warm water, the cup already has half a cup of hot water.\", what should be done next?\nA. Pour another half cup of hot water into the cup.\nB. Fill the cup with more warm water from the machine.\nC. Add half a cup of cold water to the cup again.\nD. Place the cup under the warm water spout again."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": "B",
+    "latency_sec": 9.2047
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:82",
+    "image": "fine_grained_plan/000088.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Pour a cup of warm water; half of it is already hot water\", what should be done next?\nA. Release the hot water button and press the cold water button.\nB. Release the hot water button and turn off the machine.\nC. Hold the hot water button and press the cold water button.\nD. Release the hot water button and press the warm water button."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "A",
+    "raw_output": "D",
+    "latency_sec": 9.3883
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:83",
+    "image": "fine_grained_plan/000090.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Fill the watering can with enough water for plants in the picture. Each plant needs 200ml water.\", what should be done next?\nA. Fill the watering can with 800ml of water.\nB. Fill the watering can with 400ml of water.\nC. Fill the watering can with 600ml of water.\nD. Fill the watering can with 1000ml of water."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B",
+    "latency_sec": 9.009
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:84",
+    "image": "fine_grained_plan/000092.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Replace the dehumidifying bag inside the wardrobe\", what should be done next?\nA. Replace the red plaid shirt with a new one.\nB. Hang the new dehumidifying bag inside the wardrobe.\nC. Move the blue shirt to make space for the new bag.\nD. Take out the used dehumidifying bag from the wardrobe."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B",
+    "latency_sec": 9.1357
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:85",
+    "image": "fine_grained_plan/000093.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Replace the moisture-absorbing bag in the wardrobe\", what should be done next?\nA. The dehumidifying bag is new and does not need to be replaced.\nB. The robot hangs a new dehumidifying bag next to the old one.\nC. The robot removes the blue shirt to replace the dehumidifying bag.\nD. The robot checks the clothes for moisture before replacing the bag."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "A",
+    "raw_output": "B",
+    "latency_sec": 8.7457
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:86",
+    "image": "fine_grained_plan/000094.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Replace the dehumidifying bag in the wardrobe\", what should be done next?\nA. Attach the dehumidifying bag to the wardrobe door.\nB. Put the dehumidifying bag inside a jacket pocket.\nC. Hang the dehumidifying bag into the cabinet.\nD. Place the dehumidifying bag on top of the clothes."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "C",
+    "raw_output": "D",
+    "latency_sec": 8.6455
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:87",
+    "image": "fine_grained_plan/000097.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Clean the floor\", what should be done next?\nA. Pick up the badminton from the ground and place it into the paddle cover on the table.\nB. Pick up the badminton from the ground and place it into the white tray on the table.\nC. Pick up the badminton from the ground and place it into the held container.\nD. Pick up the badminton from the ground and place it into the black shelf."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A",
+    "latency_sec": 9.0976
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:88",
+    "image": "fine_grained_plan/000098.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Organize the table tennis balls on the desktop neatly\", what should be done next?\nA. Place the artichoke plant next to the ping pong paddle.\nB. Take out the table tennis ball storage box from the shelf.\nC. Take out the ping pong paddle from the plastic case.\nD. Move the orange balls into the white tray."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 8.8913
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:89",
+    "image": "fine_grained_plan/000099.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Organize desktop items\", what should be done next?\nA. Put the ping pong paddle into the slot of the storage box.\nB. Put the table tennis ball into the orange tube.\nC. Put the shuttlecock into the slot of the storage box.\nD. Put the table tennis ball into the slot of the storage box."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "D",
+    "raw_output": "C",
+    "latency_sec": 9.1698
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:90",
+    "image": "fine_grained_plan/000102.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Wipe the mirror cabinet\", what should be done next?\nA. Pick up the tissue box from the table.\nB. Pick up the soap box from the table.\nC. Pick up the toothbrush from the table.\nD. Pick up the cloth on the table."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 9.2115
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:91",
+    "image": "fine_grained_plan/000104.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Scrape off the water stains on the mirror cabinet\", what should be done next?\nA. Pick up the toothbrush from the table.\nB. Pick up the tissue pack from the table.\nC. Pick up the pink cloth from the table.\nD. Pick up the squeegee from the table."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 9.3751
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:92",
+    "image": "fine_grained_plan/000108.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Clean the toilet\", what should be done next?\nA. Pick up the pink cloth from the shelf.\nB. Grab the tissue from the holder.\nC. Open the toilet lid.\nD. Move the trash bin closer to the toilet."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 9.353
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:93",
+    "image": "fine_grained_plan/000109.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Clean the toilet with the appropriate tools\", what should be done next?\nA. Pick up the tissue pack.\nB. Pick up the pink sponge.\nC. Pick up the cloth.\nD. Pick up the small bag."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "C",
+    "raw_output": "B",
+    "latency_sec": 9.1851
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:94",
+    "image": "fine_grained_plan/000113.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Brush the toilet with the appropriate tool\", what should be done next?\nA. Pick up the pink towel from the shelf.\nB. Pick up the cleaning gloves from the shelf.\nC. Pick up the tissue paper from the holder.\nD. Pick up the toilet brush."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 9.1875
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:95",
+    "image": "fine_grained_plan/000116.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Choose the right tool to clean the whiteboard\", what should be done next?\nA. The robot picks up the wooden block next to the table.\nB. The robot picks up the whiteboard eraser.\nC. The robot picks up the whiteboard marker.\nD. The robot picks up the cloth from the table."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 7.8265
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:96",
+    "image": "fine_grained_plan/000118.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Wash fruits and vegetables\", what should be done next?\nA. Move the bag to the countertop next to the jars.\nB. Put the bag into the sink.\nC. Hang the bag on the window handle.\nD. Take the bag out of the draining basket."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B",
+    "latency_sec": 9.2256
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:97",
+    "image": "fine_grained_plan/000122.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Retrieve clothes from the washing machine\", what should be done next?\nA. Retrieve hangers from the shelf.\nB. Grab the tissue pack from the shelf.\nC. Press buttons on the washing machine.\nD. Open the washing machine lid."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 8.9215
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:98",
+    "image": "fine_grained_plan/000126.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Restock the missing items\", what should be done next?\nA. Restock the blue cookies and green soda cans on the shelves.\nB. Restock the blue cookies and red oolong tea on the shelves.\nC. Restock the green Lay's chips and red oolong tea on the shelves.\nD. Restock the black Lay's chips and red oolong tea on the shelves."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 7.4464
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:99",
+    "image": "fine_grained_plan/000127.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Organize the shelves\", what should be done next?\nA. Move the green can next to the cookie.\nB. Stack the yellow boxes on top of the cookie.\nC. Swap the cookie with the oolong tea.\nD. Replace the oolong tea with the panettone box."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A",
+    "latency_sec": 8.964
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:100",
+    "image": "fine_grained_plan/000128.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Organize products\", what should be done next?\nA. Stack the yellow boxes on top of each other.\nB. Straighten the tilted cookies on the shelf.\nC. Move the jars to the left side of the shelf.\nD. Adjust the position of the red cups."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 9.1569
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:101",
+    "image": "fine_grained_plan/000132.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Make the bed\", what should be done next?\nA. Pick up the duvet and fold it neatly.\nB. Pick up the brochure and place it on the pillow.\nC. Pick up the mattress and adjust its position.\nD. Pick up the pillow and put it aside."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "D",
+    "raw_output": "A",
+    "latency_sec": 9.4674
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:102",
+    "image": "fine_grained_plan/000133.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Make the bed\", what should be done next?\nA. Place the stuffed animals on the floor.\nB. Cover the opened quilt properly.\nC. Fold the pillow into a triangle shape.\nD. Arrange the bed sheets under the mattress."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 9.3333
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:103",
+    "image": "fine_grained_plan/000134.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Shoe storage\", what should be done next?\nA. Put the shoes into the first shoe rack.\nB. Put the shoes on top of the pink slippers.\nC. Put the shoes into the second shoe rack.\nD. Put the shoes next to the white sandals."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "C",
+    "raw_output": "A",
+    "latency_sec": 9.0359
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:104",
+    "image": "fine_grained_plan/000135.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Shoe storage\", what should be done next?\nA. Pick up the shoes and place them on the second shoe rack.\nB. Pick up the shoes and place them on the first shoe rack.\nC. Pick up the shoes and place them on the floor next to the rack.\nD. Pick up the shoes and place them on the fourth shoe rack."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "D",
+    "raw_output": "B",
+    "latency_sec": 7.5478
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:105",
+    "image": "fine_grained_plan/000137.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Fold clothes\", what should be done next?\nA. Fold the red and black plaid shirt from the bed.\nB. Pick up the blue shirt and place it under the black top.\nC. Fold the black short-sleeved top from the bed.\nD. Hang the black short-sleeved top on the green hanger."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C",
+    "latency_sec": 8.8382
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:106",
+    "image": "fine_grained_plan/000138.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Fold pants\", what should be done next?\nA. Fold the purple pants instead of the beige shorts.\nB. Fold the beige shorts neatly on the bed.\nC. Place the blue jeans on top of the beige shorts.\nD. Tuck the beige shorts into the purple pants."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 8.9149
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:107",
+    "image": "fine_grained_plan/000139.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Organize clothes\", what should be done next?\nA. Place the black short-sleeved top on top of the red shirt.\nB. Place the blue shirt on top of the black short-sleeved top.\nC. Place the red shirt next to the green hangers.\nD. Place the red shirt on top of the black short-sleeved top."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 9.0545
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:108",
+    "image": "fine_grained_plan/000140.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Tidy up the pants\", what should be done next?\nA. Place the beige shorts on top of the purple shorts.\nB. Place the purple shorts next to the beige shorts.\nC. Place the purple shorts on top of the beige shorts.\nD. Fold the blue jeans and place them on top of the purple shorts."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "prediction": "C",
+    "gt_answer": "C",
+    "raw_output": "C.",
+    "latency_sec": 7.9633
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:109",
+    "image": "fine_grained_plan/000141.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Fold the towel\", what should be done next?\nA. Smooth out the beige towel.\nB. Fold the beige towel.\nC. Pick up the green towel.\nD. Fold the patterned towel."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "B",
+    "gt_answer": "B",
+    "raw_output": "B",
+    "latency_sec": 9.1733
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:110",
+    "image": "fine_grained_plan/000142.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Replace the empty toothpaste tube\", what should be done next?\nA. Replace the cup with a new empty toothpaste tube.\nB. Replace the toothbrush with a new one from the box.\nC. Replace the towel with the new toothpaste.\nD. Replace the empty toothpaste with the new toothpaste."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "D",
+    "raw_output": "D",
+    "latency_sec": 8.6715
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:111",
+    "image": "fine_grained_plan/000143.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take out the blue snack that's under the wave chips\", what should be done next?\nA. Take out the green snack that's under the wave chips\nB. Take out the blue snack that's under the wave chips\nC. Take out the yellow snack that's under the wave chips\nD. Take out the black snack that's under the wave chips"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "D",
+    "gt_answer": "B",
+    "raw_output": "D",
+    "latency_sec": 8.6138
+  },
+  {
+    "id": "QA_FINE_GRAINED_PLAN:112",
+    "image": "fine_grained_plan/000144.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo fulfill the overall goal:\"Take out the brown chips behind the purple snacks\", what should be done next?\nA. Push the purple snack further back.\nB. Move the purple snack away.\nC. Pick up the brown chips directly.\nD. Move the green snack away."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "prediction": "A",
+    "gt_answer": "B",
+    "raw_output": "A",
+    "latency_sec": 9.3487
+  }
+]
