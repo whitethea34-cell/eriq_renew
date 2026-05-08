@@ -1,0 +1,51 @@
+project_root: /mnt/e/Projects/eriq-eval
+run_list_file: /mnt/e/Projects/eriq-eval/stepbystep/configs/run_lists/run_list_fp16_budget.yaml
+summary_json_file: /mnt/e/Projects/eriq-eval/results/smoke20_minimal_fp16_20b/summary.json
+history_log_file: /mnt/e/Projects/eriq-eval/logs/retry_failed_models_fp16_20b.log
+runner_script: /mnt/e/Projects/eriq-eval/stepbystep/run_from_config_per_subset.py
+eval_script: /mnt/e/Projects/eriq-eval/eval_code/eval_hf.py
+data_dir: /mnt/e/Projects/eriq-eval/data
+results_dir: /mnt/e/Projects/eriq-eval/results/smoke20_minimal_fp16_20b
+limit: 20
+detection:
+  from_summary: true
+  from_history_log: true
+  from_missing_output: true
+include_tasks:
+- internvl2.5|1b|fp16
+- internvl3|2b|fp16
+- minicpm-v|2.5|fp16
+- internvl2.5|8b|fp16
+- llava|7b|fp16
+- qwen2-vl|2b|fp16
+- qwen2.5-vl|7b|fp16
+exclude_tasks: []
+batch:
+  size: 4
+  max_concurrent: 1
+  sleep_seconds: 3
+retry:
+  max_attempts: 2
+env_exports:
+  ERIQ_SAFE_ATTN: '1'
+  PYTORCH_CUDA_ALLOC_CONF: expandable_segments:True
+  ERIQ_SAMPLE_EMPTY_CACHE: '1'
+  ERIQ_GC_EACH_SAMPLE: '1'
+  ERIQ_SUBSET_COOLDOWN_SEC: '3'
+  CUDA_LAUNCH_BLOCKING: '0'
+log_dir: /mnt/e/Projects/eriq-eval/logs/standard/smart_retry
+state_dir: /mnt/e/Projects/eriq-eval/runtime/smart_retry
+daemon_log_file: /mnt/e/Projects/eriq-eval/logs/standard/smart_retry/smart_retry_daemon.log
+error_log_file: /mnt/e/Projects/eriq-eval/logs/standard/smart_retry/smart_retry_daemon.error.log
+event_file: /mnt/e/Projects/eriq-eval/logs/standard/smart_retry/rerun_events.jsonl
+state_file: /mnt/e/Projects/eriq-eval/runtime/smart_retry/retry_state.json
+pid_file: /mnt/e/Projects/eriq-eval/runtime/smart_retry/retry_daemon.pid
+log_rotation:
+  max_mb: 50
+  backup_count: 10
+  cleanup_days: 14
+monitor:
+  enabled: true
+  host: 127.0.0.1
+  port: 8765
+service_name: eriq-smart-retry

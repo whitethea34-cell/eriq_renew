@@ -1,0 +1,65 @@
+runs:
+- config: /mnt/e/Projects/eriq-eval/stepbystep/configs/quant/qwen2.5-vl-3b-int8.yaml
+  series: qwen2.5-vl
+  size: 3b
+  quant: 8bit
+  env: eriq-qwen2.5-vl-3b
+  run_enabled: true
+  skip_reason: ''
+  output_name: qwen2.5-vl-3b-int8_smoke20.json
+- config: /mnt/e/Projects/eriq-eval/stepbystep/configs/quant/qwen3-vl-2b-int8.yaml
+  series: qwen3-vl
+  size: 2b
+  quant: 8bit
+  env: eriq-qwen3-vl-2b
+  run_enabled: false
+  skip_reason: already completed by subset-resume
+  output_name: qwen3-vl-2b-int8_smoke20.json
+- config: /mnt/e/Projects/eriq-eval/stepbystep/configs/quant/qwen3.5-vl-0.8b-int8.yaml
+  series: qwen3.5-vl
+  size: 0.8b
+  quant: 8bit
+  env: eriq-qwen3.5-vl-0.8b
+  run_enabled: true
+  skip_reason: ''
+  output_name: qwen3.5-vl-0.8b-int8_smoke20.json
+- config: /mnt/e/Projects/eriq-eval/stepbystep/configs/quant/internvl2.5-1b-int8.yaml
+  series: internvl2.5
+  size: 1b
+  quant: 8bit
+  env: eriq-internvl2.5-1b
+  run_enabled: false
+  skip_reason: disabled for current rerun scope
+  output_name: internvl2.5-1b-int8_smoke20.json
+- config: /mnt/e/Projects/eriq-eval/stepbystep/configs/quant/internvl3-1b-int8.yaml
+  series: internvl3
+  size: 1b
+  quant: 8bit
+  env: eriq-internvl3-1b
+  run_enabled: false
+  skip_reason: disabled for current rerun scope
+  output_name: internvl3-1b-int8_smoke20.json
+- config: /mnt/e/Projects/eriq-eval/stepbystep/configs/quant/internvl3.5-1b-int8.yaml
+  series: internvl3.5
+  size: 1b
+  quant: 8bit
+  env: eriq-internvl3.5-1b
+  run_enabled: false
+  skip_reason: disabled for current rerun scope
+  output_name: internvl3.5-1b-int8_smoke20.json
+- config: /mnt/e/Projects/eriq-eval/stepbystep/configs/quant/llava-0.5b-int8.yaml
+  series: llava
+  size: 0.5b
+  quant: 8bit
+  env: eriq-llava-0.5b
+  run_enabled: false
+  skip_reason: temporarily disabled due to CUDA instability
+  output_name: llava-0.5b-int8_smoke20.json
+- config: /mnt/e/Projects/eriq-eval/stepbystep/configs/quant/smolvlm-512m-int8.yaml
+  series: smolvlm
+  size: 512m
+  quant: 8bit
+  env: eriq-smolvlm
+  run_enabled: true
+  skip_reason: ''
+  output_name: smolvlm-512m-int8_full.json

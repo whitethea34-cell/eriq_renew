@@ -1,0 +1,49 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local runtime and logs
+logs/
+runtime/
+*.log
+*.pid
+*.jsonl
+
+# Large local models and locks
+models/
+data/
+
+# Evaluation outputs: included as requested
+# results/
+
+# Personal/local docs not for sync
+mdForLearning/
+git_sync_plan/
+stepbystep/当前操作指南.md
+stepbystep/ERIQ-Model-Switching-SOP.md
+stepbystep/ERIQ-Zero-to-Hero-Guide.md
+
+# Temporary and backup files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.bak.*
+
+stepbystep/补测指南.md

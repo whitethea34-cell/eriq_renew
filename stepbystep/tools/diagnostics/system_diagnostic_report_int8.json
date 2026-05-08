@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-05-07T10:05:24",
+  "project_root": "/mnt/e/Projects/eriq-eval",
+  "model_count": 8,
+  "series_distribution": {
+    "qwen2.5-vl": 1,
+    "qwen3-vl": 1,
+    "qwen3.5-vl": 1,
+    "internvl2.5": 1,
+    "internvl3": 1,
+    "internvl3.5": 1,
+    "llava": 1,
+    "smolvlm": 1
+  },
+  "state_distribution": {
+    "in_progress": 1,
+    "pending": 4,
+    "completed": 3
+  },
+  "error_distribution": [
+    [
+      "other_runtime_error",
+      26
+    ],
+    [
+      "cuda_oom",
+      15
+    ],
+    [
+      "cuda_unknown_error",
+      8
+    ]
+  ],
+  "error_samples": {
+    "other_runtime_error": "1: CUDA driver error: device not ready @ /mnt/e/Projects/eriq-eval/logs/standard/retry-int8-full/smart_retry_daemon.log:33344",
+    "cuda_oom": "torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 108.00 GiB. GPU 0 has a total capacity of 47.99 GiB of which 0 bytes is free. Of the allocated memory 3.35 GiB is allocated by PyTorch, and 65.94 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables) @ /mnt/e/Projects/eriq-eval/logs/standard/retry-int8-full/smart_retry_daemon.log:33484",
+    "cuda_unknown_error": "CUDA error: unknown error @ /mnt/e/Projects/eriq-eval/logs/standard/retry-int8-full/smart_retry_daemon.log:35066"
+  },
+  "model_checklist": [
+    {
+      "task_id": "qwen2.5-vl|3b|8bit",
+      "series": "qwen2.5-vl",
+      "size": "3b",
+      "quant": "8bit",
+      "env": "eriq-qwen2.5-vl-3b",
+      "config": "/mnt/e/Projects/eriq-eval/stepbystep/auto_configs_minimal_int8/qwen2.5-vl-3b-int8.yaml",
+      "state_status": "in_progress",
+      "check_data_format": "PENDING",
+      "check_tensor_flow": "PENDING",
+      "check_load_init": "PENDING",
+      "check_inference_exception": "PENDING",
+      "overall": "RUNNING",
+      "error_categories": [],
+      "last_reason": "recovered_from_unfinished_after_restart"
+    },
+    {
+      "task_id": "qwen3-vl|2b|8bit",
+      "series": "qwen3-vl",
+      "size": "2b",
+      "quant": "8bit",
+      "env": "eriq-qwen3-vl-2b",
+      "config": "/mnt/e/Projects/eriq-eval/stepbystep/auto_configs_minimal_int8/qwen3-vl-2b-int8.yaml",
+      "state_status": "pending",
+      "check_data_format": "PENDING",
+      "check_tensor_flow": "PENDING",
+      "check_load_init": "PENDING",
+      "check_inference_exception": "PENDING",
+      "overall": "PENDING",
+      "error_categories": [],
+      "last_reason": "recovered_from_unfinished_after_restart"
+    },
+    {
+      "task_id": "qwen3.5-vl|0.8b|8bit",
+      "series": "qwen3.5-vl",
+      "size": "0.8b",
+      "quant": "8bit",
+      "env": "eriq-qwen3.5-vl-0.8b",
+      "config": "/mnt/e/Projects/eriq-eval/stepbystep/auto_configs_minimal_int8/qwen3.5-vl-0.8b-int8.yaml",
+      "state_status": "pending",
+      "check_data_format": "PENDING",
+      "check_tensor_flow": "RISK",
+      "check_load_init": "PENDING",
+      "check_inference_exception": "FAIL",
+      "overall": "FAIL",
+      "error_categories": [
+        "cuda_oom",
+        "cuda_unknown_error",
+        "other_runtime_error"
+      ],
+      "last_reason": "recovered_from_unfinished_after_restart"
+    },
+    {
+      "task_id": "internvl2.5|1b|8bit",
+      "series": "internvl2.5",
+      "size": "1b",
+      "quant": "8bit",
+      "env": "eriq-internvl2.5-1b",
+      "config": "/mnt/e/Projects/eriq-eval/stepbystep/auto_configs_minimal_int8/internvl2.5-1b-int8.yaml",
+      "state_status": "completed",
+      "check_data_format": "PASS",
+      "check_tensor_flow": "PASS",
+      "check_load_init": "PASS",
+      "check_inference_exception": "PASS",
+      "overall": "PASS",
+      "error_categories": [],
+      "last_reason": "ok"
+    },
+    {
+      "task_id": "internvl3|1b|8bit",
+      "series": "internvl3",
+      "size": "1b",
+      "quant": "8bit",
+      "env": "eriq-internvl3-1b",
+      "config": "/mnt/e/Projects/eriq-eval/stepbystep/auto_configs_minimal_int8/internvl3-1b-int8.yaml",
+      "state_status": "completed",
+      "check_data_format": "PASS",
+      "check_tensor_flow": "PASS",
+      "check_load_init": "PASS",
+      "check_inference_exception": "PASS",
+      "overall": "PASS",
+      "error_categories": [],
+      "last_reason": "ok"
+    },
+    {
+      "task_id": "internvl3.5|1b|8bit",
+      "series": "internvl3.5",
+      "size": "1b",
+      "quant": "8bit",
+      "env": "eriq-internvl3.5-1b",
+      "config": "/mnt/e/Projects/eriq-eval/stepbystep/auto_configs_minimal_int8/internvl3.5-1b-int8.yaml",
+      "state_status": "completed",
+      "check_data_format": "PASS",
+      "check_tensor_flow": "PASS",
+      "check_load_init": "PASS",
+      "check_inference_exception": "PASS",
+      "overall": "PASS",
+      "error_categories": [],
+      "last_reason": "ok"
+    },
+    {
+      "task_id": "llava|0.5b|8bit",
+      "series": "llava",
+      "size": "0.5b",
+      "quant": "8bit",
+      "env": "eriq-llava-0.5b",
+      "config": "/mnt/e/Projects/eriq-eval/stepbystep/auto_configs_minimal_int8/llava-0.5b-int8.yaml",
+      "state_status": "pending",
+      "check_data_format": "PENDING",
+      "check_tensor_flow": "RISK",
+      "check_load_init": "PENDING",
+      "check_inference_exception": "FAIL",
+      "overall": "FAIL",
+      "error_categories": [
+        "cuda_oom",
+        "other_runtime_error"
+      ],
+      "last_reason": "inference_exit_-15"
+    },
+    {
+      "task_id": "smolvlm|512m|8bit",
+      "series": "smolvlm",
+      "size": "512m",
+      "quant": "8bit",
+      "env": "eriq-smolvlm",
+      "config": "/mnt/e/Projects/eriq-eval/stepbystep/auto_configs_minimal_int8/smolvlm-512m-int8.yaml",
+      "state_status": "pending",
+      "check_data_format": "PENDING",
+      "check_tensor_flow": "PENDING",
+      "check_load_init": "PENDING",
+      "check_inference_exception": "PENDING",
+      "overall": "PENDING",
+      "error_categories": [],
+      "last_reason": "recovered_from_unfinished_after_restart"
+    }
+  ]
+}

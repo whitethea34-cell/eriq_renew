@@ -1,0 +1,39 @@
+# ============================================================
+# ERIQ 模型配置文件示例：Qwen2.5-VL-3B-Instruct
+# ============================================================
+# 3B 版本适合快速验证和调试，显存占用约 8-10GB
+# ============================================================
+
+model_name: "Qwen2.5-VL-3B"
+model_id: "Qwen/Qwen2.5-VL-3B-Instruct"
+local_path: null
+source: "modelscope"
+modelscope_id: "Qwen/Qwen2.5-VL-3B-Instruct"
+modelscope_cache_dir: "/mnt/e/Projects/eriq-eval/models"
+# 可选：AWQ 专用路径（启用 quantization: "awq" 时生效）
+# awq_model_id: "Qwen/Qwen2.5-VL-3B-Instruct-AWQ"
+# awq_modelscope_id: "Qwen/Qwen2.5-VL-3B-Instruct-AWQ"
+# awq_local_path: "/mnt/e/Projects/eriq-eval/models/qwen2.5-vl-3b-awq"
+# awq_modelscope_cache_dir: "/mnt/e/Projects/eriq-eval/models"
+# 可选：某些 AWQ 权重缺少 processor 时，使用原模型 processor
+# processor_id: "Qwen/Qwen2.5-VL-3B-Instruct"
+
+loader:
+  class: "Qwen2_5_VLForConditionalGeneration"
+  processor_class: "AutoProcessor"
+  trust_remote_code: true
+  torch_dtype: "float16"
+  device_map: "auto"
+  quantization: "4bit"
+
+inference:
+  max_new_tokens: 32
+  do_sample: false
+  system_prompt: |
+    You are a helpful assistant. Answer with only the choice letter (A/B/C/D/E/F)
+    for multiple choice questions, or only 'Yes'/'No' for binary questions.
+    Do not explain. One character only.
+
+eriq:
+  supported_modalities: ["single_image", "multi_image", "interleaved"]
+  answer_extraction_mode: "first_letter"

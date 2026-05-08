@@ -1,0 +1,25 @@
+{
+  "include": [
+    "eval_code",
+    "stepbystep",
+    "scripts",
+    "configs"
+  ],
+  "exclude": [
+    "**/.git",
+    "**/__pycache__",
+    "**/.pytest_cache",
+    "**/.mypy_cache",
+    "**/.venv",
+    "**/node_modules",
+    "data",
+    "models",
+    "results",
+    "logs",
+    "logs_v2",
+    "runtime",
+    "mdForLearning"
+  ],
+  "reportMissingImports": "warning",
+  "typeCheckingMode": "basic"
+}

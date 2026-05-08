@@ -1,0 +1,33 @@
+model_name: InternVL3.5-1B-FP16
+model_id: OpenGVLab/InternVL3_5-1B
+local_path: null
+source: modelscope
+modelscope_id: OpenGVLab/InternVL3_5-1B
+modelscope_cache_dir: /mnt/e/Projects/eriq-eval/models
+loader:
+  class: AutoModel
+  processor_class: AutoTokenizer
+  trust_remote_code: true
+  torch_dtype: float16
+  device_map: auto
+deployment:
+  framework: vLLM
+  enable_chunked_prefill: true
+  kv_cache_quantization: true
+  max_model_len: 8192
+  gpu_memory_utilization: 0.9
+inference:
+  max_new_tokens: 32
+  do_sample: false
+  system_prompt: 'You are a helpful assistant. Answer with only the choice letter
+    (A/B/C/D/E/F)
+
+    for multiple choice questions, or only ''Yes''/''No'' for binary questions.
+
+    Do not explain. One character only.'
+eriq:
+  supported_modalities:
+  - single_image
+  - multi_image
+  - interleaved
+  answer_extraction_mode: first_letter

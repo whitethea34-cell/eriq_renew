@@ -1,0 +1,28 @@
+model_name: MiniCPM-Llama3-V-2_5
+model_id: OpenBMB/MiniCPM-Llama3-V-2_5
+local_path: null
+loader:
+  class: AutoModel
+  processor_class: AutoTokenizer
+  trust_remote_code: true
+  torch_dtype: float16
+  device_map: auto
+  quantization: null
+inference:
+  max_new_tokens: 32
+  do_sample: false
+  system_prompt: 'You are a helpful assistant. Answer with only the choice letter
+    (A/B/C/D/E/F)
+
+    for multiple choice questions, or only ''Yes''/''No'' for binary questions.
+
+    Do not explain. One character only.'
+eriq:
+  supported_modalities:
+  - single_image
+  - multi_image
+  - interleaved
+  answer_extraction_mode: first_letter
+source: modelscope
+modelscope_id: OpenBMB/MiniCPM-Llama3-V-2_5
+modelscope_cache_dir: /mnt/e/Projects/eriq-eval/models

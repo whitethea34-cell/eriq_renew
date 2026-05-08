@@ -1,0 +1,27 @@
+model_name: Qwen3.5-0.8B
+model_id: Qwen/Qwen3.5-0.8B
+local_path: null
+source: modelscope
+modelscope_id: Qwen/Qwen3.5-0.8B
+modelscope_cache_dir: /mnt/e/Projects/eriq-eval/models
+loader:
+  class: Qwen3_5ForConditionalGeneration
+  processor_class: AutoProcessor
+  trust_remote_code: true
+  torch_dtype: float16
+  device_map: auto
+inference:
+  max_new_tokens: 32
+  do_sample: false
+  system_prompt: 'You are a helpful assistant. Answer with only the choice letter
+    (A/B/C/D/E/F)
+
+    for multiple choice questions, or only ''Yes''/''No'' for binary questions.
+
+    Do not explain. One character only.'
+eriq:
+  supported_modalities:
+  - single_image
+  - multi_image
+  - interleaved
+  answer_extraction_mode: first_letter

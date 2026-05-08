@@ -1,0 +1,46 @@
+project_root: /mnt/e/Projects/eriq-eval
+run_list_file: /mnt/e/Projects/eriq-eval/stepbystep/partial-retry-full-int8/run_list_int8_current.yaml
+summary_json_file: /mnt/e/Projects/eriq-eval/results/exp-int8-full/summary.json
+history_log_file: /mnt/e/Projects/eriq-eval/logs/standard/partial-retry-full-int8/smart_retry_daemon.log
+runner_script: /mnt/e/Projects/eriq-eval/stepbystep/engine/run_from_config.py
+eval_script: /mnt/e/Projects/eriq-eval/eval_code/eval_hf.py
+data_dir: /mnt/e/Projects/eriq-eval/data
+results_dir: /mnt/e/Projects/eriq-eval/results/exp-int8-full
+limit: 0
+detection:
+  from_summary: true
+  from_history_log: true
+  from_missing_output: true
+include_tasks: []
+exclude_tasks: []
+batch:
+  size: 1
+  max_concurrent: 1
+  sleep_seconds: 5
+retry:
+  max_attempts: 3
+env_exports:
+  ERIQ_SAFE_ATTN: '1'
+  PYTORCH_CUDA_ALLOC_CONF: expandable_segments:True
+  ERIQ_SAMPLE_EMPTY_CACHE: '1'
+  ERIQ_GC_EACH_SAMPLE: '1'
+  ERIQ_SUBSET_COOLDOWN_SEC: '3'
+  ERIQ_SAMPLE_COOLDOWN_MS: '200'
+  ERIQ_PARTIAL_SAVE_EVERY: '50'
+  CUDA_LAUNCH_BLOCKING: '0'
+log_dir: /mnt/e/Projects/eriq-eval/logs/standard/partial-retry-full-int8
+state_dir: /mnt/e/Projects/eriq-eval/runtime/partial-retry-full-int8
+daemon_log_file: /mnt/e/Projects/eriq-eval/logs/standard/partial-retry-full-int8/smart_retry_daemon.log
+error_log_file: /mnt/e/Projects/eriq-eval/logs/standard/partial-retry-full-int8/smart_retry_daemon.error.log
+event_file: /mnt/e/Projects/eriq-eval/logs/standard/partial-retry-full-int8/rerun_events.jsonl
+state_file: /mnt/e/Projects/eriq-eval/runtime/partial-retry-full-int8/retry_state.json
+pid_file: /mnt/e/Projects/eriq-eval/runtime/partial-retry-full-int8/retry_daemon.pid
+log_rotation:
+  max_mb: 100
+  backup_count: 14
+  cleanup_days: 14
+monitor:
+  enabled: true
+  host: 127.0.0.1
+  port: 8772
+service_name: eriq-smart-retry-partial-full-int8
